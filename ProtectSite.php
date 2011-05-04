@@ -6,16 +6,16 @@
  *
  * Knobs:
  * 'protectsite' - Group permission to use the special page.
- * $wgProtectsiteLimit - Maximum time allowed for protection of the site.
- * $wgProtectsiteDefaultTimeout - Default protection time.
- * $wgProtectsiteExempt - Array of non-sysop usergroups to be not effected by rights changes
+ * $wgProtectSiteLimit - Maximum time allowed for protection of the site.
+ * $wgProtectSiteDefaultTimeout - Default protection time.
+ * $wgProtectSiteExempt - Array of non-sysop usergroups to be not effected by rights changes
  *
  * @file
  * @ingroup Extensions
- * @version 0.3.3
+ * @version 0.3.4
  * @author Eric Johnston <e.wolfie@gmail.com>
  * @author Chris Stafford <c.stafford@gmail.com>
- * @author Jack Phoenix <jack@shoutwiki.com>
+ * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
@@ -30,11 +30,21 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 /* Extension Credits. Splarka wants me to be so UN:VAIN! Haet haet hat! */
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Protect Site',
-	'version' => '0.3.3',
+	'version' => '0.3.4',
 	'author' => array( '[http://uncyclopedia.org/wiki/User:Dawg Eric Johnston]', 'Chris Stafford', 'Jack Phoenix' ),
 	'description' => 'Allows a site administrator to temporarily block various site modifications',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ProtectSite',
 );
+
+# Configuration settings
+// Array of non-sysop user groups to be not effected by rights changes
+$wgProtectSiteExempt = array();
+
+/* Set the default timeout. */
+$wgProtectsiteDefaultTimeout = '1 hour';
+
+// Maximum time allowed for protection of the site
+$wgProtectSiteLimit = '1 week';
 
 /* Register the new user rights level */
 $wgAvailableRights[] = 'protectsite';
@@ -43,15 +53,12 @@ $wgAvailableRights[] = 'protectsite';
 $wgGroupPermissions['bureaucrat']['protectsite'] = true;
 $wgGroupPermissions['staff']['protectsite'] = true;
 
-/* Add this Special page to the Special page listing array */
+/* Add this special page to the special page listing array */
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['ProtectSite'] = $dir . 'ProtectSite.i18n.php';
 $wgExtensionAliasesFiles['ProtectSite'] = $dir . 'ProtectSite.alias.php';
 $wgAutoloadClasses['ProtectSite'] = $dir . 'ProtectSite.body.php';
 $wgSpecialPages['ProtectSite'] = 'ProtectSite';
-
-/* Set the default timeout. */
-$wgProtectsiteDefaultTimeout = '1 hour';
 
 /* Register initialization function */
 $wgExtensionFunctions[] = 'wfSetupProtectsite';
@@ -65,15 +72,12 @@ $wgExtensionFunctions[] = 'wfSetupProtectsite';
  */
 function wfSetupProtectsite() {
 	/* Globals */
-	global $wgGroupPermissions, $wgMemc, $wgProtectsiteExempt, $wgCommandLineMode;
+	global $wgGroupPermissions, $wgMemc, $wgProtectSiteExempt, $wgCommandLineMode;
 
 	// macbre: don't run code below when running in command line mode (memcache starts to act strange)
 	if ( !empty( $wgCommandLineMode ) ) {
 		return;
 	}
-
-	/* Load i18n messages */
-	wfLoadExtensionMessages( 'ProtectSite' );
 
 	/* Initialize Object */
 	$persist_data = new MediaWikiBagOStuff();
@@ -95,28 +99,28 @@ function wfSetupProtectsite() {
 		}
 
 		/* Protection-related code for MediaWiki 1.8+ */
-		$wgGroupPermissions['*']['createaccount'] = !($prot['createaccount'] >= 1);
-		$wgGroupPermissions['user']['createaccount'] = !($prot['createaccount'] == 2);
+		$wgGroupPermissions['*']['createaccount'] = !( $prot['createaccount'] >= 1 );
+		$wgGroupPermissions['user']['createaccount'] = !( $prot['createaccount'] == 2 );
 
-		$wgGroupPermissions['*']['createpage'] = !($prot['createpage'] >= 1);
-		$wgGroupPermissions['*']['createtalk'] = !($prot['createpage'] >= 1);
-		$wgGroupPermissions['user']['createpage'] = !($prot['createpage'] == 2);
-		$wgGroupPermissions['user']['createtalk'] = !($prot['createpage'] == 2);
+		$wgGroupPermissions['*']['createpage'] = !( $prot['createpage'] >= 1 );
+		$wgGroupPermissions['*']['createtalk'] = !( $prot['createpage'] >= 1 );
+		$wgGroupPermissions['user']['createpage'] = !( $prot['createpage'] == 2 );
+		$wgGroupPermissions['user']['createtalk'] = !( $prot['createpage'] == 2 );
 
-		$wgGroupPermissions['*']['edit'] = !($prot['edit'] >= 1);
-		$wgGroupPermissions['user']['edit'] = !($prot['edit'] == 2);
+		$wgGroupPermissions['*']['edit'] = !( $prot['edit'] >= 1 );
+		$wgGroupPermissions['user']['edit'] = !( $prot['edit'] == 2 );
 		$wgGroupPermissions['sysop']['edit'] = true;
 
-		$wgGroupPermissions['user']['move'] = !($prot['move'] == 1);
-		$wgGroupPermissions['user']['upload'] = !($prot['upload'] == 1);
-		$wgGroupPermissions['user']['reupload'] = !($prot['upload'] == 1);
-		$wgGroupPermissions['user']['reupload-shared'] = !($prot['upload'] == 1);
+		$wgGroupPermissions['user']['move'] = !( $prot['move'] == 1 );
+		$wgGroupPermissions['user']['upload'] = !( $prot['upload'] == 1 );
+		$wgGroupPermissions['user']['reupload'] = !( $prot['upload'] == 1 );
+		$wgGroupPermissions['user']['reupload-shared'] = !( $prot['upload'] == 1 );
 
 		// are there any groups that should not get affected by ProtectSite's lockdown?
-		if( !empty( $wgProtectsiteExempt ) && is_array( $wgProtectsiteExempt ) ) {
+		if( !empty( $wgProtectSiteExempt ) && is_array( $wgProtectSiteExempt ) ) {
 			// there are, so loop over them, and force these rights to be true
 			// will resolve any problems from inheriting rights from 'user' or 'sysop'
-			foreach( $wgProtectsiteExempt as $exemptGroup ) {
+			foreach( $wgProtectSiteExempt as $exemptGroup ) {
 				$wgGroupPermissions[$exemptGroup]['edit'] = 1;
 				$wgGroupPermissions[$exemptGroup]['createpage'] = 1;
 				$wgGroupPermissions[$exemptGroup]['createtalk'] = 1;

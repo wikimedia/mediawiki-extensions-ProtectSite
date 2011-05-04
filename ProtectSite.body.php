@@ -22,37 +22,37 @@ class ProtectSite extends SpecialPage {
 	public function execute( $par ) {
 		global $wgOut, $wgUser, $wgRequest;
 
-		# If the user doesn't have 'protectsite' permission, display an error
+		// If the user doesn't have 'protectsite' permission, display an error
 		if ( !$wgUser->isAllowed( 'protectsite' ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
 
-		# Show a message if the database is in read-only mode
+		// Show a message if the database is in read-only mode
 		if ( wfReadOnly() ) {
 			$wgOut->readOnlyPage();
 			return;
 		}
 
-		# If user is blocked, s/he doesn't need to access this page
+		// If user is blocked, s/he doesn't need to access this page
 		if ( $wgUser->isBlocked() ) {
 			$wgOut->blockedPage();
 			return;
 		}
 
-		wfLoadExtensionMessages( 'ProtectSite' );
 		$this->setHeaders();
 
-		$form = new ProtectsiteForm( $wgRequest );
+		$form = new ProtectSiteForm( $wgRequest );
 	}
 
 }
 
 /**
  * Class that handles the actual Special:ProtectSite page
- * This is a modified version of the old HTMLForm class.
+ * This is a modified version of the ancient HTMLForm class.
+ * @todo FIXME: could probably be rewritten to use the modern HTMLForm :)
  */
-class ProtectsiteForm {
+class ProtectSiteForm {
 	var $mRequest, $action, $persist_data;
 
 	/* Constructor */
@@ -100,23 +100,23 @@ class ProtectsiteForm {
 		if( !$this->mRequest->wasPosted() ) {
 			/* If $value is an array, protection is set, allow unsetting */
 			if( is_array( $prot ) ) {
-				$this->unProtectsiteForm( $prot );
+				$this->unProtectSiteForm( $prot );
 			} else {
 				/* If $value is not an array, protection is not set */
-				$this->setProtectsiteForm();
+				$this->setProtectSiteForm();
 			}
 		} else {
 			/* If this was a POST request, process the data sent */
 			if( $this->mRequest->getVal( 'protect' ) ) {
-				$this->setProtectsite();
+				$this->setProtectSite();
 			} else {
-				$this->unProtectsite();
+				$this->unProtectSite();
 			}
 		}
 	}
 
-	function setProtectsite() {
-		global $wgOut, $wgMemc, $wgProtectsiteLimit;
+	function setProtectSite() {
+		global $wgOut, $wgMemc, $wgProtectSiteLimit;
 
 		/* Get the request data */
 		$request = $this->mRequest->getValues();
@@ -128,7 +128,7 @@ class ProtectsiteForm {
 			( $until < $curr_time )
 		) {
 			$wgOut->addWikiMsg( 'protectsite-timeout-error' );
-			$this->setProtectsiteForm();
+			$this->setProtectSiteForm();
 		} else {
 			/* Set the array values */
 			$prot['createaccount'] = $request['createaccount'];
@@ -138,10 +138,10 @@ class ProtectsiteForm {
 			$prot['upload'] = $request['upload'];
 			$prot['comment'] = isset( $request['comment'] ) ? $request['comment'] : '';
 
-			if( isset( $wgProtectsiteLimit ) &&
-				( $until > strtotime( '+' . $wgProtectsiteLimit, $curr_time ) )
+			if( isset( $wgProtectSiteLimit ) &&
+				( $until > strtotime( '+' . $wgProtectSiteLimit, $curr_time ) )
 			) {
-				$request['timeout'] = $wgProtectsiteLimit;
+				$request['timeout'] = $wgProtectSiteLimit;
 			}
 
 			/* Set the limits */
@@ -162,12 +162,13 @@ class ProtectsiteForm {
 			);
 
 			/* Call the Unprotect Form function to display the current state. */
-			$this->unProtectsiteForm( $prot );
+			$this->unProtectSiteForm( $prot );
 		}
 	}
 
-	function unProtectsite() {
+	function unProtectSite() {
 		global $wgMemc;
+
 		/* Get the request data */
 		$request = $this->mRequest->getValues();
 
@@ -184,7 +185,7 @@ class ProtectsiteForm {
 		);
 
 		/* Call the Protect Form function to display the current state. */
-		$this->setProtectsiteForm();
+		$this->setProtectSiteForm();
 	}
 
 	/**
@@ -269,8 +270,8 @@ class ProtectsiteForm {
 		);
 	}
 
-	function setProtectsiteForm() {
-		global $wgOut, $wgProtectsiteDefaultTimeout, $wgProtectsiteLimit;
+	function setProtectSiteForm() {
+		global $wgOut, $wgProtectSiteDefaultTimeout, $wgProtectSiteLimit;
 
 		$request = $this->mRequest->getValues();
 		$createaccount = array( 0 => false, 1 => false, 2 => false );
@@ -294,9 +295,9 @@ class ProtectsiteForm {
 					$this->radiobox( 'edit', $edit ) .
 					$this->radiobox( 'move', $move ) .
 					$this->radiobox( 'upload', $upload ) .
-					$this->textbox( 'timeout', $wgProtectsiteDefaultTimeout,
-					( isset( $wgProtectsiteLimit ) ?
-						' (' . wfMsg( 'protectsite-maxtimeout', $wgProtectsiteLimit ) . ')' :
+					$this->textbox( 'timeout', $wgProtectSiteDefaultTimeout,
+					( isset( $wgProtectSiteLimit ) ?
+						' (' . wfMsg( 'protectsite-maxtimeout', $wgProtectSiteLimit ) . ')' :
 						''
 					)) .
 					"\n<br />" .

@@ -178,7 +178,7 @@ $messages['es'] = array(
 );
 
 /** Finnish (Suomi)
- * @author Jack Phoenix <jack@shoutwiki.com>
+ * @author Jack Phoenix <jack@countervandalism.net>
  */
 $messages['fi'] = array(
 	'protectsite' => 'Suojaa sivusto',
