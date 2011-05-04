@@ -32,6 +32,23 @@ $messages['en'] = array(
 	'protectsite-until' => 'Protected until: ',
 	'protectsite-protect' => 'Protect',
 	'protectsite-unprotect' => 'Unprotect',
+
+	/* epic message duplication... */
+	'protectsite-createaccount-0' => 'All users',
+	'protectsite-createaccount-1' => 'Registered users and sysops',
+	'protectsite-createaccount-2' => 'Sysops only',
+	'protectsite-createpage-0' => 'All users',
+	'protectsite-createpage-1' => 'Registered users and sysops',
+	'protectsite-createpage-2' => 'Sysops only',
+	'protectsite-edit-0' => 'All users',
+	'protectsite-edit-1' => 'Registered users and sysops',
+	'protectsite-edit-2' => 'Sysops only',
+	'protectsite-move-0' => 'Registered users and sysops',
+	'protectsite-move-1' => 'Sysops only',
+	'protectsite-upload-0' => 'Registered users and sysops',
+	'protectsite-upload-1' => 'Sysops only',
+	/* end epic message duplication */
+
 	'right-protectsite' => 'Limit actions that can be performed for some groups for a limited time',
 );
 

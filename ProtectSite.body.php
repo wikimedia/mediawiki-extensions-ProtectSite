@@ -57,7 +57,7 @@ class ProtectSiteForm {
 
 	/* Constructor */
 	function __construct( &$request ) {
-		global $wgMessageCache, $wgMemc;
+		global $wgMemc;
 
 		if( !class_exists( 'BagOStuff' ) || !class_exists( 'MediaWikiBagOStuff' ) ) {
 			global $IP;
@@ -67,28 +67,6 @@ class ProtectSiteForm {
 		$this->action = $titleObj->escapeLocalURL();
 		$this->mRequest =& $request;
 		$this->persist_data = new MediaWikiBagOStuff();
-
-		/**
-		 * These are dynamically created here because they don't need to vary
-		 * from the common messages and they save on the total count.
-		 */
-		$wgMessageCache->addMessages(
-			array(
-				'protectsite-createaccount-0' => wfMsg( 'protectsite-allowall' ),
-				'protectsite-createaccount-1' => wfMsg( 'protectsite-allowusersysop' ),
-				'protectsite-createaccount-2' => wfMsg( 'protectsite-allowsysop' ),
-				'protectsite-createpage-0' => wfMsg( 'protectsite-allowall' ),
-				'protectsite-createpage-1' => wfMsg( 'protectsite-allowusersysop' ),
-				'protectsite-createpage-2' => wfMsg( 'protectsite-allowsysop' ),
-				'protectsite-edit-0' => wfMsg( 'protectsite-allowall' ),
-				'protectsite-edit-1' => wfMsg( 'protectsite-allowusersysop' ),
-				'protectsite-edit-2' => wfMsg( 'protectsite-allowsysop' ),
-				'protectsite-move-0' => wfMsg( 'protectsite-allowusersysop' ),
-				'protectsite-move-1' => wfMsg( 'protectsite-allowsysop' ),
-				'protectsite-upload-0' => wfMsg( 'protectsite-allowusersysop' ),
-				'protectsite-upload-1' => wfMsg( 'protectsite-allowsysop' )
-			)
-		);
 
 		/* Get data into the value variable/array */
 		$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
