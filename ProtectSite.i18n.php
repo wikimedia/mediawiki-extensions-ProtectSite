@@ -13,6 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'protectsite' => 'Protect site',
+	'protectsite-desc' => 'Allows a site administrator to temporarily block various site modifications',
 	'protectsite-text-protect' => '<!-- Instructions/Comments/Policy for use -->',
 	'protectsite-text-unprotect' => '<!-- Instructions/Comments when protected -->',
 	'protectsite-title' => 'Site protection settings',
@@ -25,11 +26,11 @@ $messages['en'] = array(
 	'protectsite-move' => 'Allow moving of pages by',
 	'protectsite-upload' => 'Allow file uploads by',
 	'protectsite-timeout' => 'Timeout:',
-	'protectsite-timeout-error' => "'''Invalid Timeout.'''",
+	'protectsite-timeout-error' => "'''Invalid timeout.'''",
 	'protectsite-maxtimeout' => 'Maximum: $1',
 	'protectsite-comment' => 'Comment:',
-	'protectsite-ucomment' => 'Unprotect comment: ',
-	'protectsite-until' => 'Protected until: ',
+	'protectsite-ucomment' => 'Unprotect comment:',
+	'protectsite-until' => 'Protected until:',
 	'protectsite-protect' => 'Protect',
 	'protectsite-unprotect' => 'Unprotect',
 

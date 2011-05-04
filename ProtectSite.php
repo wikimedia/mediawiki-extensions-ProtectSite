@@ -29,10 +29,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 /* Extension Credits. Splarka wants me to be so UN:VAIN! Haet haet hat! */
 $wgExtensionCredits['specialpage'][] = array(
+	'path' => __FILE__,
 	'name' => 'Protect Site',
 	'version' => '0.3.4',
 	'author' => array( '[http://uncyclopedia.org/wiki/User:Dawg Eric Johnston]', 'Chris Stafford', 'Jack Phoenix' ),
-	'description' => 'Allows a site administrator to temporarily block various site modifications',
+	'description' => 'protectsite-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:ProtectSite',
 );
 
