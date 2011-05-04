@@ -62,34 +62,7 @@ $messages['af'] = array(
 	'protectsite-unprotect' => 'Verwyder beskerming',
 );
 
-/** Breton (Brezhoneg)
- * @author Y-M D
- * @author Gwenn-Ael
- */
-$messages['br'] = array(
-	'protectsite' => "Gwareziñ al lec'hienn",
-	'protectsite-allowall' => 'An holl implijerien',
-	'protectsite-allowsysop' => 'Merourien hepken',
-	'protectsite-allowusersysop' => 'Implijerien enrollet ha merourien',
-	'protectsite-comment' => 'Evezhiadenn :',
-	'protectsite-createaccount' => 'Aotren da grouiñ kontoù nevez dre',
-	'protectsite-createpage' => 'Aotren da grouiñ pajennoù dre',
-	'protectsite-edit' => 'Aotren da gemm pajennoù dre',
-	'protectsite-maxtimeout' => 'Maximum : $1',
-	'protectsite-move' => 'Aotren da adenvel pajennoù dre',
-	'protectsite-protect' => 'Gwareziñ',
-	'protectsite-text-protect' => '<!-- Kemennoù / Displegadennoù / Reolennoù implijout -->',
-	'protectsite-text-unprotect' => '<!-- Kemennoù / Displegadennoù pa vez gwarezet -->',
-	'protectsite-timeout' => 'Termen',
-	'protectsite-timeout-error' => "'''Termen direizh.'''",
-	'protectsite-title' => "Arventennoù gwareziñ al lec'hienn",
-	'protectsite-ucomment' => 'Evezhiadenn war an diwareziñ',
-	'protectsite-unprotect' => 'Diwareziñ',
-	'protectsite-until' => 'Gwarezet betek :',
-	'protectsite-upload' => 'Aotren da enporzhiañ restroù dre',
-);
-
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -115,30 +88,73 @@ $messages['be-tarask'] = array(
 	'protectsite-unprotect' => 'Зьняць абарону',
 );
 
+/** Breton (Brezhoneg)
+ * @author Gwenn-Ael
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'protectsite' => "Gwareziñ al lec'hienn",
+	'protectsite-text-protect' => '<!-- Kemennoù / Displegadennoù / Reolennoù implijout -->',
+	'protectsite-text-unprotect' => '<!-- Kemennoù / Displegadennoù pa vez gwarezet -->',
+	'protectsite-title' => "Arventennoù gwareziñ al lec'hienn",
+	'protectsite-allowall' => 'An holl implijerien',
+	'protectsite-allowusersysop' => 'Implijerien enrollet ha merourien',
+	'protectsite-allowsysop' => 'Merourien hepken',
+	'protectsite-createaccount' => 'Aotren da grouiñ kontoù nevez dre',
+	'protectsite-createpage' => 'Aotren da grouiñ pajennoù dre',
+	'protectsite-edit' => 'Aotren da gemm pajennoù dre',
+	'protectsite-move' => 'Aotren da adenvel pajennoù dre',
+	'protectsite-upload' => 'Aotren da enporzhiañ restroù dre',
+	'protectsite-timeout' => 'Termen',
+	'protectsite-timeout-error' => "'''Termen direizh.'''",
+	'protectsite-maxtimeout' => 'Maximum : $1',
+	'protectsite-comment' => 'Evezhiadenn :',
+	'protectsite-ucomment' => 'Evezhiadenn war an diwareziñ',
+	'protectsite-until' => 'Gwarezet betek :',
+	'protectsite-protect' => 'Gwareziñ',
+	'protectsite-unprotect' => 'Diwareziñ',
+);
+
 /** German (Deutsch)
+ * @author Kghbln
  * @author LWChris
  */
 $messages['de'] = array(
-	'protectsite' => 'Seite schützen',
-	'protectsite-text-protect' => '<!-- Anweisungen/Kommentare/Richtlinie zur Verwendung -->',
-	'protectsite-text-unprotect' => '<!-- Anweisungen/Kommentare wenn geschützt -->',
-	'protectsite-title' => 'Seitenschutz Einstellungen',
+	'protectsite' => 'Wiki sperren',
+	'protectsite-desc' => 'Ermöglicht es einem Systemadministrator, vorübergehend verschiedene Vorgänge im Wiki außer Kraft zu setzen',
+	'protectsite-text-protect' => '<!-- Anweisungen/ Kommentare/ Nutzungsrichtlinie -->',
+	'protectsite-text-unprotect' => '<!-- Anweisungen/ Kommentare sofern gesperrt -->',
+	'protectsite-title' => 'Einstellungen zur Sperrung des Wikis',
 	'protectsite-allowall' => 'Alle Benutzer',
 	'protectsite-allowusersysop' => 'Registrierte Benutzer und Administratoren',
 	'protectsite-allowsysop' => 'Nur Administratoren',
-	'protectsite-createaccount' => 'Erlaube die Erstellung neuer Accounts von',
-	'protectsite-createpage' => 'Erlaube Erstellung von Seiten von',
-	'protectsite-edit' => 'Erlaube Bearbeiten von Seiten von',
-	'protectsite-move' => 'Erlaube Verschieben von Seiten von',
-	'protectsite-upload' => 'Erlaube Datei-Uploads von',
+	'protectsite-createaccount' => 'Erlaube die Erstellung neuer Benutzerkonten durch',
+	'protectsite-createpage' => 'Erlaube die Erstellung von Seiten durch',
+	'protectsite-edit' => 'Erlaube das Bearbeiten von Seiten durch',
+	'protectsite-move' => 'Erlaube das Verschieben von Seiten durch',
+	'protectsite-upload' => 'Erlaube das Hochladen von Dateien durch',
 	'protectsite-timeout' => 'Sperrdauer:',
-	'protectsite-timeout-error' => "'''Ungültige Sperrdauer.'''",
-	'protectsite-maxtimeout' => 'Maximum:',
-	'protectsite-comment' => 'Grund:',
-	'protectsite-ucomment' => 'Aufhebungsgrund:',
-	'protectsite-until' => 'Geschützt bis:',
-	'protectsite-protect' => 'Schützen',
+	'protectsite-timeout-error' => "'''Ungültige Sperrdauer'''",
+	'protectsite-maxtimeout' => 'Maximale Sperrdauer: $1',
+	'protectsite-comment' => 'Hinweis zur Sperrung:',
+	'protectsite-ucomment' => 'Hinweis zur Freigabe:',
+	'protectsite-until' => 'Gesperrt bis:',
+	'protectsite-protect' => 'Sperren',
 	'protectsite-unprotect' => 'Freigeben',
+	'protectsite-createaccount-0' => 'Alle Benutzer',
+	'protectsite-createaccount-1' => 'Registrierte Benutzer und Administratoren',
+	'protectsite-createaccount-2' => 'Nur Administratoren',
+	'protectsite-createpage-0' => 'Alle Benutzer',
+	'protectsite-createpage-1' => 'Registrierte Benutzer und Administratoren',
+	'protectsite-createpage-2' => 'Nur Administratoren',
+	'protectsite-edit-0' => 'Alle Benutzer',
+	'protectsite-edit-1' => 'Registrierte Benutzer und Administratoren',
+	'protectsite-edit-2' => 'Nur Administratoren',
+	'protectsite-move-0' => 'Registrierte Benutzer und Administratoren',
+	'protectsite-move-1' => 'Nur Administratoren',
+	'protectsite-upload-0' => 'Registrierte Benutzer und Administratoren',
+	'protectsite-upload-1' => 'Nur Administratoren',
+	'right-protectsite' => 'Aktionen einschränken, die für eine bestimmte Benutzergruppe über einen begrenzten Zeitraum ausgeführt werden können',
 );
 
 /** Spanish (Español)
@@ -187,7 +203,7 @@ $messages['fi'] = array(
 	'protectsite-timeout-error' => "'''Kelpaamaton aikakatkaisu.'''",
 	'protectsite-maxtimeout' => 'Maksimi: $1',
 	'protectsite-comment' => 'Kommentti:',
-	'protectsite-ucomment' => 'Suojauksen poiston kommentti: ',
+	'protectsite-ucomment' => 'Suojauksen poiston kommentti:',
 	'protectsite-protect' => 'Suojaa',
 	'protectsite-unprotect' => 'Poista suojaus',
 	'right-protectsite' => 'Rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa',
@@ -213,8 +229,8 @@ $messages['fr'] = array(
 	'protectsite-timeout-error' => "'''Expiration invalide.'''",
 	'protectsite-maxtimeout' => 'Maximum : $1',
 	'protectsite-comment' => 'Commentaire :',
-	'protectsite-ucomment' => 'Commentaire de déprotection : ',
-	'protectsite-until' => "Protéger jusqu'à : ",
+	'protectsite-ucomment' => 'Commentaire de déprotection :',
+	'protectsite-until' => "Protéger jusqu'à :",
 	'protectsite-protect' => 'Protéger',
 	'protectsite-unprotect' => 'Déprotéger',
 );
@@ -239,8 +255,8 @@ $messages['gl'] = array(
 	'protectsite-timeout-error' => "'''Tempo de caducidade inválido.'''",
 	'protectsite-maxtimeout' => 'Máximo: $1',
 	'protectsite-comment' => 'Comentario:',
-	'protectsite-ucomment' => 'Comentario de desprotección: ',
-	'protectsite-until' => 'Protexido ata: ',
+	'protectsite-ucomment' => 'Comentario de desprotección:',
+	'protectsite-until' => 'Protexido ata:',
 	'protectsite-protect' => 'Protexer',
 	'protectsite-unprotect' => 'Desprotexer',
 );
@@ -372,8 +388,8 @@ $messages['mk'] = array(
 	'protectsite-timeout-error' => "'''Неважечки истек.'''",
 	'protectsite-maxtimeout' => 'Максимум: $1',
 	'protectsite-comment' => 'Коментар:',
-	'protectsite-ucomment' => 'Тргни заштита од коментар: ',
-	'protectsite-until' => 'Заштитено до: ',
+	'protectsite-ucomment' => 'Тргни заштита од коментар:',
+	'protectsite-until' => 'Заштитено до:',
 	'protectsite-protect' => 'Заштити',
 	'protectsite-unprotect' => 'Тргни заштита',
 );
@@ -396,8 +412,8 @@ $messages['nl'] = array(
 	'protectsite-timeout-error' => "'''Ongeldig verloop.'''",
 	'protectsite-maxtimeout' => 'Maximum: $1',
 	'protectsite-comment' => 'Opmerking:',
-	'protectsite-ucomment' => 'Beveiliging-opheffing opmerkingen: ',
-	'protectsite-until' => 'Beveiligd tot: ',
+	'protectsite-ucomment' => 'Beveiliging-opheffing opmerkingen:',
+	'protectsite-until' => 'Beveiligd tot:',
 	'protectsite-protect' => 'Beveilig',
 );
 
@@ -454,8 +470,8 @@ $messages['pms'] = array(
 	'protectsite-timeout-error' => "'''Timeout pa bon.'''",
 	'protectsite-maxtimeout' => 'Màssim: $1',
 	'protectsite-comment' => 'Coment:',
-	'protectsite-ucomment' => 'Sprotegg coment: ',
-	'protectsite-until' => 'Protegg fin a: ',
+	'protectsite-ucomment' => 'Sprotegg coment:',
+	'protectsite-until' => 'Protegg fin a:',
 	'protectsite-protect' => 'Protet',
 	'protectsite-unprotect' => 'Sprotet',
 );
@@ -486,27 +502,28 @@ $messages['pt-br'] = array(
  */
 $messages['ru'] = array(
 	'protectsite' => 'Защита сайта',
+	'protectsite-text-protect' => '<!-- Инструкции/Комментарии/Правила для использования -->',
+	'protectsite-text-unprotect' => '<!-- Инструкции/Комментарии при установленной защите -->',
+	'protectsite-title' => 'Настройки защиты сайта',
 	'protectsite-allowall' => 'Всем участникам',
 	'protectsite-allowusersysop' => 'Зарегистрированным участникам и администраторам',
 	'protectsite-allowsysop' => 'Только администраторам',
 	'protectsite-createaccount' => 'Разрешить создание новых учётных записей',
 	'protectsite-createpage' => 'Разрешить создание страниц',
 	'protectsite-edit' => 'Разрешить правку страниц',
-	'protectsite-maxtimeout' => 'Максимум:',
 	'protectsite-move' => 'Разрешить переименование страниц',
-	'protectsite-protect' => 'Защитить',
-	'protectsite-text-protect' => '<!-- Инструкции/Комментарии/Правила для использования -->',
-	'protectsite-text-unprotect' => '<!-- Инструкции/Комментарии при установленной защите -->',
+	'protectsite-upload' => 'Разрешить загрузку файлов',
 	'protectsite-timeout' => 'Время истечения:',
 	'protectsite-timeout-error' => "'''Неверное время истечения.'''",
-	'protectsite-title' => 'Настройки защиты сайта',
+	'protectsite-maxtimeout' => 'Максимум:',
 	'protectsite-ucomment' => 'Комментарий снятия защиты:',
-	'protectsite-unprotect' => 'Снять защиту',
 	'protectsite-until' => 'Защищено до:',
-	'protectsite-upload' => 'Разрешить загрузку файлов',
+	'protectsite-protect' => 'Защитить',
+	'protectsite-unprotect' => 'Снять защиту',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Verlor
  */
 $messages['sr-ec'] = array(
@@ -519,6 +536,7 @@ $messages['sr-ec'] = array(
 	'protectsite-timeout' => 'Време истекло (тајмаут)',
 	'protectsite-maxtimeout' => 'Максимум:',
 	'protectsite-comment' => 'Коментар:',
+	'protectsite-ucomment' => 'Скини заштиту са коментара:',
 	'protectsite-until' => 'Заштићена јединица',
 	'protectsite-protect' => 'Заштити',
 	'protectsite-unprotect' => 'Скини заштиту',
@@ -570,3 +588,4 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'protectsite-title' => 'Налаштування захисту сайту',
 );
+
