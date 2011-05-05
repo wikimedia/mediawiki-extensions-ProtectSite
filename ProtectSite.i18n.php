@@ -89,11 +89,13 @@ $messages['be-tarask'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fulup
  * @author Gwenn-Ael
  * @author Y-M D
  */
 $messages['br'] = array(
 	'protectsite' => "Gwareziñ al lec'hienn",
+	'protectsite-desc' => "Aotren a ra merour ul lechienn da stankañ kemmoù niverus bet degaset war al lec'hienn, evit ur prantad bennak",
 	'protectsite-text-protect' => '<!-- Kemennoù / Displegadennoù / Reolennoù implijout -->',
 	'protectsite-text-unprotect' => '<!-- Kemennoù / Displegadennoù pa vez gwarezet -->',
 	'protectsite-title' => "Arventennoù gwareziñ al lec'hienn",
@@ -113,6 +115,20 @@ $messages['br'] = array(
 	'protectsite-until' => 'Gwarezet betek :',
 	'protectsite-protect' => 'Gwareziñ',
 	'protectsite-unprotect' => 'Diwareziñ',
+	'protectsite-createaccount-0' => 'An holl implijerien',
+	'protectsite-createaccount-1' => 'Implijerien enrollet ha merourien',
+	'protectsite-createaccount-2' => 'Merourien hepken',
+	'protectsite-createpage-0' => 'An holl implijerien',
+	'protectsite-createpage-1' => 'Implijerien enrollet ha merourien',
+	'protectsite-createpage-2' => 'Merourien hepken',
+	'protectsite-edit-0' => 'An holl implijerien',
+	'protectsite-edit-1' => 'Implijerien enrollet ha merourien',
+	'protectsite-edit-2' => 'Merourien hepken',
+	'protectsite-move-0' => 'Implijerien enrollet ha merourien',
+	'protectsite-move-1' => 'Merourien hepken',
+	'protectsite-upload-0' => 'Implijerien enrollet ha merourien',
+	'protectsite-upload-1' => 'Merourien hepken',
+	'right-protectsite' => "Bevenniñ a ra an oberoù a c'hall bezañ sevenet gant strolladoù zo evit ur prantad bennak",
 );
 
 /** German (Deutsch)
@@ -121,7 +137,7 @@ $messages['br'] = array(
  */
 $messages['de'] = array(
 	'protectsite' => 'Wiki sperren',
-	'protectsite-desc' => 'Ermöglicht es einem Systemadministrator, vorübergehend verschiedene Vorgänge im Wiki außer Kraft zu setzen',
+	'protectsite-desc' => 'Ermöglicht es einem Systemadministrator, vorübergehend verschiedene Aktionen für bestimmte Benutzergruppen des Wikis außer Kraft zu setzen',
 	'protectsite-text-protect' => '<!-- Anweisungen/ Kommentare/ Nutzungsrichtlinie -->',
 	'protectsite-text-unprotect' => '<!-- Anweisungen/ Kommentare sofern gesperrt -->',
 	'protectsite-title' => 'Einstellungen zur Sperrung des Wikis',
@@ -154,7 +170,7 @@ $messages['de'] = array(
 	'protectsite-move-1' => 'Nur Administratoren',
 	'protectsite-upload-0' => 'Registrierte Benutzer und Administratoren',
 	'protectsite-upload-1' => 'Nur Administratoren',
-	'right-protectsite' => 'Aktionen einschränken, die für eine bestimmte Benutzergruppe über einen begrenzten Zeitraum ausgeführt werden können',
+	'right-protectsite' => 'Durchführbare Aktionen für eine bestimmte Benutzergruppe während eines begrenzten Zeitraums einschränken',
 );
 
 /** Spanish (Español)
@@ -282,6 +298,7 @@ $messages['hu'] = array(
  */
 $messages['ia'] = array(
 	'protectsite' => 'Proteger sito',
+	'protectsite-desc' => 'Permitte a un administrator del sito de blocar temporarimente varie modificationes del sito',
 	'protectsite-text-protect' => '<!-- Instructiones/Commentos/Politica pro uso -->',
 	'protectsite-text-unprotect' => '<!-- Instructiones/Commentos quando protegite -->',
 	'protectsite-title' => 'Configuration del protection del sito',
@@ -295,12 +312,26 @@ $messages['ia'] = array(
 	'protectsite-upload' => 'Permitter le incargamento de files per',
 	'protectsite-timeout' => 'Expiration:',
 	'protectsite-timeout-error' => "'''Expiration invalide.'''",
-	'protectsite-maxtimeout' => 'Maximo:',
+	'protectsite-maxtimeout' => 'Maximo: $1',
 	'protectsite-comment' => 'Commento:',
 	'protectsite-ucomment' => 'Commento de disprotection:',
 	'protectsite-until' => 'Protegite usque a:',
 	'protectsite-protect' => 'Proteger',
 	'protectsite-unprotect' => 'Disproteger',
+	'protectsite-createaccount-0' => 'Tote le usatores',
+	'protectsite-createaccount-1' => 'Usatores registrate e administratores',
+	'protectsite-createaccount-2' => 'Administratores solmente',
+	'protectsite-createpage-0' => 'Tote le usatores',
+	'protectsite-createpage-1' => 'Usatores registrate e administratores',
+	'protectsite-createpage-2' => 'Administratores solmente',
+	'protectsite-edit-0' => 'Tote le usatores',
+	'protectsite-edit-1' => 'Usatores registrate e administratores',
+	'protectsite-edit-2' => 'Administratores solmente',
+	'protectsite-move-0' => 'Usatores registrate e administratores',
+	'protectsite-move-1' => 'Administratores solmente',
+	'protectsite-upload-0' => 'Usatores registrate e administratores',
+	'protectsite-upload-1' => 'Administratores solmente',
+	'right-protectsite' => 'Limitar actiones que pote esser exequite pro alcun gruppos durante un tempore limitate',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -350,7 +381,9 @@ $messages['ja'] = array(
  */
 $messages['lb'] = array(
 	'protectsite' => 'Site schützen',
+	'protectsite-desc' => 'Erméiglecht et engem Administrateur vu engem Site fir verschidden Ännerungen um Site temporär ze spären',
 	'protectsite-text-protect' => '<!-- Instruktiounen/Commentairen/Richtlinne fir de Gebrauch -->',
+	'protectsite-text-unprotect' => '<!-- Instruktiounen/Bemierkunge wa gespaart -->',
 	'protectsite-title' => 'Astellunge vun de Späre vum Site',
 	'protectsite-allowall' => 'All Benotzer',
 	'protectsite-allowusersysop' => 'Registréiert Benotzer an Administrateuren',
@@ -360,12 +393,25 @@ $messages['lb'] = array(
 	'protectsite-edit' => 'Erlabe vum Ännere vu Säiten duerch',
 	'protectsite-move' => "D'Réckele vu Säiten erlaben fir",
 	'protectsite-upload' => "D'Eropluede vu Fichieren erlaben fir",
-	'protectsite-maxtimeout' => 'Maximum:',
+	'protectsite-maxtimeout' => 'Maximum: $1',
 	'protectsite-comment' => 'Bemierkung:',
 	'protectsite-ucomment' => "Grond fir d'Ophiewe vun der Spär:",
 	'protectsite-until' => 'Gespaart bis:',
 	'protectsite-protect' => 'Spären',
 	'protectsite-unprotect' => 'Spär ophiewen',
+	'protectsite-createaccount-0' => 'All Benotzer',
+	'protectsite-createaccount-1' => 'Registréiert Benotzer an Administrateuren',
+	'protectsite-createaccount-2' => 'Nëmmen Administrateuren',
+	'protectsite-createpage-0' => 'All Benotzer',
+	'protectsite-createpage-1' => 'Registréiert Benotzer an Administrateuren',
+	'protectsite-createpage-2' => 'Nëmmen Administrateuren',
+	'protectsite-edit-0' => 'All Benotzer',
+	'protectsite-edit-1' => 'Registréiert Benotzer an Administrateuren',
+	'protectsite-edit-2' => 'Nëmmen Administrateuren',
+	'protectsite-move-0' => 'Registréiert Benotzer an Administrateuren',
+	'protectsite-move-1' => 'Nëmmen Administrateuren',
+	'protectsite-upload-0' => 'Registréiert Benotzer an Administrateuren',
+	'protectsite-upload-1' => 'Nëmmen Administrateuren',
 );
 
 /** Macedonian (Македонски)
@@ -373,6 +419,7 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'protectsite' => 'Заштити веб-страница',
+	'protectsite-desc' => 'Му овозможува на администраторотпривремено да спречува разни измени на мреж-то место',
 	'protectsite-text-protect' => '<!-- Инструкции/Коментари/Правила на употреба -->',
 	'protectsite-text-unprotect' => '<!-- Инструкции/Коментари кога е заштитено -->',
 	'protectsite-title' => 'Нагодувања на заштитата на веб-страната',
@@ -392,13 +439,31 @@ $messages['mk'] = array(
 	'protectsite-until' => 'Заштитено до:',
 	'protectsite-protect' => 'Заштити',
 	'protectsite-unprotect' => 'Тргни заштита',
+	'protectsite-createaccount-0' => 'Сите корисници',
+	'protectsite-createaccount-1' => 'Регистрирани корисници и систем-оператори',
+	'protectsite-createaccount-2' => 'Само систем-оператори',
+	'protectsite-createpage-0' => 'Сите корисници',
+	'protectsite-createpage-1' => 'Регистрирани корисници и систем-оператори',
+	'protectsite-createpage-2' => 'Само систем-оператори',
+	'protectsite-edit-0' => 'Сите корисници',
+	'protectsite-edit-1' => 'Регистрирани корисници и систем-оператори',
+	'protectsite-edit-2' => 'Само систем-оператори',
+	'protectsite-move-0' => 'Регистрирани корисници и систем-оператори',
+	'protectsite-move-1' => 'Само систем-оператори',
+	'protectsite-upload-0' => 'Регистрирани корисници и систем-оператори',
+	'protectsite-upload-1' => 'Само систем-оператори',
+	'right-protectsite' => 'Привремено ограничете ги дејствата што можат да ги изведат извесни групи на корисници',
 );
 
 /** Dutch (Nederlands)
  * @author Mark van Alphen
+ * @author SPQRobin
  */
 $messages['nl'] = array(
 	'protectsite' => 'Beveilig site',
+	'protectsite-desc' => 'Maakt het voor sitebeheerders mogelijk tijdelijk verschillende wijzigingen aan de site tegen te gaan',
+	'protectsite-text-protect' => '<!-- Instructies/opmerkingen/beleid voor gebruik -->',
+	'protectsite-text-unprotect' => '<!-- Instructies/opmerkingen als beveiligd -->',
 	'protectsite-title' => 'Site beveilig instellingen',
 	'protectsite-allowall' => 'Alle gebruikers',
 	'protectsite-allowusersysop' => 'Geregistreerde gebruikers en beheerders',
@@ -415,6 +480,21 @@ $messages['nl'] = array(
 	'protectsite-ucomment' => 'Beveiliging-opheffing opmerkingen:',
 	'protectsite-until' => 'Beveiligd tot:',
 	'protectsite-protect' => 'Beveilig',
+	'protectsite-unprotect' => 'Beveiliging opheffen',
+	'protectsite-createaccount-0' => 'Alle gebruikers',
+	'protectsite-createaccount-1' => 'Geregistreerde gebruikers en beheerders',
+	'protectsite-createaccount-2' => 'Alleen beheerders',
+	'protectsite-createpage-0' => 'Alle gebruikers',
+	'protectsite-createpage-1' => 'Geregistreerde gebruikers en beheerders',
+	'protectsite-createpage-2' => 'Alleen beheerders',
+	'protectsite-edit-0' => 'Alle gebruikers',
+	'protectsite-edit-1' => 'Geregistreerde gebruikers en beheerders',
+	'protectsite-edit-2' => 'Alleen beheerders',
+	'protectsite-move-0' => 'Geregistreerde gebruikers en beheerders',
+	'protectsite-move-1' => 'Alleen beheerders',
+	'protectsite-upload-0' => 'Geregistreerde gebruikers en beheerders',
+	'protectsite-upload-1' => 'Alleen beheerders',
+	'right-protectsite' => 'Acties beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
