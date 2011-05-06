@@ -256,6 +256,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'protectsite' => 'Protexer o sitio',
+	'protectsite-desc' => 'Permite que un administrador do sitio bloquee temporalmente varias modificacións do mesmo',
 	'protectsite-text-protect' => '<!-- Instrucións/Comentarios/Política de uso -->',
 	'protectsite-text-unprotect' => '<!-- Instrucións/Comentarios durante a protección -->',
 	'protectsite-title' => 'Configuración da protección do sitio',
@@ -275,6 +276,20 @@ $messages['gl'] = array(
 	'protectsite-until' => 'Protexido ata:',
 	'protectsite-protect' => 'Protexer',
 	'protectsite-unprotect' => 'Desprotexer',
+	'protectsite-createaccount-0' => 'Todos os usuarios',
+	'protectsite-createaccount-1' => 'Usuarios rexistrados e administradores',
+	'protectsite-createaccount-2' => 'Só os administradores',
+	'protectsite-createpage-0' => 'Todos os usuarios',
+	'protectsite-createpage-1' => 'Usuarios rexistrados e administradores',
+	'protectsite-createpage-2' => 'Só os administradores',
+	'protectsite-edit-0' => 'Todos os usuarios',
+	'protectsite-edit-1' => 'Usuarios rexistrados e administradores',
+	'protectsite-edit-2' => 'Só os administradores',
+	'protectsite-move-0' => 'Usuarios rexistrados e administradores',
+	'protectsite-move-1' => 'Só os administradores',
+	'protectsite-upload-0' => 'Usuarios rexistrados e administradores',
+	'protectsite-upload-1' => 'Só os administradores',
+	'right-protectsite' => 'Limita as accións que algúns grupos poden realizar por un tempo limitado',
 );
 
 /** Hungarian (Magyar)
@@ -412,6 +427,7 @@ $messages['lb'] = array(
 	'protectsite-move-1' => 'Nëmmen Administrateuren',
 	'protectsite-upload-0' => 'Registréiert Benotzer an Administrateuren',
 	'protectsite-upload-1' => 'Nëmmen Administrateuren',
+	'right-protectsite' => 'Aktiounen déi vu bestëmmte Benotzergruppen während enger limitéierter Zäit agrenzen',
 );
 
 /** Macedonian (Македонски)
@@ -458,6 +474,7 @@ $messages['mk'] = array(
 /** Dutch (Nederlands)
  * @author Mark van Alphen
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'protectsite' => 'Beveilig site',
@@ -494,7 +511,7 @@ $messages['nl'] = array(
 	'protectsite-move-1' => 'Alleen beheerders',
 	'protectsite-upload-0' => 'Geregistreerde gebruikers en beheerders',
 	'protectsite-upload-1' => 'Alleen beheerders',
-	'right-protectsite' => 'Acties beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd',
+	'right-protectsite' => 'Handelingen beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
