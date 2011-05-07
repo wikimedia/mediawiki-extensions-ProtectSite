@@ -64,9 +64,11 @@ $messages['af'] = array(
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
+ * @author Wizardist
  */
 $messages['be-tarask'] = array(
 	'protectsite' => 'Абарона сайту',
+	'protectsite-desc' => 'Дазваляе адміністратару сайта часова блякаваць розныя зьмены сайту',
 	'protectsite-text-protect' => '<!-- Інструкцыі/Камэнтары/Правілы выкарыстаньня -->',
 	'protectsite-text-unprotect' => '<!-- Інструкцыі/Камэнтары, калі працуе абарона -->',
 	'protectsite-title' => 'Устаноўкі абароны сайту',
@@ -80,12 +82,25 @@ $messages['be-tarask'] = array(
 	'protectsite-upload' => 'Дазволіць загрузку файлаў',
 	'protectsite-timeout' => 'Час дзеяньня абароны:',
 	'protectsite-timeout-error' => "'''Няслушны час дзеяньня абароны.'''",
-	'protectsite-maxtimeout' => 'Максымум:',
+	'protectsite-maxtimeout' => 'Максымум: $1',
 	'protectsite-comment' => 'Камэнтар:',
 	'protectsite-ucomment' => 'Камэнтар зьняцьця абароны:',
 	'protectsite-until' => 'Абаронены да:',
 	'protectsite-protect' => 'Абараніць',
 	'protectsite-unprotect' => 'Зьняць абарону',
+	'protectsite-createaccount-0' => 'Усе ўдзельнікі',
+	'protectsite-createaccount-1' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
+	'protectsite-createaccount-2' => 'Толькі адміністратары',
+	'protectsite-createpage-0' => 'Усе ўдзельнікі',
+	'protectsite-createpage-1' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
+	'protectsite-createpage-2' => 'Толькі адміністратары',
+	'protectsite-edit-0' => 'Усе ўдзельнікі',
+	'protectsite-edit-1' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
+	'protectsite-edit-2' => 'Толькі адміністратары',
+	'protectsite-move-0' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
+	'protectsite-move-1' => 'Толькі адміністратары',
+	'protectsite-upload-0' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
+	'protectsite-upload-1' => 'Толькі адміністратары',
 );
 
 /** Breton (Brezhoneg)
@@ -648,9 +663,22 @@ $messages['te'] = array(
 	'protectsite-allowall' => 'అందరు వాడుకరులు',
 	'protectsite-allowusersysop' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
 	'protectsite-allowsysop' => 'నిర్వాహకులు మాత్రమే',
-	'protectsite-maxtimeout' => 'గరిష్ఠం:',
+	'protectsite-maxtimeout' => 'గరిష్ఠం: $1',
 	'protectsite-comment' => 'వ్యాఖ్య:',
 	'protectsite-protect' => 'సంరక్షించు',
+	'protectsite-createaccount-0' => 'వాడుకరులందరూ',
+	'protectsite-createaccount-1' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
+	'protectsite-createaccount-2' => 'నిర్వాహకులు మాత్రమే',
+	'protectsite-createpage-0' => 'వాడుకరులందరూ',
+	'protectsite-createpage-1' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
+	'protectsite-createpage-2' => 'నిర్వాహకులు మాత్రమే',
+	'protectsite-edit-0' => 'వాడుకరులందరూ',
+	'protectsite-edit-1' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
+	'protectsite-edit-2' => 'నిర్వాహకులు మాత్రమే',
+	'protectsite-move-0' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
+	'protectsite-move-1' => 'నిర్వాహకులు మాత్రమే',
+	'protectsite-upload-0' => 'నమోదైన వాడుకరులు మరియు నిర్వాహకులు',
+	'protectsite-upload-1' => 'నిర్వాహకులు మాత్రమే',
 );
 
 /** Tagalog (Tagalog)
@@ -658,6 +686,7 @@ $messages['te'] = array(
  */
 $messages['tl'] = array(
 	'protectsite' => 'Prutektahan ang sayt',
+	'protectsite-desc' => 'Nagpapahintulot sa isang tagapangasiwa ng sityo upang pansamantalang hadlangan ang sari-saring mga pagbabago sa sityo',
 	'protectsite-text-protect' => '<!-- Magagamit na mga tagubilin/Mga puna/Patakaran -->',
 	'protectsite-text-unprotect' => '<!-- Mga tagubilin/Mga puna kapag nakasanggalang -->',
 	'protectsite-title' => 'Mga katakdaang pamprutekta ng sityo',
@@ -671,12 +700,26 @@ $messages['tl'] = array(
 	'protectsite-upload' => 'Ipahintulot ang paitaas na pagkakarga ng mga talaksan sa pamamagitan ng',
 	'protectsite-timeout' => 'Pamamahinga:',
 	'protectsite-timeout-error' => "'''Hindi Tanggap na Pamamahinga.'''",
-	'protectsite-maxtimeout' => 'Pinakamataas:',
+	'protectsite-maxtimeout' => 'Pinakamataas: $1',
 	'protectsite-comment' => 'Puna:',
 	'protectsite-ucomment' => 'Huwag prutektahan ang puna:',
 	'protectsite-until' => 'Isanggalang hanggang:',
 	'protectsite-protect' => 'Isanggalang',
 	'protectsite-unprotect' => 'Huwag isanggalang',
+	'protectsite-createaccount-0' => 'Lahat ng mga tagagamit',
+	'protectsite-createaccount-1' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
+	'protectsite-createaccount-2' => 'Mga tagapangasiwa lamang',
+	'protectsite-createpage-0' => 'Lahat ng mga tagagamit',
+	'protectsite-createpage-1' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
+	'protectsite-createpage-2' => 'Mga tagapangasiwa lamang',
+	'protectsite-edit-0' => 'Lahat ng mga tagagamit',
+	'protectsite-edit-1' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
+	'protectsite-edit-2' => 'Mga tagapangasiwa lamang',
+	'protectsite-move-0' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
+	'protectsite-move-1' => 'Mga tagapangasiwa lamang',
+	'protectsite-upload-0' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
+	'protectsite-upload-1' => 'Mga tagapangasiwa lamang',
+	'right-protectsite' => 'Hangganan ang mga kilos na maaaring ganapin para sa ilang mga pangkat sa loob ng hinahanggahang panahon',
 );
 
 /** Ukrainian (Українська)
