@@ -423,6 +423,8 @@ $messages['lb'] = array(
 	'protectsite-edit' => 'Erlabe vum Ännere vu Säiten duerch',
 	'protectsite-move' => "D'Réckele vu Säiten erlaben fir",
 	'protectsite-upload' => "D'Eropluede vu Fichieren erlaben fir",
+	'protectsite-timeout' => 'Dauer vun der Spär:',
+	'protectsite-timeout-error' => "'''Net valabel Dauer vun der Spär.'''",
 	'protectsite-maxtimeout' => 'Maximum: $1',
 	'protectsite-comment' => 'Bemierkung:',
 	'protectsite-ucomment' => "Grond fir d'Ophiewe vun der Spär:",
@@ -484,6 +486,47 @@ $messages['mk'] = array(
 	'protectsite-upload-0' => 'Регистрирани корисници и систем-оператори',
 	'protectsite-upload-1' => 'Само систем-оператори',
 	'right-protectsite' => 'Привремено ограничете ги дејствата што можат да ги изведат извесни групи на корисници',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'protectsite' => 'Perlindungan tapak',
+	'protectsite-desc' => 'Membolehkan pentadbir tapak menyekat pelbagai pengubahsuaian tapak buat sementara',
+	'protectsite-text-protect' => '<!-- Arahan/Ulasan/Dasar penggunaan -->',
+	'protectsite-text-unprotect' => '<!-- Arahan/Ulasan apabila dilindungi -->',
+	'protectsite-title' => 'Tetapan perlindungan laman',
+	'protectsite-allowall' => 'Semua pengguna',
+	'protectsite-allowusersysop' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-allowsysop' => 'Pentadbir sahaja',
+	'protectsite-createaccount' => 'Benarkan pembukaan akaun baru oleh',
+	'protectsite-createpage' => 'Benarkan penciptaan laman oleh',
+	'protectsite-edit' => 'Benarkan penyuntingan laman oleh',
+	'protectsite-move' => 'Benarkan pemindahan laman oleh',
+	'protectsite-upload' => 'Benarkan muat naik fail oleh',
+	'protectsite-timeout' => 'Tamat masa:',
+	'protectsite-timeout-error' => "'''Tamat masa tidak sah.'''",
+	'protectsite-maxtimeout' => 'Maksimum: $1',
+	'protectsite-comment' => 'Ulasan:',
+	'protectsite-ucomment' => 'Nyahlindung ulasan:',
+	'protectsite-until' => 'Dilindungi hingga:',
+	'protectsite-protect' => 'Lindungi',
+	'protectsite-unprotect' => 'Nyahlindung',
+	'protectsite-createaccount-0' => 'Semua pengguna',
+	'protectsite-createaccount-1' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-createaccount-2' => 'Pentadbir sahaja',
+	'protectsite-createpage-0' => 'Semua pengguna',
+	'protectsite-createpage-1' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-createpage-2' => 'Pentadbir sahaja',
+	'protectsite-edit-0' => 'Semua pengguna',
+	'protectsite-edit-1' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-edit-2' => 'Pentadbir sahaja',
+	'protectsite-move-0' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-move-1' => 'Pentadbir sahaja',
+	'protectsite-upload-0' => 'Pengguna yang berdaftar dan pentadbir',
+	'protectsite-upload-1' => 'Pentadbir sahaja',
+	'right-protectsite' => 'Hadkan tindakan yang boleh dilakukan untuk sesetengah kumpulan buat masa yang terhad',
 );
 
 /** Dutch (Nederlands)
