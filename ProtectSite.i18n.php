@@ -53,6 +53,13 @@ $messages['en'] = array(
 	'right-protectsite' => 'Limit actions that can be performed for some groups for a limited time',
 );
 
+/** Message documentation (Message documentation)
+ * @author Purodha
+ */
+$messages['qqq'] = array(
+	'protectsite-desc' => '{{desc}}',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -101,6 +108,13 @@ $messages['be-tarask'] = array(
 	'protectsite-move-1' => 'Толькі адміністратары',
 	'protectsite-upload-0' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
 	'protectsite-upload-1' => 'Толькі адміністратары',
+);
+
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'protectsite-createaccount-0' => 'Всички потребители',
 );
 
 /** Breton (Brezhoneg)
@@ -242,6 +256,7 @@ $messages['fi'] = array(
 
 /** French (Français)
  * @author Alexandre Emsenhuber
+ * @author Balzac 40
  */
 $messages['fr'] = array(
 	'protectsite' => 'Protéger le site',
@@ -264,6 +279,10 @@ $messages['fr'] = array(
 	'protectsite-until' => "Protéger jusqu'à :",
 	'protectsite-protect' => 'Protéger',
 	'protectsite-unprotect' => 'Déprotéger',
+	'protectsite-createaccount-0' => 'Tous les utilisateurs',
+	'protectsite-createaccount-1' => 'Les utilisateurs enregistrés et les administrateurs',
+	'protectsite-createaccount-2' => 'Administrateurs seulement',
+	'protectsite-createpage-0' => 'Tous les utilisateurs',
 );
 
 /** Galician (Galego)
@@ -404,6 +423,13 @@ $messages['ja'] = array(
 	'protectsite-until' => '保護期限：',
 	'protectsite-protect' => '保護',
 	'protectsite-unprotect' => '保護解除',
+);
+
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'protectsite-desc' => 'Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
