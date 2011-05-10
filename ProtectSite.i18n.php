@@ -108,6 +108,7 @@ $messages['be-tarask'] = array(
 	'protectsite-move-1' => 'Толькі адміністратары',
 	'protectsite-upload-0' => 'Зарэгістраваныя ўдзельнікі і адміністратары',
 	'protectsite-upload-1' => 'Толькі адміністратары',
+	'right-protectsite' => 'абмежаваньне дзеяньняў, якія могуць быць выкананьня групай у вызначаны час',
 );
 
 /** Bulgarian (Български)
@@ -260,6 +261,7 @@ $messages['fi'] = array(
  */
 $messages['fr'] = array(
 	'protectsite' => 'Protéger le site',
+	'protectsite-desc' => 'Permet à un administrateur de site de bloquer temporairement diverses modifications du site',
 	'protectsite-text-protect' => "<!-- Instructions / Commentaires / Règles d'utilisation -->",
 	'protectsite-text-unprotect' => '<!-- Instructions / Commentaires lorsque protégé -->',
 	'protectsite-title' => 'Paramètres de la protection du site',
@@ -283,6 +285,16 @@ $messages['fr'] = array(
 	'protectsite-createaccount-1' => 'Les utilisateurs enregistrés et les administrateurs',
 	'protectsite-createaccount-2' => 'Administrateurs seulement',
 	'protectsite-createpage-0' => 'Tous les utilisateurs',
+	'protectsite-createpage-1' => 'Les utilisateurs enregistrés et les administrateurs',
+	'protectsite-createpage-2' => 'Administrateurs seulement',
+	'protectsite-edit-0' => 'Tous les utilisateurs',
+	'protectsite-edit-1' => 'Les utilisateurs enregistrés et les administrateurs',
+	'protectsite-edit-2' => 'Administrateurs seulement',
+	'protectsite-move-0' => 'Les utilisateurs enregistrés et les administrateurs',
+	'protectsite-move-1' => 'Administrateurs seulement',
+	'protectsite-upload-0' => 'Les utilisateurs enregistrés et les administrateurs',
+	'protectsite-upload-1' => 'Administrateurs seulement',
+	'right-protectsite' => 'Limiter les actions qui peuvent être effectuées pour certains groupes pour un temps limité',
 );
 
 /** Galician (Galego)
