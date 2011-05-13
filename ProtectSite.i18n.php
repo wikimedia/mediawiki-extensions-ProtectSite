@@ -678,6 +678,47 @@ $messages['ps'] = array(
 	'protectsite-unprotect' => 'نه ژغورل',
 );
 
+/** Portuguese (Português)
+ * @author Hamilton Abreu
+ */
+$messages['pt'] = array(
+	'protectsite' => 'Proteger o site',
+	'protectsite-desc' => 'Permite que um administrador bloqueie temporariamente várias modificações do site',
+	'protectsite-text-protect' => '<!-- Instruções/Comentários/Normas de utilização -->',
+	'protectsite-text-unprotect' => '<!-- Instruções/Comentários quando sob protecção -->',
+	'protectsite-title' => 'Configurações de protecção do site',
+	'protectsite-allowall' => 'Todos os utilizadores',
+	'protectsite-allowusersysop' => 'Utilizadores registrados e administradores',
+	'protectsite-allowsysop' => 'Apenas administradores',
+	'protectsite-createaccount' => 'Permitir a criação de contas novas por',
+	'protectsite-createpage' => 'Permitir a criação de páginas por',
+	'protectsite-edit' => 'Permitir a edição de páginas por',
+	'protectsite-move' => 'Permitir a movimentação de páginas por',
+	'protectsite-upload' => 'Permitir o envio de ficheiros por',
+	'protectsite-timeout' => 'Prazo de expiração:',
+	'protectsite-timeout-error' => "'''Prazo de expiração inválido.'''",
+	'protectsite-maxtimeout' => 'Máximo: $1',
+	'protectsite-comment' => 'Comentário:',
+	'protectsite-ucomment' => 'Comentário de desprotecção:',
+	'protectsite-until' => 'Sob protecção até:',
+	'protectsite-protect' => 'Proteger',
+	'protectsite-unprotect' => 'Desproteger',
+	'protectsite-createaccount-0' => 'Todos os utilizadores',
+	'protectsite-createaccount-1' => 'Utilizadores registrados e administradores',
+	'protectsite-createaccount-2' => 'Apenas administradores',
+	'protectsite-createpage-0' => 'Todos os utilizadores',
+	'protectsite-createpage-1' => 'Utilizadores registrados e administradores',
+	'protectsite-createpage-2' => 'Apenas administradores',
+	'protectsite-edit-0' => 'Todos os utilizadores',
+	'protectsite-edit-1' => 'Utilizadores registrados e administradores',
+	'protectsite-edit-2' => 'Apenas administradores',
+	'protectsite-move-0' => 'Utilizadores registrados e administradores',
+	'protectsite-move-1' => 'Apenas administradores',
+	'protectsite-upload-0' => 'Utilizadores registrados e administradores',
+	'protectsite-upload-1' => 'Apenas administradores',
+	'right-protectsite' => 'Limitar as operações que alguns grupos podem realizar por um tempo limitado',
+);
+
 /** Brazilian Portuguese (Português do Brasil)
  * @author Luckas Blade
  */
