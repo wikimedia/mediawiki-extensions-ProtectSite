@@ -8,14 +8,24 @@
 
 $specialPageAliases = array();
 
-/** English */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'ProtectSite' => array( 'ProtectSite' ),
+);
+
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'ProtectSite' => array( 'حماية_الموقع' ),
 );
 
 /** Finnish (Suomi) */
 $specialPageAliases['fi'] = array(
 	'ProtectSite' => array( 'SuojaaSivusto', 'Suojaa sivusto' ),
+);
+
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'ProtectSite' => array( 'SiteBeveiligen' ),
 );
 
 /**
