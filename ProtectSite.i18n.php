@@ -297,6 +297,45 @@ $messages['fr'] = array(
 	'right-protectsite' => 'Limiter les actions qui peuvent être effectuées pour certains groupes pour un temps limité',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'protectsite' => 'Protègiér lo seto',
+	'protectsite-text-protect' => '<!-- Enstruccions / Comentèros / Règlles d’usâjo -->',
+	'protectsite-text-unprotect' => '<!-- Enstruccions / Comentèros quand protègiê -->',
+	'protectsite-title' => 'Paramètres de la protèccion du seto',
+	'protectsite-allowall' => 'Tôs los utilisators',
+	'protectsite-allowusersysop' => 'Los utilisators encartâs et los administrators',
+	'protectsite-allowsysop' => 'Ren que los administrators',
+	'protectsite-createaccount' => 'Ôtorisar la crèacion de comptos novéls per',
+	'protectsite-createpage' => 'Ôtorisar la crèacion de pâges per',
+	'protectsite-edit' => 'Ôtorisar los changements de pâges per',
+	'protectsite-move' => 'Ôtorisar lo renomâjo de pâges per',
+	'protectsite-upload' => 'Ôtorisar los tèlèchargements de fichiérs per',
+	'protectsite-timeout' => 'Èxpiracion :',
+	'protectsite-timeout-error' => "'''Èxpiracion envalida.'''",
+	'protectsite-maxtimeout' => 'U més : $1',
+	'protectsite-comment' => 'Comentèro :',
+	'protectsite-ucomment' => 'Comentèro de dèprotèccion :',
+	'protectsite-until' => 'Protègiê tant qu’a :',
+	'protectsite-protect' => 'Protègiér',
+	'protectsite-unprotect' => 'Dèprotègiér',
+	'protectsite-createaccount-0' => 'Tôs los utilisators',
+	'protectsite-createaccount-1' => 'Los utilisators encartâs et los administrators',
+	'protectsite-createaccount-2' => 'Ren que los administrators',
+	'protectsite-createpage-0' => 'Tôs los utilisators',
+	'protectsite-createpage-1' => 'Los utilisators encartâs et los administrators',
+	'protectsite-createpage-2' => 'Ren que los administrators',
+	'protectsite-edit-0' => 'Tôs los utilisators',
+	'protectsite-edit-1' => 'Los utilisators encartâs et los administrators',
+	'protectsite-edit-2' => 'Ren que los administrators',
+	'protectsite-move-0' => 'Los utilisators encartâs et los administrators',
+	'protectsite-move-1' => 'Ren que los administrators',
+	'protectsite-upload-0' => 'Los utilisators encartâs et los administrators',
+	'protectsite-upload-1' => 'Ren que los administrators',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
@@ -489,11 +528,11 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'protectsite' => 'Заштити веб-страница',
+	'protectsite' => 'Заштити мреж. место',
 	'protectsite-desc' => 'Му овозможува на администраторотпривремено да спречува разни измени на мреж-то место',
 	'protectsite-text-protect' => '<!-- Инструкции/Коментари/Правила на употреба -->',
 	'protectsite-text-unprotect' => '<!-- Инструкции/Коментари кога е заштитено -->',
-	'protectsite-title' => 'Нагодувања на заштитата на веб-страната',
+	'protectsite-title' => 'Нагодувања на заштитата на мреж. место',
 	'protectsite-allowall' => 'Сите корисници',
 	'protectsite-allowusersysop' => 'Регистрирани корисници и систем-оператори',
 	'protectsite-allowsysop' => 'Само систем-оператори',
