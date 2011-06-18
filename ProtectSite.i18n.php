@@ -115,7 +115,23 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
+	'protectsite-allowall' => 'Всички потребители',
+	'protectsite-allowusersysop' => 'Регистрирани потребители и администратори',
+	'protectsite-allowsysop' => 'Само администратори',
+	'protectsite-comment' => 'Коментар:',
 	'protectsite-createaccount-0' => 'Всички потребители',
+	'protectsite-createaccount-1' => 'Регистрирани потребители и администратори',
+	'protectsite-createaccount-2' => 'Само администратори',
+	'protectsite-createpage-0' => 'Всички потребители',
+	'protectsite-createpage-1' => 'Регистрирани потребители и администратори',
+	'protectsite-createpage-2' => 'Само администратори',
+	'protectsite-edit-0' => 'Всички потребители',
+	'protectsite-edit-1' => 'Регистрирани потребители и администратори',
+	'protectsite-edit-2' => 'Само администратори',
+	'protectsite-move-0' => 'Регистрирани потребители и администратори',
+	'protectsite-move-1' => 'Само администратори',
+	'protectsite-upload-0' => 'Регистрирани потребители и администратори',
+	'protectsite-upload-1' => 'Само администратори',
 );
 
 /** Breton (Brezhoneg)
