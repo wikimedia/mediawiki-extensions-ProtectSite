@@ -831,6 +831,47 @@ $messages['sr-ec'] = array(
 	'protectsite-unprotect' => 'Скини заштиту',
 );
 
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'protectsite' => 'Skydda sida',
+	'protectsite-desc' => 'Låter en administratör tillfälligt blockera olika sidändringar',
+	'protectsite-text-protect' => '<!-- Instruktioner/Kommentarer/Policy för användning -->',
+	'protectsite-text-unprotect' => '<!-- Instruktioner/Kommentarer när skyddad -->',
+	'protectsite-title' => 'Inställningar för sidskydd',
+	'protectsite-allowall' => 'Alla användare',
+	'protectsite-allowusersysop' => 'Registrerade användare och administratörer',
+	'protectsite-allowsysop' => 'Endast administratörer',
+	'protectsite-createaccount' => 'Tillåt skapande av nya konton av',
+	'protectsite-createpage' => 'Tillåt skapande av sidor av',
+	'protectsite-edit' => 'Tillåt redigering av sidor av',
+	'protectsite-move' => 'Tillåt flyttning av sidor av',
+	'protectsite-upload' => 'Tillåt filuppladdningar av',
+	'protectsite-timeout' => 'Tidsuppehåll:',
+	'protectsite-timeout-error' => "'''Ogiltigt tidsuppehåll.'''",
+	'protectsite-maxtimeout' => 'Maximalt: $1',
+	'protectsite-comment' => 'Kommentar:',
+	'protectsite-ucomment' => 'Ta bort skydd från kommentar:',
+	'protectsite-until' => 'Skyddad till:',
+	'protectsite-protect' => 'Skydda',
+	'protectsite-unprotect' => 'Ta bort skydd',
+	'protectsite-createaccount-0' => 'Alla användare',
+	'protectsite-createaccount-1' => 'Registrerade användare och administratörer',
+	'protectsite-createaccount-2' => 'Endast administratörer',
+	'protectsite-createpage-0' => 'Alla användare',
+	'protectsite-createpage-1' => 'Registrerade användare och administratörer',
+	'protectsite-createpage-2' => 'Endast administratörer',
+	'protectsite-edit-0' => 'Alla användare',
+	'protectsite-edit-1' => 'Registrerade användare och administratörer',
+	'protectsite-edit-2' => 'Endast administratörer',
+	'protectsite-move-0' => 'Registrerade användare och administratörer',
+	'protectsite-move-1' => 'Endast administratörer',
+	'protectsite-upload-0' => 'Registrerade användare och administratörer',
+	'protectsite-upload-1' => 'Endast administratörer',
+	'right-protectsite' => 'Begränsa åtgärder som kan utföras för vissa grupper under en begränsad tid',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
