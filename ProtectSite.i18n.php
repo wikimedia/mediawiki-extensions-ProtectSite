@@ -947,3 +947,10 @@ $messages['uk'] = array(
 	'protectsite-title' => 'Налаштування захисту сайту',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Xiaomingyan
+ */
+$messages['zh-hans'] = array(
+	'protectsite-protect' => '保护',
+);
+
