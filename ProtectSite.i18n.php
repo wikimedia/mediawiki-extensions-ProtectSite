@@ -619,7 +619,7 @@ $messages['ms'] = array(
 	'protectsite-move-1' => 'Pentadbir sahaja',
 	'protectsite-upload-0' => 'Pengguna yang berdaftar dan pentadbir',
 	'protectsite-upload-1' => 'Pentadbir sahaja',
-	'right-protectsite' => 'Hadkan tindakan yang boleh dilakukan untuk sesetengah kumpulan buat masa yang terhad',
+	'right-protectsite' => 'Mengehadkan tindakan yang boleh dilakukan untuk sesetengah kumpulan buat masa yang terhad',
 );
 
 /** Dutch (Nederlands)
