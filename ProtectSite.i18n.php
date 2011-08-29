@@ -698,6 +698,26 @@ $messages['pdc'] = array(
 	'protectsite-comment' => 'Grund:',
 );
 
+/** Polish (Polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'protectsite' => 'Zabezpiecz witrynę',
+	'protectsite-allowsysop' => 'Tylko administratorzy',
+	'protectsite-createaccount' => 'Zezwalaj na tworzenie nowych kont przez',
+	'protectsite-createpage' => 'Zezwalaj na tworzenie stron przez',
+	'protectsite-edit' => 'Zezwalaj na edycję stron przez',
+	'protectsite-move' => 'Pozwól na przenoszenie stron przez',
+	'protectsite-upload' => 'Pozwól na przesyłanie plików przez',
+	'protectsite-timeout' => 'Limit czasu:',
+	'protectsite-maxtimeout' => 'Maksimum: $1',
+	'protectsite-comment' => 'Komentarz:',
+	'protectsite-protect' => 'Zabezpiecz',
+	'protectsite-unprotect' => 'Odbezpiecz',
+	'protectsite-createaccount-0' => 'Wszyscy użytkownicy',
+	'protectsite-createaccount-1' => 'Zarejestrowani użytkownicy i administratorzy',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Dragonòt
  */
