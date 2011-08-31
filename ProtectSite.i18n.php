@@ -967,6 +967,16 @@ $messages['uk'] = array(
 	'protectsite-title' => 'Налаштування захисту сайту',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'protectsite-allowall' => 'אַלע באַניצערס',
+	'protectsite-unprotect' => 'אראפנעמען שיץ',
+	'protectsite-createaccount-0' => 'אַלע באַניצערס',
+	'protectsite-edit-0' => 'אַלע באַניצערס',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Xiaomingyan
  */
