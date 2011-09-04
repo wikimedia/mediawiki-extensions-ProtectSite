@@ -699,6 +699,7 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
@@ -709,9 +710,9 @@ $messages['pl'] = array(
 	'protectsite-edit' => 'Zezwalaj na edycję stron przez',
 	'protectsite-move' => 'Pozwól na przenoszenie stron przez',
 	'protectsite-upload' => 'Pozwól na przesyłanie plików przez',
-	'protectsite-timeout' => 'Limit czasu:',
-	'protectsite-maxtimeout' => 'Maksimum: $1',
-	'protectsite-comment' => 'Komentarz:',
+	'protectsite-timeout' => 'Limit czasu',
+	'protectsite-maxtimeout' => 'Maksymalnie $1',
+	'protectsite-comment' => 'Komentarz',
 	'protectsite-protect' => 'Zabezpiecz',
 	'protectsite-unprotect' => 'Odbezpiecz',
 	'protectsite-createaccount-0' => 'Wszyscy użytkownicy',
