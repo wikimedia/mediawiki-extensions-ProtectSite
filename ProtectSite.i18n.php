@@ -622,6 +622,13 @@ $messages['ms'] = array(
 	'right-protectsite' => 'Mengehadkan tindakan yang boleh dilakukan untuk sesetengah kumpulan buat masa yang terhad',
 );
 
+/** Mazanderani (مازِرونی)
+ * @author محک
+ */
+$messages['mzn'] = array(
+	'protectsite-unprotect' => 'موحافظت نکاردن',
+);
+
 /** Dutch (Nederlands)
  * @author Mark van Alphen
  * @author SPQRobin
