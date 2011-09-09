@@ -69,6 +69,17 @@ $messages['af'] = array(
 	'protectsite-unprotect' => 'Verwyder beskerming',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'protectsite-allowall' => 'Bütün istifadəçilər',
+	'protectsite-comment' => 'Şərh:',
+	'protectsite-createaccount-0' => 'Bütün istifadəçilər',
+	'protectsite-createpage-0' => 'Bütün istifadəçilər',
+	'protectsite-edit-0' => 'Bütün istifadəçilər',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
