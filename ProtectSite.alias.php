@@ -20,12 +20,27 @@ $specialPageAliases['ar'] = array(
 
 /** Finnish (Suomi) */
 $specialPageAliases['fi'] = array(
-	'ProtectSite' => array( 'SuojaaSivusto', 'Suojaa sivusto' ),
+	'ProtectSite' => array( 'Suojaa_sivusto' ),
+);
+
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'ProtectSite' => array( 'ЗаштитиМрежноМесто' ),
+);
+
+/** Nedersaksisch (Nedersaksisch) */
+$specialPageAliases['nds-nl'] = array(
+	'ProtectSite' => array( 'Webstee_beveiligen' ),
 );
 
 /** Dutch (Nederlands) */
 $specialPageAliases['nl'] = array(
 	'ProtectSite' => array( 'SiteBeveiligen' ),
+);
+
+/** Swedish (Svenska) */
+$specialPageAliases['sv'] = array(
+	'ProtectSite' => array( 'Skydda_sida' ),
 );
 
 /**
