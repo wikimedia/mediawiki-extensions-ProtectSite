@@ -55,9 +55,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'protectsite-desc' => '{{desc}}',
+	'right-protectsite' => '{{doc-right|protectsite}}',
 );
 
 /** Afrikaans (Afrikaans)
