@@ -852,22 +852,22 @@ $messages['ru'] = array(
 	'protectsite-unprotect' => 'Снять защиту',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Verlor
  */
 $messages['sr-ec'] = array(
 	'protectsite-allowall' => 'Сви корисници',
-	'protectsite-allowusersysop' => 'Регистровани корисници и Администратори',
+	'protectsite-allowusersysop' => 'Уписани корисници и администратори',
 	'protectsite-allowsysop' => 'Само администратори',
-	'protectsite-createpage' => 'Дозволи стварање страна од',
+	'protectsite-createpage' => 'Дозволи стварање страница од',
 	'protectsite-edit' => 'Дозволи уређивање страна од стране',
 	'protectsite-move' => 'Дозволи преусмеравање страна од стране',
-	'protectsite-timeout' => 'Време истекло (тајмаут)',
-	'protectsite-maxtimeout' => 'Максимум:',
+	'protectsite-timeout' => 'Истиче:',
+	'protectsite-maxtimeout' => 'Највише: $1',
 	'protectsite-comment' => 'Коментар:',
 	'protectsite-ucomment' => 'Скини заштиту са коментара:',
-	'protectsite-until' => 'Заштићена јединица',
+	'protectsite-until' => 'Заштићено до:',
 	'protectsite-protect' => 'Заштити',
 	'protectsite-unprotect' => 'Скини заштиту',
 );
