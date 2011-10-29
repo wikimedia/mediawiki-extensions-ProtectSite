@@ -406,6 +406,41 @@ $messages['gl'] = array(
 	'right-protectsite' => 'Limita as accións que algúns grupos poden realizar por un tempo limitado',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Chlämens
+ */
+$messages['gsw'] = array(
+	'protectsite-allowall' => 'Alli Benutzer',
+	'protectsite-allowusersysop' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-allowsysop' => 'Numme Ammanne',
+	'protectsite-createaccount' => 'Erlaub s Aalege vu neje Benutzerkonte dur',
+	'protectsite-createpage' => 'Erlaub s Erstelle vo neije Syte dur',
+	'protectsite-edit' => 'Erlaub s Bearbeite vo neije Syte dur',
+	'protectsite-move' => 'Erlaub s Verschiebe vo neije Syte dur',
+	'protectsite-upload' => 'Erlaub s Uffelade vo Dateie dur',
+	'protectsite-timeout' => 'Sperrduur:',
+	'protectsite-timeout-error' => "'''Sperrduur isch nit gültig.'''",
+	'protectsite-maxtimeout' => 'Maximali Sperrduur: $1',
+	'protectsite-comment' => 'Aamerkig:',
+	'protectsite-ucomment' => 'Aamerkig zur Freigab:',
+	'protectsite-until' => 'Gsperrt bis:',
+	'protectsite-protect' => 'Schitze',
+	'protectsite-unprotect' => 'nümm schütze',
+	'protectsite-createaccount-0' => 'Alli Benutzer',
+	'protectsite-createaccount-1' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-createaccount-2' => 'Numme Ammanne',
+	'protectsite-createpage-0' => 'Alli Benutzer',
+	'protectsite-createpage-1' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-createpage-2' => 'Numme Ammanne',
+	'protectsite-edit-0' => 'Alli Benutzer',
+	'protectsite-edit-1' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-edit-2' => 'Numme Ammanne',
+	'protectsite-move-0' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-move-1' => 'Numme Ammanne',
+	'protectsite-upload-0' => 'Registrierti Benutzer un Ammanne',
+	'protectsite-upload-1' => 'Numme Ammanne',
+);
+
 /** Hungarian (Magyar)
  * @author Glanthor Reviol
  */
