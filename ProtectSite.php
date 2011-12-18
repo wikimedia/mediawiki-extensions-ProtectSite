@@ -52,12 +52,11 @@ $wgAvailableRights[] = 'protectsite';
 
 /* Set the group access permissions */
 $wgGroupPermissions['bureaucrat']['protectsite'] = true;
-$wgGroupPermissions['staff']['protectsite'] = true;
 
 /* Add this special page to the special page listing array */
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['ProtectSite'] = $dir . 'ProtectSite.i18n.php';
-$wgExtensionAliasesFiles['ProtectSite'] = $dir . 'ProtectSite.alias.php';
+$wgExtensionMessagesFiles['ProtectSiteAliases'] = $dir . 'ProtectSite.alias.php';
 $wgAutoloadClasses['ProtectSite'] = $dir . 'ProtectSite.body.php';
 $wgSpecialPages['ProtectSite'] = 'ProtectSite';
 
