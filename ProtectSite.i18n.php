@@ -907,6 +907,23 @@ $messages['sr-ec'] = array(
 	'protectsite-unprotect' => 'Скини заштиту',
 );
 
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$messages['sr-el'] = array(
+	'protectsite-allowall' => 'Svi korisnici',
+	'protectsite-allowusersysop' => 'Upisani korisnici i administratori',
+	'protectsite-allowsysop' => 'Samo administratori',
+	'protectsite-createpage' => 'Dozvoli stvaranje stranica od',
+	'protectsite-edit' => 'Dozvoli uređivanje strana od strane',
+	'protectsite-move' => 'Dozvoli preusmeravanje strana od strane',
+	'protectsite-timeout' => 'Ističe:',
+	'protectsite-maxtimeout' => 'Najviše: $1',
+	'protectsite-comment' => 'Komentar:',
+	'protectsite-ucomment' => 'Skini zaštitu sa komentara:',
+	'protectsite-until' => 'Zaštićeno do:',
+	'protectsite-protect' => 'Zaštiti',
+	'protectsite-unprotect' => 'Skini zaštitu',
+);
+
 /** Swedish (Svenska)
  * @author WikiPhoenix
  */
@@ -1018,9 +1035,11 @@ $messages['tl'] = array(
 
 /** Ukrainian (Українська)
  * @author Prima klasy4na
+ * @author Тест
  */
 $messages['uk'] = array(
 	'protectsite-title' => 'Налаштування захисту сайту',
+	'protectsite-comment' => 'Коментар:',
 );
 
 /** Yiddish (ייִדיש)
@@ -1038,5 +1057,10 @@ $messages['yi'] = array(
  */
 $messages['zh-hans'] = array(
 	'protectsite-protect' => '保护',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬) */
+$messages['zh-hant'] = array(
+	'protectsite-protect' => '保護',
 );
 
