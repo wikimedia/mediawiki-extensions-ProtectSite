@@ -723,7 +723,7 @@ $messages['nl'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'protectsite' => 'Beskytt side',
 	'protectsite-text-protect' => '<!-- Instruksjoner/kommentarer/fremgangsmåte for bruk -->',
 	'protectsite-text-unprotect' => '<!-- Instruksjoner/kommentarer når beskyttet -->',
