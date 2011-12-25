@@ -18,9 +18,24 @@ $specialPageAliases['ar'] = array(
 	'ProtectSite' => array( 'حماية_الموقع' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'ProtectSite' => array( 'Website_schützen' ),
+);
+
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'ProtectSite' => array( 'محافظ_وبگاه' ),
+);
+
 /** Finnish (Suomi) */
 $specialPageAliases['fi'] = array(
 	'ProtectSite' => array( 'Suojaa_sivusto' ),
+);
+
+/** Interlingua (Interlingua) */
+$specialPageAliases['ia'] = array(
+	'ProtectSite' => array( 'Proteger_sito' ),
 );
 
 /** Macedonian (Македонски) */
@@ -42,8 +57,3 @@ $specialPageAliases['nl'] = array(
 $specialPageAliases['sv'] = array(
 	'ProtectSite' => array( 'Skydda_sida' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
