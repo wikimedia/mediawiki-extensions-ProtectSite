@@ -677,6 +677,32 @@ $messages['mzn'] = array(
 	'protectsite-unprotect' => 'موحافظت نکاردن',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'protectsite' => 'Beskytt side',
+	'protectsite-text-protect' => '<!-- Instruksjoner/kommentarer/fremgangsmåte for bruk -->',
+	'protectsite-text-unprotect' => '<!-- Instruksjoner/kommentarer når beskyttet -->',
+	'protectsite-title' => 'Innstillinger for sidebeskyttelse',
+	'protectsite-allowall' => 'Alle brukere',
+	'protectsite-allowusersysop' => 'Registrerte brukere og systemoperatører',
+	'protectsite-allowsysop' => 'Kun systemoperatører',
+	'protectsite-createaccount' => 'Tillat opprettelse av nye kontoer av',
+	'protectsite-createpage' => 'Tillat opprettelse av sider av',
+	'protectsite-edit' => 'Tillat redigering av sider av',
+	'protectsite-move' => 'Tillat flytting av sider av',
+	'protectsite-upload' => 'Tillat filopplasting av',
+	'protectsite-timeout' => 'Tidsavbrudd:',
+	'protectsite-timeout-error' => "'''Ugyldig tidsavbrudd.'''",
+	'protectsite-maxtimeout' => 'Maksimum:',
+	'protectsite-comment' => 'Kommentar:',
+	'protectsite-ucomment' => 'Opphev beskyttelse av kommentar:',
+	'protectsite-until' => 'Beskyttet til:',
+	'protectsite-protect' => 'Beskytt',
+	'protectsite-unprotect' => 'Opphev beskyttelse',
+);
+
 /** Dutch (Nederlands)
  * @author Mark van Alphen
  * @author SPQRobin
@@ -718,32 +744,6 @@ $messages['nl'] = array(
 	'protectsite-upload-0' => 'Geregistreerde gebruikers en beheerders',
 	'protectsite-upload-1' => 'Alleen beheerders',
 	'right-protectsite' => 'Handelingen beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'protectsite' => 'Beskytt side',
-	'protectsite-text-protect' => '<!-- Instruksjoner/kommentarer/fremgangsmåte for bruk -->',
-	'protectsite-text-unprotect' => '<!-- Instruksjoner/kommentarer når beskyttet -->',
-	'protectsite-title' => 'Innstillinger for sidebeskyttelse',
-	'protectsite-allowall' => 'Alle brukere',
-	'protectsite-allowusersysop' => 'Registrerte brukere og systemoperatører',
-	'protectsite-allowsysop' => 'Kun systemoperatører',
-	'protectsite-createaccount' => 'Tillat opprettelse av nye kontoer av',
-	'protectsite-createpage' => 'Tillat opprettelse av sider av',
-	'protectsite-edit' => 'Tillat redigering av sider av',
-	'protectsite-move' => 'Tillat flytting av sider av',
-	'protectsite-upload' => 'Tillat filopplasting av',
-	'protectsite-timeout' => 'Tidsavbrudd:',
-	'protectsite-timeout-error' => "'''Ugyldig tidsavbrudd.'''",
-	'protectsite-maxtimeout' => 'Maksimum:',
-	'protectsite-comment' => 'Kommentar:',
-	'protectsite-ucomment' => 'Opphev beskyttelse av kommentar:',
-	'protectsite-until' => 'Beskyttet til:',
-	'protectsite-protect' => 'Beskytt',
-	'protectsite-unprotect' => 'Opphev beskyttelse',
 );
 
 /** Deitsch (Deitsch)
