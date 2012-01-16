@@ -1047,9 +1047,21 @@ $messages['uk'] = array(
  */
 $messages['yi'] = array(
 	'protectsite-allowall' => 'אַלע באַניצערס',
+	'protectsite-protect' => 'שיצן',
 	'protectsite-unprotect' => 'אראפנעמען שיץ',
 	'protectsite-createaccount-0' => 'אַלע באַניצערס',
+	'protectsite-createaccount-1' => 'איינגעשריבענע באניצער און סיסאפן',
+	'protectsite-createaccount-2' => 'נאר סיסאפן',
+	'protectsite-createpage-0' => 'אַלע באַניצער',
+	'protectsite-createpage-1' => 'איינגעשריבענע באניצער און סיסאפן',
+	'protectsite-createpage-2' => 'נאר סיסאפן',
 	'protectsite-edit-0' => 'אַלע באַניצערס',
+	'protectsite-edit-1' => 'איינגעשריבענע באניצער און סיסאפן',
+	'protectsite-edit-2' => 'נאר סיסאפן',
+	'protectsite-move-0' => 'איינגעשריבענע באניצער און סיסאפן',
+	'protectsite-move-1' => 'נאר סיסאפן',
+	'protectsite-upload-0' => 'איינגעשריבענע באניצער און סיסאפן',
+	'protectsite-upload-1' => 'נאר סיסאפן',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
