@@ -191,15 +191,16 @@ $messages['br'] = array(
 );
 
 /** German (Deutsch)
+ * @author Geitost
  * @author Kghbln
  * @author LWChris
  */
 $messages['de'] = array(
-	'protectsite' => 'Wiki sperren',
+	'protectsite' => 'Seite schützen',
 	'protectsite-desc' => 'Ermöglicht es einem Systemadministrator, vorübergehend verschiedene Aktionen für bestimmte Benutzergruppen des Wikis außer Kraft zu setzen',
 	'protectsite-text-protect' => '<!-- Anweisungen/Kommentare/Nutzungsrichtlinie -->',
-	'protectsite-text-unprotect' => '<!-- Anweisungen/Kommentare sofern gesperrt -->',
-	'protectsite-title' => 'Einstellungen zur Sperrung des Wikis',
+	'protectsite-text-unprotect' => '<!-- Anweisungen/Kommentare, sofern gesperrt -->',
+	'protectsite-title' => 'Seitenschutzeinstellungen',
 	'protectsite-allowall' => 'Alle Benutzer',
 	'protectsite-allowusersysop' => 'Registrierte Benutzer und Administratoren',
 	'protectsite-allowsysop' => 'Nur Administratoren',
@@ -208,14 +209,14 @@ $messages['de'] = array(
 	'protectsite-edit' => 'Erlaube das Bearbeiten von Seiten durch',
 	'protectsite-move' => 'Erlaube das Verschieben von Seiten durch',
 	'protectsite-upload' => 'Erlaube das Hochladen von Dateien durch',
-	'protectsite-timeout' => 'Sperrdauer:',
-	'protectsite-timeout-error' => "'''Ungültige Sperrdauer'''",
-	'protectsite-maxtimeout' => 'Maximale Sperrdauer: $1',
-	'protectsite-comment' => 'Hinweis zur Sperrung:',
-	'protectsite-ucomment' => 'Hinweis zur Freigabe:',
-	'protectsite-until' => 'Gesperrt bis:',
-	'protectsite-protect' => 'Sperren',
-	'protectsite-unprotect' => 'Freigeben',
+	'protectsite-timeout' => 'Dauer des Schutzes:',
+	'protectsite-timeout-error' => "'''Ungültige Zeitangabe.'''",
+	'protectsite-maxtimeout' => 'Maximale Dauer: $1',
+	'protectsite-comment' => 'Grund:',
+	'protectsite-ucomment' => 'Aufhebungsgrund:',
+	'protectsite-until' => 'Geschützt bis:',
+	'protectsite-protect' => 'Schützen',
+	'protectsite-unprotect' => 'Schutz aufheben',
 	'protectsite-createaccount-0' => 'Alle Benutzer',
 	'protectsite-createaccount-1' => 'Registrierte Benutzer und Administratoren',
 	'protectsite-createaccount-2' => 'Nur Administratoren',
