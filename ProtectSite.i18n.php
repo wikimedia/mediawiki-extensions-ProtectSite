@@ -745,6 +745,13 @@ $messages['nb'] = array(
 	'protectsite-unprotect' => 'Opphev beskyttelse',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'protectsite-comment' => 'टिप्पणी :',
+);
+
 /** Dutch (Nederlands)
  * @author Mark van Alphen
  * @author SPQRobin
