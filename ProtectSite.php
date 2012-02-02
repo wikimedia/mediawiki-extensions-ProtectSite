@@ -80,7 +80,7 @@ function wfSetupProtectsite() {
 	}
 
 	/* Initialize Object */
-	$persist_data = new MediaWikiBagOStuff();
+	$persist_data = new SqlBagOStuff( array() );
 
 	/* Get data into the prot hash */
 	$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
