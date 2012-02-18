@@ -234,18 +234,20 @@ $messages['de'] = array(
 );
 
 /** Spanish (Español)
+ * @author Ciencia Al Poder
  * @author Crazymadlover
  * @author Peter17
  * @author Translationista
  */
 $messages['es'] = array(
 	'protectsite' => 'Proteger el sitio',
+	'protectsite-desc' => 'Permite al administrador del sitio bloquear temporalmente varias modificaciones de sitio',
 	'protectsite-text-protect' => '<!-- Instrucciones/Comentario/Políticas de uso -->',
 	'protectsite-text-unprotect' => '<!-- Instrucciones/Comentarios al estar protegidos-->',
 	'protectsite-title' => 'Configuraciones de protección de sitio',
 	'protectsite-allowall' => 'Todos los usuarios',
-	'protectsite-allowusersysop' => 'Usuarios registrados y administradores de sistema',
-	'protectsite-allowsysop' => 'Sólo administradores de sistema',
+	'protectsite-allowusersysop' => 'Usuarios registrados y administradores',
+	'protectsite-allowsysop' => 'Solo administradores',
 	'protectsite-createaccount' => 'Permitir creción de nuevas cuentas por',
 	'protectsite-createpage' => 'Permitir creación de páginas por',
 	'protectsite-edit' => 'Permitir edición de páginas por',
@@ -259,6 +261,20 @@ $messages['es'] = array(
 	'protectsite-until' => 'Protegido hasta:',
 	'protectsite-protect' => 'Proteger',
 	'protectsite-unprotect' => 'Desproteger',
+	'protectsite-createaccount-0' => 'Todos los usuarios',
+	'protectsite-createaccount-1' => 'Usuarios registrados y administradores',
+	'protectsite-createaccount-2' => 'Solo administradores',
+	'protectsite-createpage-0' => 'Todos los usuarios',
+	'protectsite-createpage-1' => 'Usuarios registrados y administradores',
+	'protectsite-createpage-2' => 'Solo administradores',
+	'protectsite-edit-0' => 'Todos los usuarios',
+	'protectsite-edit-1' => 'Usuarios registrados y administradores',
+	'protectsite-edit-2' => 'Solo administradores',
+	'protectsite-move-0' => 'Usuarios registrados y administradores',
+	'protectsite-move-1' => 'Solo administradores',
+	'protectsite-upload-0' => 'Usuarios registrados y administradores',
+	'protectsite-upload-1' => 'Solo administradores',
+	'right-protectsite' => 'Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado',
 );
 
 /** Finnish (Suomi)
