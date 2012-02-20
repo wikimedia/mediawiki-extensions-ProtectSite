@@ -819,11 +819,18 @@ $messages['pdc'] = array(
 );
 
 /** Polish (Polski)
+ * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
  */
 $messages['pl'] = array(
 	'protectsite' => 'Zabezpiecz witrynę',
+	'protectsite-desc' => 'Umożliwia administratorowi witryny tymczasowe zablokowanie różnych modyfikacji witryny',
+	'protectsite-text-protect' => '<!-- Wskazówki/Komentarze/Zasady wykorzystania -->',
+	'protectsite-text-unprotect' => '<!-- Wskazówki/Komentarze gdy chroniona -->',
+	'protectsite-title' => 'Ustawienia ochrony witryny',
+	'protectsite-allowall' => 'Wszyscy użytkownicy',
+	'protectsite-allowusersysop' => 'Zarejestrowani użytkownicy i administratorzy',
 	'protectsite-allowsysop' => 'Tylko administratorzy',
 	'protectsite-createaccount' => 'Zezwalaj na tworzenie nowych kont przez',
 	'protectsite-createpage' => 'Zezwalaj na tworzenie stron przez',
@@ -831,12 +838,27 @@ $messages['pl'] = array(
 	'protectsite-move' => 'Pozwól na przenoszenie stron przez',
 	'protectsite-upload' => 'Pozwól na przesyłanie plików przez',
 	'protectsite-timeout' => 'Limit czasu',
+	'protectsite-timeout-error' => "'''Niepoprawny limit czasu.'''",
 	'protectsite-maxtimeout' => 'Maksymalnie $1',
 	'protectsite-comment' => 'Komentarz',
+	'protectsite-ucomment' => 'Niechroniony komentarz:',
+	'protectsite-until' => 'Chronione aż do:',
 	'protectsite-protect' => 'Zabezpiecz',
 	'protectsite-unprotect' => 'Odbezpiecz',
 	'protectsite-createaccount-0' => 'Wszyscy użytkownicy',
 	'protectsite-createaccount-1' => 'Zarejestrowani użytkownicy i administratorzy',
+	'protectsite-createaccount-2' => 'Tylko administratorzy',
+	'protectsite-createpage-0' => 'Wszyscy użytkownicy',
+	'protectsite-createpage-1' => 'Zarejestrowani użytkownicy i administratorzy',
+	'protectsite-createpage-2' => 'Tylko administratorzy',
+	'protectsite-edit-0' => 'Wszyscy użytkownicy',
+	'protectsite-edit-1' => 'Zarejestrowani użytkownicy i administratorzy',
+	'protectsite-edit-2' => 'Tylko administratorzy',
+	'protectsite-move-0' => 'Zarejestrowani użytkownicy i administratorzy',
+	'protectsite-move-1' => 'Tylko administratorzy',
+	'protectsite-upload-0' => 'Zarejestrowani użytkownicy i administratorzy',
+	'protectsite-upload-1' => 'Tylko administratorzy',
+	'right-protectsite' => 'Ograniczenie działań, które mogą być wykonywane dla niektórych grup przez ograniczony czas',
 );
 
 /** Piedmontese (Piemontèis)
