@@ -234,6 +234,7 @@ $messages['de'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Ciencia Al Poder
  * @author Crazymadlover
  * @author Peter17
@@ -255,7 +256,7 @@ $messages['es'] = array(
 	'protectsite-upload' => 'Permitir cargas de archivo por',
 	'protectsite-timeout' => 'Tiempo de espera:',
 	'protectsite-timeout-error' => "'''Tiempo de espera inválido.'''",
-	'protectsite-maxtimeout' => 'Máximo:',
+	'protectsite-maxtimeout' => 'Máximo: $1',
 	'protectsite-comment' => 'Comentario:',
 	'protectsite-ucomment' => 'Desproteger comentario:',
 	'protectsite-until' => 'Protegido hasta:',
