@@ -573,15 +573,17 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Shirayuki
  * @author Tommy6
  * @author 青子守歌
  */
 $messages['ja'] = array(
 	'protectsite' => 'サイトの保護',
+	'protectsite-desc' => 'サイトのさまざまな変更を、サイト管理者が一時的にブロックできるようにする',
 	'protectsite-text-protect' => '<!-- 利用時の方針/コメント/指示 -->',
 	'protectsite-text-unprotect' => '<!-- 保護された時のコメント/指示 -->',
 	'protectsite-title' => 'サイト保護の設定',
-	'protectsite-allowall' => '全利用者',
+	'protectsite-allowall' => 'すべての利用者',
 	'protectsite-allowusersysop' => '登録利用者および管理者',
 	'protectsite-allowsysop' => '管理者のみ',
 	'protectsite-createaccount' => '新規アカウント作成を許可する利用者グループ',
@@ -597,6 +599,20 @@ $messages['ja'] = array(
 	'protectsite-until' => '保護期限：',
 	'protectsite-protect' => '保護',
 	'protectsite-unprotect' => '保護解除',
+	'protectsite-createaccount-0' => 'すべての利用者',
+	'protectsite-createaccount-1' => '登録利用者および管理者',
+	'protectsite-createaccount-2' => '管理者のみ',
+	'protectsite-createpage-0' => 'すべての利用者',
+	'protectsite-createpage-1' => '登録利用者および管理者',
+	'protectsite-createpage-2' => '管理者のみ',
+	'protectsite-edit-0' => 'すべての利用者',
+	'protectsite-edit-1' => '登録利用者および管理者',
+	'protectsite-edit-2' => '管理者のみ',
+	'protectsite-move-0' => '登録利用者および管理者',
+	'protectsite-move-1' => '管理者のみ',
+	'protectsite-upload-0' => '登録利用者および管理者',
+	'protectsite-upload-1' => '管理者のみ',
+	'right-protectsite' => 'いくつかのグループが実行できる操作を期間限定で制限',
 );
 
 /** Colognian (Ripoarisch)
@@ -1119,6 +1135,18 @@ $messages['tl'] = array(
 	'protectsite-upload-0' => 'Nagpatalang mga tagagamit at mga tagapangasiwa',
 	'protectsite-upload-1' => 'Mga tagapangasiwa lamang',
 	'right-protectsite' => 'Hangganan ang mga kilos na maaaring ganapin para sa ilang mga pangkat sa loob ng hinahanggahang panahon',
+);
+
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'protectsite-createaccount-1' => 'Kayıtlı kullanıcılar ve hizmetliler',
+	'protectsite-createaccount-2' => 'Sadece hizmetliler',
+	'protectsite-move-0' => 'Kayıtlı kullanıcılar ve hizmetliler',
+	'protectsite-move-1' => 'Sadece hizmetliler',
+	'protectsite-upload-0' => 'Kayıtlı kullanıcılar ve hizmetliler',
+	'protectsite-upload-1' => 'Sadece hizmetliler',
 );
 
 /** Ukrainian (Українська)
