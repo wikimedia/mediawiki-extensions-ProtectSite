@@ -1149,13 +1149,40 @@ $messages['tr'] = array(
 	'protectsite-upload-1' => 'Sadece hizmetliler',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
+ * @author A1
  * @author Prima klasy4na
  * @author Тест
  */
 $messages['uk'] = array(
 	'protectsite-title' => 'Налаштування захисту сайту',
+	'protectsite-allowsysop' => 'Тільки адміністратори',
+	'protectsite-createaccount' => 'Дозволити створення нових облікових записів',
+	'protectsite-createpage' => 'Дозволити створення сторінок',
+	'protectsite-edit' => 'Дозволити редагування сторінок',
+	'protectsite-move' => 'Дозволити перейменування сторінок',
+	'protectsite-upload' => 'Дозволити завантаження файлів',
+	'protectsite-timeout' => 'Час очікування:',
+	'protectsite-timeout-error' => 'Неприпустимий час очікування',
+	'protectsite-maxtimeout' => 'Максимум:$1',
 	'protectsite-comment' => 'Коментар:',
+	'protectsite-ucomment' => 'Коментар до зняття захисту:',
+	'protectsite-until' => 'Захищено до:',
+	'protectsite-protect' => 'Захистити',
+	'protectsite-unprotect' => 'Зняти захист',
+	'protectsite-createaccount-0' => 'Всім користувачам',
+	'protectsite-createaccount-1' => 'Зареєстровані користувачі та адміністратори',
+	'protectsite-createaccount-2' => 'Тільки адміністратори',
+	'protectsite-createpage-0' => 'Всі користувачі',
+	'protectsite-createpage-1' => 'Зареєстровані користувачі та адміністратори',
+	'protectsite-createpage-2' => 'Тільки адміністратори',
+	'protectsite-edit-0' => 'Всі користувачі',
+	'protectsite-edit-1' => 'Зареєстровані користувачі та адміністратори',
+	'protectsite-edit-2' => 'Тільки адміністратори',
+	'protectsite-move-0' => 'Зареєстровані користувачі та адміністратори',
+	'protectsite-move-1' => 'Тільки адміністратори',
+	'protectsite-upload-0' => 'Зареєстровані користувачі та адміністратори',
+	'protectsite-upload-1' => 'Тільки адміністратори',
 );
 
 /** Yiddish (ייִדיש)
