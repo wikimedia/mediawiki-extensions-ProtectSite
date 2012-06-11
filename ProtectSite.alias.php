@@ -23,12 +23,17 @@ $specialPageAliases['de'] = array(
 	'ProtectSite' => array( 'Wiki_schützen', 'Website_schützen' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'ProtectSite' => array( 'StariyaSite' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'ProtectSite' => array( 'محافظ_وبگاه' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'ProtectSite' => array( 'Suojaa_sivusto' ),
 );
@@ -38,9 +43,14 @@ $specialPageAliases['gsw'] = array(
 	'ProtectSite' => array( 'Websyte_schütze' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'ProtectSite' => array( 'Proteger_sito' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'ProtectSite' => array( '사이트보호' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
@@ -48,7 +58,7 @@ $specialPageAliases['lb'] = array(
 	'ProtectSite' => array( 'Site_schützen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ProtectSite' => array( 'ЗаштитиМрежноМесто' ),
 );
@@ -68,12 +78,12 @@ $specialPageAliases['nl'] = array(
 	'ProtectSite' => array( 'SiteBeveiligen' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'ProtectSite' => array( 'Skydda_sida' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'ProtectSite' => array( '保护站点' ),
 );
