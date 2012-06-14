@@ -71,7 +71,7 @@ $messages['af'] = array(
 	'protectsite-unprotect' => 'Verwyder beskerming',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -124,7 +124,7 @@ $messages['be-tarask'] = array(
 	'right-protectsite' => 'абмежаваньне дзеяньняў, якія могуць быць выкананьня групай у вызначаны час',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -147,7 +147,7 @@ $messages['bg'] = array(
 	'protectsite-upload-1' => 'Само администратори',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwenn-Ael
  * @author Y-M D
@@ -233,7 +233,7 @@ $messages['de'] = array(
 	'right-protectsite' => 'Durchführbare Aktionen für eine bestimmte Benutzergruppe während eines begrenzten Zeitraums einschränken',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Ciencia Al Poder
  * @author Crazymadlover
@@ -278,7 +278,7 @@ $messages['es'] = array(
 	'right-protectsite' => 'Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Jack Phoenix <jack@countervandalism.net>
  */
 $messages['fi'] = array(
@@ -302,7 +302,7 @@ $messages['fi'] = array(
 	'right-protectsite' => 'Rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa',
 );
 
-/** French (Français)
+/** French (français)
  * @author Alexandre Emsenhuber
  * @author Balzac 40
  */
@@ -344,7 +344,7 @@ $messages['fr'] = array(
 	'right-protectsite' => 'Limiter les actions qui peuvent être effectuées pour certains groupes pour un temps limité',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -500,7 +500,7 @@ $messages['hsb'] = array(
 	'right-protectsite' => 'Přewjedźomne akcije za wěste skupiny na wobmjezowany čas wobmjezować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -516,7 +516,7 @@ $messages['hu'] = array(
 	'protectsite-unprotect' => 'Védelem feloldása',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -692,7 +692,7 @@ $messages['lb'] = array(
 	'right-protectsite' => 'Aktiounen déi vu bestëmmte Benotzergruppen während enger limitéierter Zäit agrenzen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -864,7 +864,7 @@ $messages['pdc'] = array(
 	'protectsite-comment' => 'Grund:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  * @author Sp5uhe
  * @author Woytecr
@@ -942,7 +942,7 @@ $messages['ps'] = array(
 	'protectsite-unprotect' => 'نه ژغورل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
@@ -983,7 +983,7 @@ $messages['pt'] = array(
 	'right-protectsite' => 'Limitar as operações que alguns grupos podem realizar por um tempo limitado',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
@@ -995,7 +995,7 @@ $messages['pt-br'] = array(
 	'protectsite-unprotect' => 'Desproteger',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Lockal
  */
 $messages['ru'] = array(
@@ -1020,7 +1020,7 @@ $messages['ru'] = array(
 	'protectsite-unprotect' => 'Снять защиту',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Verlor
  */
@@ -1040,7 +1040,7 @@ $messages['sr-ec'] = array(
 	'protectsite-unprotect' => 'Скини заштиту',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'protectsite-allowall' => 'Svi korisnici',
 	'protectsite-allowusersysop' => 'Upisani korisnici i administratori',
@@ -1057,7 +1057,7 @@ $messages['sr-el'] = array(
 	'protectsite-unprotect' => 'Skini zaštitu',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1236,14 +1236,14 @@ $messages['yi'] = array(
 	'protectsite-upload-1' => 'נאר סיסאפן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'protectsite-protect' => '保护',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $messages['zh-hant'] = array(
 	'protectsite-protect' => '保護',
 );
