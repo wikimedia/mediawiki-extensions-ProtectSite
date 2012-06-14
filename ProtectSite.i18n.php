@@ -565,11 +565,40 @@ $messages['id'] = array(
 	'protectsite-protect' => 'Lindungi',
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano)
+ * @author Beta16
+ */
 $messages['it'] = array(
+	'protectsite' => 'Proteggi sito',
+	'protectsite-desc' => 'Consente ad un amministratore del sito di bloccare temporaneamente varie modifiche al sito',
+	'protectsite-text-protect' => "<!-- Istruzioni/Commenti/Politiche per l'utilizzo -->",
+	'protectsite-text-unprotect' => '<!-- Istruzioni/Commenti quando protetto -->',
+	'protectsite-title' => 'Impostazioni di protezione del sito',
 	'protectsite-allowall' => 'Tutti gli utenti',
-	'protectsite-maxtimeout' => 'Massimo:',
+	'protectsite-allowusersysop' => 'Utenti registrati ed amministratori',
+	'protectsite-allowsysop' => 'Solo amministratori',
+	'protectsite-createaccount' => 'Consentire la creazione di nuovi account a',
+	'protectsite-createpage' => 'Consentire la creazione di pagine a',
+	'protectsite-edit' => 'Consentire la modifica delle pagine a',
+	'protectsite-move' => 'Consentire lo spostamento delle pagine a',
+	'protectsite-upload' => 'Consentire il caricamento di file a',
+	'protectsite-maxtimeout' => 'Massimo: $1',
 	'protectsite-comment' => 'Oggetto:',
+	'protectsite-protect' => 'Proteggi',
+	'protectsite-unprotect' => 'Sproteggi',
+	'protectsite-createaccount-0' => 'Tutti gli utenti',
+	'protectsite-createaccount-1' => 'Utenti registrati ed amministratori',
+	'protectsite-createaccount-2' => 'Solo amministratori',
+	'protectsite-createpage-0' => 'Tutti gli utenti',
+	'protectsite-createpage-1' => 'Utenti registrati ed amministratori',
+	'protectsite-createpage-2' => 'Solo amministratori',
+	'protectsite-edit-0' => 'Tutti gli utenti',
+	'protectsite-edit-1' => 'Utenti registrati ed amministratori',
+	'protectsite-edit-2' => 'Solo amministratori',
+	'protectsite-move-0' => 'Utenti registrati ed amministratori',
+	'protectsite-move-1' => 'Solo amministratori',
+	'protectsite-upload-0' => 'Utenti registrati ed amministratori',
+	'protectsite-upload-1' => 'Solo amministratori',
 );
 
 /** Japanese (日本語)
