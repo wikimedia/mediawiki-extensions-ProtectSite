@@ -582,8 +582,12 @@ $messages['it'] = array(
 	'protectsite-edit' => 'Consentire la modifica delle pagine a',
 	'protectsite-move' => 'Consentire lo spostamento delle pagine a',
 	'protectsite-upload' => 'Consentire il caricamento di file a',
+	'protectsite-timeout' => 'Scadenza:',
+	'protectsite-timeout-error' => "'''Scadenza non valida.'''",
 	'protectsite-maxtimeout' => 'Massimo: $1',
 	'protectsite-comment' => 'Oggetto:',
+	'protectsite-ucomment' => 'Oggetto sprotezione:',
+	'protectsite-until' => 'Protetta fino:',
 	'protectsite-protect' => 'Proteggi',
 	'protectsite-unprotect' => 'Sproteggi',
 	'protectsite-createaccount-0' => 'Tutti gli utenti',
@@ -599,6 +603,7 @@ $messages['it'] = array(
 	'protectsite-move-1' => 'Solo amministratori',
 	'protectsite-upload-0' => 'Utenti registrati ed amministratori',
 	'protectsite-upload-1' => 'Solo amministratori',
+	'right-protectsite' => 'Limita le azioni che possono essere eseguite da alcuni gruppi per un tempo limitato',
 );
 
 /** Japanese (日本語)
