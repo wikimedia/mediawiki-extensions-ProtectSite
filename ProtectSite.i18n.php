@@ -1185,6 +1185,7 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Olvin
  * @author Prima klasy4na
  * @author Тест
  */
@@ -1197,7 +1198,7 @@ $messages['uk'] = array(
 	'protectsite-move' => 'Дозволити перейменування сторінок',
 	'protectsite-upload' => 'Дозволити завантаження файлів',
 	'protectsite-timeout' => 'Час очікування:',
-	'protectsite-timeout-error' => 'Неприпустимий час очікування',
+	'protectsite-timeout-error' => "'''Неправильний час очікування'''",
 	'protectsite-maxtimeout' => 'Максимум:$1',
 	'protectsite-comment' => 'Коментар:',
 	'protectsite-ucomment' => 'Коментар до зняття захисту:',
