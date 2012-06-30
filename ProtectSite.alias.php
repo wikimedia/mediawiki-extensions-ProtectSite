@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'ProtectSite' => array( 'حماية_الموقع' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'ProtectSite' => array( 'ছাইট_সুৰক্ষা_কৰক' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ProtectSite' => array( 'Wiki_schützen', 'Website_schützen' ),
