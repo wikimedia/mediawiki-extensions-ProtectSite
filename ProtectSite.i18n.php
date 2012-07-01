@@ -82,7 +82,7 @@ $messages['az'] = array(
 	'protectsite-edit-0' => 'Bütün istifadəçilər',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -383,7 +383,7 @@ $messages['frp'] = array(
 	'protectsite-upload-1' => 'Solament los administrators',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -459,7 +459,7 @@ $messages['gsw'] = array(
 	'protectsite-upload-1' => 'Numme Ammanne',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
