@@ -656,6 +656,13 @@ $messages['ksh'] = array(
 	'protectsite-desc' => 'Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'protectsite-protect' => 'Biparêze',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
