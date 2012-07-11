@@ -793,7 +793,7 @@ $messages['mzn'] = array(
 	'protectsite-unprotect' => 'موحافظت نکاردن',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
