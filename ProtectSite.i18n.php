@@ -233,6 +233,13 @@ $messages['de'] = array(
 	'right-protectsite' => 'Durchführbare Aktionen für eine bestimmte Benutzergruppe während eines begrenzten Zeitraums einschränken',
 );
 
+/** Zazaki (Zazaki)
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'protectsite-comment' => 'Mışewre:',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Ciencia Al Poder
