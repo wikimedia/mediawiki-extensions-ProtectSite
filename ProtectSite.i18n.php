@@ -885,6 +885,7 @@ $messages['pdc'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Sovq
  * @author Sp5uhe
  * @author Woytecr
  */
@@ -906,7 +907,7 @@ $messages['pl'] = array(
 	'protectsite-timeout-error' => "'''Niepoprawny limit czasu.'''",
 	'protectsite-maxtimeout' => 'Maksymalnie $1',
 	'protectsite-comment' => 'Komentarz',
-	'protectsite-ucomment' => 'Niechroniony komentarz:',
+	'protectsite-ucomment' => 'Komentarz odbezpieczenia:',
 	'protectsite-until' => 'Chronione aż do:',
 	'protectsite-protect' => 'Zabezpiecz',
 	'protectsite-unprotect' => 'Odbezpiecz',

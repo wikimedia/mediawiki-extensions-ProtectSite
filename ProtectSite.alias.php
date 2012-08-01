@@ -53,6 +53,11 @@ $specialPageAliases['ia'] = array(
 	'ProtectSite' => array( 'Proteger_sito' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'ProtectSite' => array( 'サイト保護' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'ProtectSite' => array( '사이트보호' ),
