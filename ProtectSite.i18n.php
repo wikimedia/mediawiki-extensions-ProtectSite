@@ -285,6 +285,21 @@ $messages['es'] = array(
 	'right-protectsite' => 'Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'protectsite-allowall' => 'همهٔ کاربران',
+	'protectsite-maxtimeout' => 'حداکثر: $1',
+	'protectsite-protect' => 'محافظت',
+	'protectsite-unprotect' => 'از حالت محافظت در آوردن',
+	'protectsite-createaccount-0' => 'همهٔ کاربران',
+	'protectsite-createpage-0' => 'همهٔ کاربران',
+	'protectsite-edit-0' => 'همهٔ کاربران',
+	'protectsite-edit-2' => 'فقط مدیران',
+	'protectsite-upload-1' => 'فقط مدیران',
+);
+
 /** Finnish (suomi)
  * @author Jack Phoenix <jack@countervandalism.net>
  */
@@ -1015,6 +1030,31 @@ $messages['pt-br'] = array(
 	'protectsite-unprotect' => 'Desproteger',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'protectsite' => 'Protejează situl',
+	'protectsite-title' => 'Setări de protejare a sitului',
+	'protectsite-allowall' => 'Toți utilizatorii',
+	'protectsite-allowusersysop' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-allowsysop' => 'Doar administratorii',
+	'protectsite-comment' => 'Comentariu:',
+	'protectsite-createaccount-0' => 'Toți utilizatorii',
+	'protectsite-createaccount-1' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-createaccount-2' => 'Doar administratorii',
+	'protectsite-createpage-0' => 'Toți utilizatorii',
+	'protectsite-createpage-1' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-createpage-2' => 'Doar administratorii',
+	'protectsite-edit-0' => 'Toți utilizatorii',
+	'protectsite-edit-1' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-edit-2' => 'Doar administratorii',
+	'protectsite-move-0' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-move-1' => 'Doar administratorii',
+	'protectsite-upload-0' => 'Utilizatorii înregistrați și administratorii',
+	'protectsite-upload-1' => 'Doar administratorii',
+);
+
 /** Russian (русский)
  * @author Lockal
  */
@@ -1264,8 +1304,11 @@ $messages['zh-hans'] = array(
 	'protectsite-protect' => '保护',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
 $messages['zh-hant'] = array(
+	'protectsite-allowsysop' => '僅操作員',
 	'protectsite-protect' => '保護',
 );
 
