@@ -1039,6 +1039,7 @@ $messages['ro'] = array(
 	'protectsite-allowall' => 'Toți utilizatorii',
 	'protectsite-allowusersysop' => 'Utilizatorii înregistrați și administratorii',
 	'protectsite-allowsysop' => 'Doar administratorii',
+	'protectsite-maxtimeout' => 'Maxim: $1',
 	'protectsite-comment' => 'Comentariu:',
 	'protectsite-createaccount-0' => 'Toți utilizatorii',
 	'protectsite-createaccount-1' => 'Utilizatorii înregistrați și administratorii',
@@ -1305,10 +1306,21 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文（繁體）‬)
+ * @author Shirayuki
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'protectsite-allowall' => '所有用戶',
 	'protectsite-allowsysop' => '僅操作員',
+	'protectsite-comment' => '評論：',
 	'protectsite-protect' => '保護',
+	'protectsite-createaccount-0' => '所有用戶',
+	'protectsite-createaccount-2' => '僅操作員',
+	'protectsite-createpage-0' => '所有用戶',
+	'protectsite-createpage-2' => '僅操作員',
+	'protectsite-edit-0' => '所有用戶',
+	'protectsite-edit-2' => '僅操作員',
+	'protectsite-move-1' => '僅操作員',
+	'protectsite-upload-1' => '僅操作員',
 );
 
