@@ -1002,8 +1002,17 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'protectsite-allowall' => 'ټول کارنان',
+	'protectsite-comment' => 'تبصره:',
 	'protectsite-protect' => 'ژغورل',
 	'protectsite-unprotect' => 'نه ژغورل',
+	'protectsite-createaccount-0' => 'ټول کارنان',
+	'protectsite-createaccount-2' => 'يواځې پازوالان',
+	'protectsite-createpage-0' => 'ټول کارنان',
+	'protectsite-createpage-2' => 'يواځې پازوالان',
+	'protectsite-edit-0' => 'ټول کارنان',
+	'protectsite-edit-2' => 'يواځې پازوالان',
+	'protectsite-move-1' => 'يواځې پازوالان',
+	'protectsite-upload-1' => 'يواځې پازوالان',
 );
 
 /** Portuguese (português)
@@ -1110,6 +1119,20 @@ $messages['ru'] = array(
 	'protectsite-unprotect' => 'Снять защиту',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'protectsite-comment' => 'පරිකථනය:',
+	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-createaccount-2' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-createpage-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-createpage-2' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-edit-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-edit-2' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-upload-1' => 'පරිපාලකවරුන්ට පමණයි',
+);
+
 /** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Verlor
@@ -1186,6 +1209,17 @@ $messages['sv'] = array(
 	'protectsite-upload-0' => 'Registrerade användare och administratörer',
 	'protectsite-upload-1' => 'Endast administratörer',
 	'right-protectsite' => 'Begränsa åtgärder som kan utföras för vissa grupper under en begränsad tid',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'protectsite-allowall' => 'Watumiaji wote',
+	'protectsite-protect' => 'Linda',
+	'protectsite-createaccount-0' => 'Watumiaji wote',
+	'protectsite-createpage-0' => 'Watumiaji wote',
+	'protectsite-edit-0' => 'Watumiaji wote',
 );
 
 /** Telugu (తెలుగు)
