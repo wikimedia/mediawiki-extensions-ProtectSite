@@ -671,11 +671,40 @@ $messages['ja'] = array(
 	'right-protectsite' => 'いくつかのグループが実行できる操作を期間限定で制限',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'protectsite-allowall' => 'ყველა მომხმარებელი',
+	'protectsite-allowusersysop' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-allowsysop' => 'მხოლოდ ადმინისტრატორები',
+	'protectsite-maxtimeout' => 'მაქსიმუმ: $1',
+	'protectsite-comment' => 'კომენტარი:',
+	'protectsite-createaccount-0' => 'ყველა მომხმარებელი',
+	'protectsite-createaccount-1' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-createaccount-2' => 'მხოლოდ ადმინისტრატორები',
+	'protectsite-createpage-0' => 'ყველა მომხმარებელი',
+	'protectsite-createpage-1' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-createpage-2' => 'მხოლოდ ადმინისტრატორები',
+	'protectsite-edit-0' => 'ყველა მომხმარებელი',
+	'protectsite-edit-1' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-edit-2' => 'მხოლოდ ადმინისტრატორები',
+	'protectsite-move-0' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-move-1' => 'მხოლოდ ადმინისტრატორები',
+	'protectsite-upload-0' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
+	'protectsite-upload-1' => 'მხოლოდ ადმინისტრატორები',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
 	'protectsite-desc' => 'Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.',
+	'protectsite-allowall' => 'Alle Metmaacher',
+	'protectsite-comment' => 'Aanmärkung:',
+	'protectsite-createaccount-0' => 'Alle Metmaacher',
+	'protectsite-createpage-0' => 'Alle Metmaacher',
+	'protectsite-edit-0' => 'Alle Metmaacher',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
