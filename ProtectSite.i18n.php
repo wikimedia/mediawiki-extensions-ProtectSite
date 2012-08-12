@@ -675,11 +675,17 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'protectsite' => 'ვებ-გვერდის დაცვა',
+	'protectsite-text-protect' => '<!-- ინსტრუქციები/კომენტარები/გამოყენების წესები -->',
+	'protectsite-text-unprotect' => '<!-- ინსტრუქციები/კომენტარები დაყენებული დაცვისას -->',
+	'protectsite-title' => 'ვებ-გვერდის დაცვის პარამეტრები',
 	'protectsite-allowall' => 'ყველა მომხმარებელი',
 	'protectsite-allowusersysop' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
 	'protectsite-allowsysop' => 'მხოლოდ ადმინისტრატორები',
 	'protectsite-maxtimeout' => 'მაქსიმუმ: $1',
 	'protectsite-comment' => 'კომენტარი:',
+	'protectsite-protect' => 'დაცვა',
+	'protectsite-unprotect' => 'დაცვის მოხსნა',
 	'protectsite-createaccount-0' => 'ყველა მომხმარებელი',
 	'protectsite-createaccount-1' => 'რეგისტრირებული მომხმარებლები და ადმინისტრატორები',
 	'protectsite-createaccount-2' => 'მხოლოდ ადმინისტრატორები',
@@ -1220,6 +1226,28 @@ $messages['sw'] = array(
 	'protectsite-createaccount-0' => 'Watumiaji wote',
 	'protectsite-createpage-0' => 'Watumiaji wote',
 	'protectsite-edit-0' => 'Watumiaji wote',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'protectsite-allowall' => 'அனைத்துப் பயனர்கள்',
+	'protectsite-allowusersysop' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-allowsysop' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-createaccount-0' => 'அனைத்துப் பயனர்கள்',
+	'protectsite-createaccount-1' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-createaccount-2' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-createpage-0' => 'அனைத்துப் பயனர்கள்',
+	'protectsite-createpage-1' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-createpage-2' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-edit-0' => 'அனைத்துப் பயனர்கள்',
+	'protectsite-edit-1' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-edit-2' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-move-0' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-move-1' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-upload-0' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
+	'protectsite-upload-1' => 'நிருவாகிகள் மட்டும்',
 );
 
 /** Telugu (తెలుగు)
