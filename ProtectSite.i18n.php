@@ -285,6 +285,30 @@ $messages['es'] = array(
 	'right-protectsite' => 'Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'protectsite-comment' => 'Kommentaar:',
+	'protectsite-ucomment' => 'Kaitse eemaldamise kommentaar:',
+	'protectsite-until' => 'Kaitse all kuni:',
+	'protectsite-protect' => 'Kaitse',
+	'protectsite-unprotect' => 'Eemalda kaitse',
+	'protectsite-createaccount-0' => 'Kõigile kasutajatele',
+	'protectsite-createaccount-1' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-createaccount-2' => 'Ainult administraatoritele',
+	'protectsite-createpage-0' => 'Kõigile kasutajatele',
+	'protectsite-createpage-1' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-createpage-2' => 'Ainult administraatoritele',
+	'protectsite-edit-0' => 'Kõigile kasutajatele',
+	'protectsite-edit-1' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-edit-2' => 'Ainult administraatoritele',
+	'protectsite-move-0' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-move-1' => 'Ainult administraatoritele',
+	'protectsite-upload-0' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-upload-1' => 'Ainult administraatoritele',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
@@ -1129,6 +1153,8 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'protectsite-allowall' => 'සියලුම පරිශීලකයන්',
+	'protectsite-timeout' => 'කාලයෙන්ඉවත්',
 	'protectsite-comment' => 'පරිකථනය:',
 	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
 	'protectsite-createaccount-2' => 'පරිපාලකවරුන්ට පමණයි',
@@ -1230,11 +1256,18 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
 	'protectsite-allowall' => 'அனைத்துப் பயனர்கள்',
 	'protectsite-allowusersysop' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
 	'protectsite-allowsysop' => 'நிருவாகிகள் மட்டும்',
+	'protectsite-maxtimeout' => 'அதிகபட்சம்: $1',
+	'protectsite-comment' => 'கருத்து:',
+	'protectsite-ucomment' => 'காப்புச் செய்யப்படாத கருத்து:',
+	'protectsite-until' => 'இதுவரை காப்புச்செய்யப்பட்டுள்ளது:',
+	'protectsite-protect' => 'காக்கவும்',
+	'protectsite-unprotect' => 'காப்பு நீக்கு',
 	'protectsite-createaccount-0' => 'அனைத்துப் பயனர்கள்',
 	'protectsite-createaccount-1' => 'பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்',
 	'protectsite-createaccount-2' => 'நிருவாகிகள் மட்டும்',
