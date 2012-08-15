@@ -309,6 +309,13 @@ $messages['et'] = array(
 	'protectsite-upload-1' => 'Ainult administraatoritele',
 );
 
+/** Basque (euskara)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['eu'] = array(
+	'protectsite-comment' => 'Iruzkina:',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
