@@ -1407,6 +1407,16 @@ $messages['uk'] = array(
 	'protectsite-upload-1' => 'Тільки адміністратори',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'protectsite-allowall' => 'Tất cả người dùng',
+	'protectsite-createaccount-0' => 'Tất cả người dùng',
+	'protectsite-createpage-0' => 'Tất cả người dùng',
+	'protectsite-edit-0' => 'Tất cả người dùng',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
