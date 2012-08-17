@@ -332,6 +332,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (suomi)
+ * @author Beluga
  * @author Jack Phoenix <jack@countervandalism.net>
  */
 $messages['fi'] = array(
@@ -352,6 +353,19 @@ $messages['fi'] = array(
 	'protectsite-ucomment' => 'Suojauksen poiston kommentti:',
 	'protectsite-protect' => 'Suojaa',
 	'protectsite-unprotect' => 'Poista suojaus',
+	'protectsite-createaccount-0' => 'Kaikki käyttäjät',
+	'protectsite-createaccount-1' => 'Rekisteröityneet käyttäjät ja ylläpitäjät',
+	'protectsite-createaccount-2' => 'Vain ylläpitäjät',
+	'protectsite-createpage-0' => 'Kaikki käyttäjät',
+	'protectsite-createpage-1' => 'Rekisteröityneet käyttäjät ja ylläpitäjät',
+	'protectsite-createpage-2' => 'Vain ylläpitäjät',
+	'protectsite-edit-0' => 'Kaikki käyttäjät',
+	'protectsite-edit-1' => 'Rekisteröityneet käyttäjät ja ylläpitäjät',
+	'protectsite-edit-2' => 'Vain ylläpitäjät',
+	'protectsite-move-0' => 'Rekisteröityneet käyttäjät ja ylläpitäjät',
+	'protectsite-move-1' => 'Vain ylläpitäjät',
+	'protectsite-upload-0' => 'Rekisteröityneet käyttäjät ja ylläpitäjät',
+	'protectsite-upload-1' => 'Vain ylläpitäjät',
 	'right-protectsite' => 'Rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa',
 );
 
@@ -1405,6 +1419,17 @@ $messages['uk'] = array(
 	'protectsite-move-1' => 'Тільки адміністратори',
 	'protectsite-upload-0' => 'Зареєстровані користувачі та адміністратори',
 	'protectsite-upload-1' => 'Тільки адміністратори',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'protectsite' => 'ویب سائٹ کی حفاظت',
+	'protectsite-title' => 'ویب سائٹ کے تحفظ کی ترتیبات',
+	'protectsite-allowall' => 'تمام صارفین',
+	'protectsite-allowusersysop' => 'رجسٹرڈ صارفین اور منتظمین',
+	'protectsite-allowsysop' => 'منتظمین صرف',
 );
 
 /** Vietnamese (Tiếng Việt)
