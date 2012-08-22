@@ -1120,29 +1120,30 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (română)
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
 	'protectsite' => 'Protejează situl',
 	'protectsite-title' => 'Setări de protejare a sitului',
 	'protectsite-allowall' => 'Toți utilizatorii',
-	'protectsite-allowusersysop' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-allowsysop' => 'Doar administratorii',
+	'protectsite-allowusersysop' => 'Utilizatori înregistrați și administratori',
+	'protectsite-allowsysop' => 'Doar administratori',
 	'protectsite-maxtimeout' => 'Maxim: $1',
 	'protectsite-comment' => 'Comentariu:',
 	'protectsite-createaccount-0' => 'Toți utilizatorii',
-	'protectsite-createaccount-1' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-createaccount-2' => 'Doar administratorii',
+	'protectsite-createaccount-1' => 'Utilizatori înregistrați și administratori',
+	'protectsite-createaccount-2' => 'Doar administratori',
 	'protectsite-createpage-0' => 'Toți utilizatorii',
-	'protectsite-createpage-1' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-createpage-2' => 'Doar administratorii',
+	'protectsite-createpage-1' => 'Utilizatori înregistrați și administratori',
+	'protectsite-createpage-2' => 'Doar administratori',
 	'protectsite-edit-0' => 'Toți utilizatorii',
-	'protectsite-edit-1' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-edit-2' => 'Doar administratorii',
-	'protectsite-move-0' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-move-1' => 'Doar administratorii',
-	'protectsite-upload-0' => 'Utilizatorii înregistrați și administratorii',
-	'protectsite-upload-1' => 'Doar administratorii',
+	'protectsite-edit-1' => 'Utilizatori înregistrați și administratori',
+	'protectsite-edit-2' => 'Doar administratori',
+	'protectsite-move-0' => 'Utilizatori înregistrați și administratori',
+	'protectsite-move-1' => 'Doar administratori',
+	'protectsite-upload-0' => 'Utilizatori înregistrați și administratori',
+	'protectsite-upload-1' => 'Doar administratori',
 );
 
 /** Russian (русский)
