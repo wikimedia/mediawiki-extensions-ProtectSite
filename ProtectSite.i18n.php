@@ -569,18 +569,42 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Glanthor Reviol
+ * @author TK-999
  */
 $messages['hu'] = array(
 	'protectsite' => 'Oldal védelme',
+	'protectsite-desc' => 'Lehetővé teszi az oldal adminisztrátorainak a különféle módosítások ideiglenes tiltását.',
 	'protectsite-title' => 'Oldal védelmi beállításai',
 	'protectsite-allowall' => 'Összes felhasználó',
+	'protectsite-allowusersysop' => 'Regisztrált felhasználók és adminisztrátorok',
 	'protectsite-allowsysop' => 'Csak adminisztrátorok',
+	'protectsite-createaccount' => 'Új fiókok létrehozásának engedélyezése',
+	'protectsite-createpage' => 'Lapok létrehozásának engedélyezése',
+	'protectsite-edit' => 'Lapok szerkesztésének engedélyezése',
+	'protectsite-move' => 'Lapok áthelyezésének engedélyezése',
+	'protectsite-upload' => 'Fáljok feltöltésének engedélyezése',
 	'protectsite-timeout' => 'Időtúllépés:',
-	'protectsite-maxtimeout' => 'Legfeljebb:',
+	'protectsite-timeout-error' => "''' Érvénytelen időkorlát.'' '",
+	'protectsite-maxtimeout' => 'Legfeljebb: $1',
 	'protectsite-comment' => 'Megjegyzés:',
 	'protectsite-ucomment' => 'Védelem feloldása megjegyzés:',
+	'protectsite-until' => 'Védett eddig:',
 	'protectsite-protect' => 'Védelem',
 	'protectsite-unprotect' => 'Védelem feloldása',
+	'protectsite-createaccount-0' => 'az összes felhasználónak',
+	'protectsite-createaccount-1' => 'regisztrált felhasználóknak és az adminisztrátoroknak',
+	'protectsite-createaccount-2' => 'csak az adminisztrátoroknak',
+	'protectsite-createpage-0' => 'az összes felhasználónak',
+	'protectsite-createpage-1' => 'regisztrált felhasználóknak és az adminisztrátoroknak',
+	'protectsite-createpage-2' => 'csak az adminisztrátoroknak',
+	'protectsite-edit-0' => 'az összes felhasználónak',
+	'protectsite-edit-1' => 'regisztrált felhasználóknak és az adminisztrátoroknak',
+	'protectsite-edit-2' => 'csak az adminisztrátoroknak',
+	'protectsite-move-0' => 'regisztrált felhasználóknak és az adminisztrátoroknak',
+	'protectsite-move-1' => 'csak az adminisztrátoroknak',
+	'protectsite-upload-0' => 'regisztrált felhasználóknak és az adminisztrátoroknak',
+	'protectsite-upload-1' => 'csak az adminisztrátoroknak',
+	'right-protectsite' => 'Végrehajtható műveletek korlátozása néhány csoportra meghatározott ideig.',
 );
 
 /** Interlingua (interlingua)
