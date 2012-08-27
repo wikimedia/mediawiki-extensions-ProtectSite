@@ -93,6 +93,11 @@ $specialPageAliases['sv'] = array(
 	'ProtectSite' => array( 'Skydda_sida' ),
 );
 
+/** Turkish (Türkçe) */
+$specialPageAliases['tr'] = array(
+	'ProtectSite' => array( 'SiteyiKoru' ),
+);
+
 /** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'ProtectSite' => array( '保护站点' ),
