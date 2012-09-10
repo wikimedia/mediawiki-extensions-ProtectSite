@@ -1139,8 +1139,23 @@ $messages['pt-br'] = array(
 	'protectsite-allowusersysop' => 'Usuários registrados e administradores',
 	'protectsite-allowsysop' => 'Somente administradores',
 	'protectsite-maxtimeout' => 'Máximo:',
+	'protectsite-comment' => 'Comentário:',
+	'protectsite-until' => 'Protegido até:',
 	'protectsite-protect' => 'Proteger',
 	'protectsite-unprotect' => 'Desproteger',
+	'protectsite-createaccount-0' => 'Todos os usuários',
+	'protectsite-createaccount-1' => 'Usuários registrados e administradores',
+	'protectsite-createaccount-2' => 'Somente administradores',
+	'protectsite-createpage-0' => 'Todos os usuários',
+	'protectsite-createpage-1' => 'Usuários registrados e administradores',
+	'protectsite-createpage-2' => 'Somente administradores',
+	'protectsite-edit-0' => 'Todos os usuários',
+	'protectsite-edit-1' => 'Usuários registrados e administradores',
+	'protectsite-edit-2' => 'Somente administradores',
+	'protectsite-move-0' => 'Usuários registrados e administradores',
+	'protectsite-move-1' => 'Somente administradores',
+	'protectsite-upload-0' => 'Usuários registrados e administradores',
+	'protectsite-upload-1' => 'Somente administradores',
 );
 
 /** Romanian (română)
