@@ -770,6 +770,39 @@ $messages['ka'] = array(
 	'protectsite-upload-1' => 'მხოლოდ ადმინისტრატორები',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'protectsite' => '사이트 보호',
+	'protectsite-desc' => '사이트의 다양한 바뀜을 사이트 관리자가 일시적으로 차단하도록 허용',
+	'protectsite-title' => '사이트 보호 설정',
+	'protectsite-allowall' => '모든 사용자',
+	'protectsite-allowusersysop' => '등록한 사용자와 관리자',
+	'protectsite-allowsysop' => '관리자만 가능',
+	'protectsite-timeout' => '시간 초과:',
+	'protectsite-timeout-error' => "'''잘못된 시간 초과입니다.'''",
+	'protectsite-maxtimeout' => '최대: $1',
+	'protectsite-comment' => '이유:',
+	'protectsite-ucomment' => '보호 해제 이유:',
+	'protectsite-until' => '보호 기한:',
+	'protectsite-protect' => '보호',
+	'protectsite-unprotect' => '보호 해제',
+	'protectsite-createaccount-0' => '모든 사용자',
+	'protectsite-createaccount-1' => '등록한 사용자와 관리자',
+	'protectsite-createaccount-2' => '관리자만 가능',
+	'protectsite-createpage-0' => '모든 사용자',
+	'protectsite-createpage-1' => '등록한 사용자와 관리자',
+	'protectsite-createpage-2' => '관리자만 가능',
+	'protectsite-edit-0' => '모든 사용자',
+	'protectsite-edit-1' => '등록한 사용자와 관리자',
+	'protectsite-edit-2' => '관리자만 가능',
+	'protectsite-move-0' => '등록한 사용자와 관리자',
+	'protectsite-move-1' => '관리자만 가능',
+	'protectsite-upload-0' => '등록한 사용자와 관리자',
+	'protectsite-upload-1' => '관리자만 가능',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
