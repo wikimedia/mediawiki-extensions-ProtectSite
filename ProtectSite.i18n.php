@@ -1545,11 +1545,22 @@ $messages['yi'] = array(
 	'protectsite-upload-1' => 'נאר סיסאפן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
+	'protectsite-allowall' => '所有用户',
+	'protectsite-allowsysop' => '仅操作员',
+	'protectsite-comment' => '评论：',
 	'protectsite-protect' => '保护',
+	'protectsite-createaccount-0' => '所有用户',
+	'protectsite-createaccount-2' => '仅操作员',
+	'protectsite-createpage-0' => '所有用户',
+	'protectsite-createpage-2' => '仅操作员',
+	'protectsite-edit-0' => '所有用户',
+	'protectsite-edit-2' => '仅操作员',
+	'protectsite-move-1' => '仅操作员',
+	'protectsite-upload-1' => '仅操作员',
 );
 
 /** Traditional Chinese (‪中文（繁體）‬)
