@@ -82,7 +82,7 @@ $messages['az'] = array(
 	'protectsite-edit-0' => 'Bütün istifadəçilər',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Wizardist
  */
@@ -823,7 +823,7 @@ $messages['ksh'] = array(
 	'protectsite-edit-0' => 'Alle Metmaacher',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -960,7 +960,7 @@ $messages['mzn'] = array(
 	'protectsite-unprotect' => 'موحافظت نکاردن',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1267,7 +1267,7 @@ $messages['si'] = array(
 	'protectsite-upload-1' => 'පරිපාලකවරුන්ට පමණයි',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Verlor
  */
@@ -1287,7 +1287,7 @@ $messages['sr-ec'] = array(
 	'protectsite-unprotect' => 'Скини заштиту',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'protectsite-allowall' => 'Svi korisnici',
 	'protectsite-allowusersysop' => 'Upisani korisnici i administratori',
@@ -1563,7 +1563,7 @@ $messages['zh-hans'] = array(
 	'protectsite-upload-1' => '仅操作员',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Shirayuki
  * @author Simon Shek
  */
