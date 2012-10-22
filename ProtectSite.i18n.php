@@ -978,7 +978,7 @@ $messages['nb'] = array(
 	'protectsite-upload' => 'Tillat filopplasting av',
 	'protectsite-timeout' => 'Tidsavbrudd:',
 	'protectsite-timeout-error' => "'''Ugyldig tidsavbrudd.'''",
-	'protectsite-maxtimeout' => 'Maksimum:',
+	'protectsite-maxtimeout' => 'Maksimum:', # Fuzzy
 	'protectsite-comment' => 'Kommentar:',
 	'protectsite-ucomment' => 'Opphev beskyttelse av kommentar:',
 	'protectsite-until' => 'Beskyttet til:',
@@ -1179,7 +1179,7 @@ $messages['pt-br'] = array(
 	'protectsite-allowall' => 'Todos os usuários',
 	'protectsite-allowusersysop' => 'Usuários registrados e administradores',
 	'protectsite-allowsysop' => 'Somente administradores',
-	'protectsite-maxtimeout' => 'Máximo:',
+	'protectsite-maxtimeout' => 'Máximo:', # Fuzzy
 	'protectsite-comment' => 'Comentário:',
 	'protectsite-until' => 'Protegido até:',
 	'protectsite-protect' => 'Proteger',
@@ -1244,7 +1244,7 @@ $messages['ru'] = array(
 	'protectsite-upload' => 'Разрешить загрузку файлов',
 	'protectsite-timeout' => 'Время истечения:',
 	'protectsite-timeout-error' => "'''Неверное время истечения.'''",
-	'protectsite-maxtimeout' => 'Максимум:',
+	'protectsite-maxtimeout' => 'Максимум:', # Fuzzy
 	'protectsite-ucomment' => 'Комментарий снятия защиты:',
 	'protectsite-until' => 'Защищено до:',
 	'protectsite-protect' => 'Защитить',
@@ -1287,7 +1287,8 @@ $messages['sr-ec'] = array(
 	'protectsite-unprotect' => 'Скини заштиту',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'protectsite-allowall' => 'Svi korisnici',
 	'protectsite-allowusersysop' => 'Upisani korisnici i administratori',
@@ -1581,4 +1582,3 @@ $messages['zh-hant'] = array(
 	'protectsite-move-1' => '僅操作員',
 	'protectsite-upload-1' => '僅操作員',
 );
-
