@@ -93,6 +93,11 @@ $specialPageAliases['nl'] = array(
 	'ProtectSite' => array( 'SiteBeveiligen' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'ProtectSite' => array( 'SitoProtetto' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'ProtectSite' => array( 'Skydda_sida' ),
