@@ -240,6 +240,22 @@ $messages['diq'] = array(
 	'protectsite-comment' => 'Mışewre:',
 );
 
+/** Divehi (ދިވެހިބަސް)
+ * @author Ushau97
+ */
+$messages['dv'] = array(
+	'protectsite-allowall' => 'ހުރިހާ މެމްބަރުން',
+	'protectsite-allowsysop' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+	'protectsite-createaccount-0' => 'ހުރިހާ މެމްބަރުން',
+	'protectsite-createaccount-2' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+	'protectsite-createpage-0' => 'ހުރިހާ މެމްބަރުން',
+	'protectsite-createpage-2' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+	'protectsite-edit-0' => 'ހުރިހާ މެމްބަރުން',
+	'protectsite-edit-2' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+	'protectsite-move-1' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+	'protectsite-upload-1' => 'ހަމައެކަނި އެޑްމިނިސްޓްރޭޓަރުން',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  * @author Ciencia Al Poder
