@@ -1484,12 +1484,19 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Base
  * @author Olvin
  * @author Prima klasy4na
  * @author Тест
  */
 $messages['uk'] = array(
+	'protectsite' => 'Захист сайту',
+	'protectsite-desc' => 'Дозволяє адміністратору сайту тимчасово блокувати різні зміни сайту',
+	'protectsite-text-protect' => '<!-- Інструкції/Коментарі/Правила для використання -->',
+	'protectsite-text-unprotect' => '<!-- Інструкції/Коментарі при встановленому захисту -->',
 	'protectsite-title' => 'Налаштування захисту сайту',
+	'protectsite-allowall' => 'Усім користувачам',
+	'protectsite-allowusersysop' => 'Зареєстровані користувачі та адміністратори',
 	'protectsite-allowsysop' => 'Тільки адміністратори',
 	'protectsite-createaccount' => 'Дозволити створення нових облікових записів',
 	'protectsite-createpage' => 'Дозволити створення сторінок',
@@ -1517,6 +1524,7 @@ $messages['uk'] = array(
 	'protectsite-move-1' => 'Тільки адміністратори',
 	'protectsite-upload-0' => 'Зареєстровані користувачі та адміністратори',
 	'protectsite-upload-1' => 'Тільки адміністратори',
+	'right-protectsite' => 'Обмеження дій які можуть бути здійсненими певними групами за обмежений час',
 );
 
 /** Urdu (اردو)
