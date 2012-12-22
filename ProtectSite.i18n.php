@@ -305,6 +305,9 @@ $messages['es'] = array(
  * @author Avjoska
  */
 $messages['et'] = array(
+	'protectsite-allowall' => 'Kõigile kasutajatele',
+	'protectsite-allowusersysop' => 'Registreeritud kasutajatele ja administraatoritele',
+	'protectsite-allowsysop' => 'Ainult administraatoritele',
 	'protectsite-comment' => 'Kommentaar:',
 	'protectsite-ucomment' => 'Kaitse eemaldamise kommentaar:',
 	'protectsite-until' => 'Kaitse all kuni:',
@@ -1015,18 +1018,18 @@ $messages['ne'] = array(
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'protectsite' => 'Beveilig site',
+	'protectsite' => 'Site beveiligen',
 	'protectsite-desc' => 'Maakt het voor sitebeheerders mogelijk tijdelijk verschillende wijzigingen aan de site tegen te gaan',
 	'protectsite-text-protect' => '<!-- Instructies/opmerkingen/beleid voor gebruik -->',
 	'protectsite-text-unprotect' => '<!-- Instructies/opmerkingen als beveiligd -->',
-	'protectsite-title' => 'Site beveilig instellingen',
+	'protectsite-title' => 'Instellingen voor sitebeveiliging',
 	'protectsite-allowall' => 'Alle gebruikers',
 	'protectsite-allowusersysop' => 'Geregistreerde gebruikers en beheerders',
 	'protectsite-allowsysop' => 'Alleen beheerders',
-	'protectsite-createaccount' => 'Sta creatie van nieuwe accounts toe voor',
-	'protectsite-createpage' => "Sta creatie van pagina's toe voor",
-	'protectsite-edit' => "Sta bewerken van pagina's toe voor",
-	'protectsite-move' => "Sta hernoemen van pagina's toe voor",
+	'protectsite-createaccount' => 'Nieuwe gebruikers aanmaken toestaan door',
+	'protectsite-createpage' => "Aanmaken van pagina's toestaan voor",
+	'protectsite-edit' => "Bewerken van pagina's toestaan voor",
+	'protectsite-move' => "Hernoemen van pagina's toestaan voor",
 	'protectsite-upload' => 'Bestanduploads toestaan voor',
 	'protectsite-timeout' => 'Verloop:',
 	'protectsite-timeout-error' => "'''Ongeldig verloop.'''",
@@ -1274,6 +1277,7 @@ $messages['si'] = array(
 	'protectsite-allowall' => 'සියලුම පරිශීලකයන්',
 	'protectsite-timeout' => 'කාලයෙන්ඉවත්',
 	'protectsite-comment' => 'පරිකථනය:',
+	'protectsite-protect' => 'ආරක්‍ෂණය',
 	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
 	'protectsite-createaccount-2' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-createpage-0' => 'සියලුම පරිශීලකයන්',
