@@ -1271,11 +1271,13 @@ $messages['ru'] = array(
 );
 
 /** Sinhala (සිංහල)
+ * @author Singhalawap
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
 	'protectsite-allowall' => 'සියලුම පරිශීලකයන්',
 	'protectsite-timeout' => 'කාලයෙන්ඉවත්',
+	'protectsite-maxtimeout' => 'උපරිම: $1',
 	'protectsite-comment' => 'පරිකථනය:',
 	'protectsite-protect' => 'ආරක්‍ෂණය',
 	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
