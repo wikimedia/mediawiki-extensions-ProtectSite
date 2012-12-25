@@ -1228,6 +1228,7 @@ $messages['ro'] = array(
 	'protectsite-allowall' => 'Toți utilizatorii',
 	'protectsite-allowusersysop' => 'Utilizatori înregistrați și administratori',
 	'protectsite-allowsysop' => 'Doar administratori',
+	'protectsite-timeout' => 'Expirare:',
 	'protectsite-maxtimeout' => 'Maxim: $1',
 	'protectsite-comment' => 'Comentariu:',
 	'protectsite-createaccount-0' => 'Toți utilizatorii',
