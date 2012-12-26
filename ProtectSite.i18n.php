@@ -1111,6 +1111,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'protectsite' => 'Sit protet',
+	'protectsite-desc' => "A përmëtt a n'aministrador dël sit ëd bloché temporaneament vàire modìfiche dël sit",
 	'protectsite-text-protect' => '<!-- Istrussion/Coment/Polìtica për dovragi -->',
 	'protectsite-text-unprotect' => '<!-- Istrussion/Coment quand protet -->',
 	'protectsite-title' => 'Ampostassion ëd protession dël sit',
@@ -1130,6 +1131,20 @@ $messages['pms'] = array(
 	'protectsite-until' => 'Protegg fin a:',
 	'protectsite-protect' => 'Protet',
 	'protectsite-unprotect' => 'Sprotet',
+	'protectsite-createaccount-0' => "Tùit j'utent",
+	'protectsite-createaccount-1' => 'Utent registrà e aministrador',
+	'protectsite-createaccount-2' => 'Mach aministrador',
+	'protectsite-createpage-0' => "Tùit j'utent",
+	'protectsite-createpage-1' => 'Utent registrà e aministrador',
+	'protectsite-createpage-2' => 'Mach aministrador',
+	'protectsite-edit-0' => "Tùit j'utent",
+	'protectsite-edit-1' => 'Utent registrà e aministrador',
+	'protectsite-edit-2' => 'Mach aministrador',
+	'protectsite-move-0' => 'Utent registrà e aministrador',
+	'protectsite-move-1' => 'Mach aministrador',
+	'protectsite-upload-0' => 'Utent registrà e aministrador',
+	'protectsite-upload-1' => 'Mach aministrador',
+	'right-protectsite' => "Lìmita j'assion che a peulo esse fàite për quaich partìe për un temp limità",
 );
 
 /** Pashto (پښتو)
@@ -1248,9 +1263,11 @@ $messages['ro'] = array(
 
 /** Russian (русский)
  * @author Lockal
+ * @author Ole Yves
  */
 $messages['ru'] = array(
 	'protectsite' => 'Защита сайта',
+	'protectsite-desc' => 'Позволяет администратору сайта временно блокировать различные модификации сайта',
 	'protectsite-text-protect' => '<!-- Инструкции/Комментарии/Правила для использования -->',
 	'protectsite-text-unprotect' => '<!-- Инструкции/Комментарии при установленной защите -->',
 	'protectsite-title' => 'Настройки защиты сайта',
@@ -1264,11 +1281,26 @@ $messages['ru'] = array(
 	'protectsite-upload' => 'Разрешить загрузку файлов',
 	'protectsite-timeout' => 'Время истечения:',
 	'protectsite-timeout-error' => "'''Неверное время истечения.'''",
-	'protectsite-maxtimeout' => 'Максимум:', # Fuzzy
+	'protectsite-maxtimeout' => 'Максимум: $1',
+	'protectsite-comment' => 'Комментарий:',
 	'protectsite-ucomment' => 'Комментарий снятия защиты:',
 	'protectsite-until' => 'Защищено до:',
 	'protectsite-protect' => 'Защитить',
 	'protectsite-unprotect' => 'Снять защиту',
+	'protectsite-createaccount-0' => 'Все участники',
+	'protectsite-createaccount-1' => 'Зарегистрированные участники и администраторы',
+	'protectsite-createaccount-2' => 'Только администраторы',
+	'protectsite-createpage-0' => 'Все участники',
+	'protectsite-createpage-1' => 'Зарегистрированные участники и администраторы',
+	'protectsite-createpage-2' => 'Только администраторы',
+	'protectsite-edit-0' => 'Все участники',
+	'protectsite-edit-1' => 'Зарегистрированные участники и администраторы',
+	'protectsite-edit-2' => 'Только администраторы',
+	'protectsite-move-0' => 'Зарегистрированные участники и администраторы',
+	'protectsite-move-1' => 'Только администраторы',
+	'protectsite-upload-0' => 'Зарегистрированные участники и администраторы',
+	'protectsite-upload-1' => 'Только администраторы',
+	'right-protectsite' => 'Ограничивать действия, которые могут выполняться, для некоторых групп в течении ограниченного времени',
 );
 
 /** Sinhala (සිංහල)
@@ -1276,17 +1308,23 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'protectsite' => 'අඩවිය ආරක්ෂණය කරන්න',
+	'protectsite-title' => 'අඩවිය ආරක්ෂණ සැකසුම්',
 	'protectsite-allowall' => 'සියලුම පරිශීලකයන්',
+	'protectsite-allowsysop' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-timeout' => 'කාලයෙන්ඉවත්',
 	'protectsite-maxtimeout' => 'උපරිම: $1',
 	'protectsite-comment' => 'පරිකථනය:',
+	'protectsite-until' => 'මේ දක්වා ආරක්ෂණය කරන්න:',
 	'protectsite-protect' => 'ආරක්‍ෂණය',
+	'protectsite-unprotect' => 'අනාරක්ෂිත කරන්න',
 	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
 	'protectsite-createaccount-2' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-createpage-0' => 'සියලුම පරිශීලකයන්',
 	'protectsite-createpage-2' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-edit-0' => 'සියලුම පරිශීලකයන්',
 	'protectsite-edit-2' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-move-1' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-upload-1' => 'පරිපාලකවරුන්ට පමණයි',
 );
 
