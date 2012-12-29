@@ -1319,12 +1319,17 @@ $messages['si'] = array(
 	'protectsite-protect' => 'ආරක්‍ෂණය',
 	'protectsite-unprotect' => 'අනාරක්ෂිත කරන්න',
 	'protectsite-createaccount-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-createaccount-1' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-createaccount-2' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-createpage-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-createpage-1' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-createpage-2' => 'පරිපාලකවරුන්ට පමණයි',
 	'protectsite-edit-0' => 'සියලුම පරිශීලකයන්',
+	'protectsite-edit-1' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-edit-2' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-move-0' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-move-1' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-upload-0' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-upload-1' => 'පරිපාලකවරුන්ට පමණයි',
 );
 
