@@ -1261,6 +1261,33 @@ $messages['ro'] = array(
 	'protectsite-upload-1' => 'Doar administratori',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'protectsite-allowall' => "Tutte l'utinde",
+	'protectsite-allowsysop' => 'Sulamende pe le amministrature',
+	'protectsite-maxtimeout' => 'Massime: $1',
+	'protectsite-comment' => 'Commende:',
+	'protectsite-ucomment' => "Sprotegge 'u commende:",
+	'protectsite-until' => "Protette 'nzigne a:",
+	'protectsite-protect' => 'Protegge',
+	'protectsite-unprotect' => 'Sprotegge',
+	'protectsite-createaccount-0' => "Tutte l'utinde",
+	'protectsite-createaccount-1' => 'Utinde reggistrate e amministrature',
+	'protectsite-createaccount-2' => 'Sulamende pe le amministrature',
+	'protectsite-createpage-0' => "Tutte l'utinde",
+	'protectsite-createpage-1' => 'Utinde reggistrate e amministrature',
+	'protectsite-createpage-2' => 'Sulamende pe le amministrature',
+	'protectsite-edit-0' => "Tutte l'utinde",
+	'protectsite-edit-1' => 'Utinde reggistrate e amministrature',
+	'protectsite-edit-2' => 'Sulamende pe le amministrature',
+	'protectsite-move-0' => 'Utinde reggistrate e amministrature',
+	'protectsite-move-1' => 'Sulamende pe le amministrature',
+	'protectsite-upload-0' => 'Utinde reggistrate e amministrature',
+	'protectsite-upload-1' => 'Sulamende pe le amministrature',
+);
+
 /** Russian (русский)
  * @author Lockal
  * @author Ole Yves
@@ -1311,10 +1338,18 @@ $messages['si'] = array(
 	'protectsite' => 'අඩවිය ආරක්ෂණය කරන්න',
 	'protectsite-title' => 'අඩවිය ආරක්ෂණ සැකසුම්',
 	'protectsite-allowall' => 'සියලුම පරිශීලකයන්',
+	'protectsite-allowusersysop' => 'ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු',
 	'protectsite-allowsysop' => 'පරිපාලකවරුන්ට පමණයි',
+	'protectsite-createaccount' => 'නව ගිණුම් තැනීම්වලට ඉඩ දෙන්න',
+	'protectsite-createpage' => 'පිටු තැනීම්වලට ඉඩ දෙන්න',
+	'protectsite-edit' => 'පිටු සංස්කරණවලට ඉඩ දෙන්න',
+	'protectsite-move' => 'පිටු ගෙනයාම්වලට ඉඩ දෙන්න',
+	'protectsite-upload' => 'ගොනු උඩුගත කිරීම්වලට ඉඩ දෙන්න',
 	'protectsite-timeout' => 'කාලයෙන්ඉවත්',
+	'protectsite-timeout-error' => "'''වලංගු නොවන කාලඉවත්වීම.'''",
 	'protectsite-maxtimeout' => 'උපරිම: $1',
 	'protectsite-comment' => 'පරිකථනය:',
+	'protectsite-ucomment' => 'පරිකථනය අනාරක්ෂිත කරන්න:',
 	'protectsite-until' => 'මේ දක්වා ආරක්ෂණය කරන්න:',
 	'protectsite-protect' => 'ආරක්‍ෂණය',
 	'protectsite-unprotect' => 'අනාරක්ෂිත කරන්න',
