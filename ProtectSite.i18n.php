@@ -190,6 +190,27 @@ $messages['br'] = array(
 	'right-protectsite' => "Bevenniñ a ra an oberoù a c'hall bezañ sevenet gant strolladoù zo evit ur prantad bennak",
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'protectsite-protect' => 'Zamknout',
+	'protectsite-unprotect' => 'Odemknout',
+	'protectsite-createaccount-0' => 'Všichni uživatelé',
+	'protectsite-createaccount-1' => 'Registrovaní uživatelé a správci',
+	'protectsite-createaccount-2' => 'Pouze správci',
+	'protectsite-createpage-0' => 'Všichni uživatelé',
+	'protectsite-createpage-1' => 'Registrovaní uživatelé a správci',
+	'protectsite-createpage-2' => 'Pouze správci',
+	'protectsite-edit-0' => 'Všichni uživatelé',
+	'protectsite-edit-1' => 'Registrovaní uživatelé a správci',
+	'protectsite-edit-2' => 'Pouze správci',
+	'protectsite-move-0' => 'Registrovaní uživatelé a správci',
+	'protectsite-move-1' => 'Pouze správci',
+	'protectsite-upload-0' => 'Registrovaní uživatelé a správci',
+	'protectsite-upload-1' => 'Pouze správci',
+);
+
 /** German (Deutsch)
  * @author Geitost
  * @author Kghbln
