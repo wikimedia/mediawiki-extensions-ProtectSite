@@ -1128,11 +1128,12 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'protectsite' => 'Sit protet',
-	'protectsite-desc' => "A përmëtt a n'aministrador dël sit ëd bloché temporaneament vàire modìfiche dël sit",
+	'protectsite-desc' => "A përmët a n'aministrator dël sit ëd bloché temporaneament vàire modìfiche dël sit",
 	'protectsite-text-protect' => '<!-- Istrussion/Coment/Polìtica për dovragi -->',
 	'protectsite-text-unprotect' => '<!-- Istrussion/Coment quand protet -->',
 	'protectsite-title' => 'Ampostassion ëd protession dël sit',
@@ -1153,19 +1154,19 @@ $messages['pms'] = array(
 	'protectsite-protect' => 'Protet',
 	'protectsite-unprotect' => 'Sprotet',
 	'protectsite-createaccount-0' => "Tùit j'utent",
-	'protectsite-createaccount-1' => 'Utent registrà e aministrador',
-	'protectsite-createaccount-2' => 'Mach aministrador',
+	'protectsite-createaccount-1' => "J'utent registrà e j'aministrator",
+	'protectsite-createaccount-2' => "Mach j'aministrator",
 	'protectsite-createpage-0' => "Tùit j'utent",
-	'protectsite-createpage-1' => 'Utent registrà e aministrador',
-	'protectsite-createpage-2' => 'Mach aministrador',
+	'protectsite-createpage-1' => "J'utent registrà e j'aministrator",
+	'protectsite-createpage-2' => "Mach j'aministrator",
 	'protectsite-edit-0' => "Tùit j'utent",
-	'protectsite-edit-1' => 'Utent registrà e aministrador',
-	'protectsite-edit-2' => 'Mach aministrador',
-	'protectsite-move-0' => 'Utent registrà e aministrador',
-	'protectsite-move-1' => 'Mach aministrador',
-	'protectsite-upload-0' => 'Utent registrà e aministrador',
-	'protectsite-upload-1' => 'Mach aministrador',
-	'right-protectsite' => "Lìmita j'assion che a peulo esse fàite për quaich partìe për un temp limità",
+	'protectsite-edit-1' => "J'utent registrà e aministrator",
+	'protectsite-edit-2' => "Mach j'aministrator",
+	'protectsite-move-0' => "J'utent registrà e j'aministrator",
+	'protectsite-move-1' => "Mach j'aministrator",
+	'protectsite-upload-0' => "J'utent registrà e j'aministrator",
+	'protectsite-upload-1' => "Mach j'aministrator",
+	'right-protectsite' => "Limité j'assion che a peulo esse fàite për chèiche partìe për un temp limità",
 );
 
 /** Pashto (پښتو)
