@@ -1720,20 +1720,36 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'protectsite' => '保护站点',
+	'protectsite-desc' => '允许站点管理员暂时阻止各种对网站的修改',
+	'protectsite-title' => '站点保护设置',
 	'protectsite-allowall' => '所有用户',
+	'protectsite-allowusersysop' => '已注册的用户和管理员',
 	'protectsite-allowsysop' => '仅操作员',
+	'protectsite-timeout' => '超时：',
+	'protectsite-timeout-error' => "'''无效的超时'''",
+	'protectsite-maxtimeout' => '最大值：$1',
 	'protectsite-comment' => '评论：',
+	'protectsite-until' => '保护至：',
 	'protectsite-protect' => '保护',
+	'protectsite-unprotect' => '取消保护',
 	'protectsite-createaccount-0' => '所有用户',
+	'protectsite-createaccount-1' => '已注册的用户和管理员',
 	'protectsite-createaccount-2' => '仅操作员',
 	'protectsite-createpage-0' => '所有用户',
+	'protectsite-createpage-1' => '已注册的用户和管理员',
 	'protectsite-createpage-2' => '仅操作员',
 	'protectsite-edit-0' => '所有用户',
+	'protectsite-edit-1' => '已注册的用户和管理员',
 	'protectsite-edit-2' => '仅操作员',
+	'protectsite-move-0' => '已注册的用户和管理员',
 	'protectsite-move-1' => '仅操作员',
+	'protectsite-upload-0' => '已注册的用户和管理员',
 	'protectsite-upload-1' => '仅操作员',
+	'right-protectsite' => '限制某些用户组在有限的时间内可进行的操作',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
