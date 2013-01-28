@@ -83,7 +83,7 @@ $specialPageAliases['ml'] = array(
 	'ProtectSite' => array( 'സൈറ്റ്സംരക്ഷിക്കുക' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'ProtectSite' => array( 'Webstee_beveiligen' ),
 );
