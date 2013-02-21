@@ -917,7 +917,9 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'protectsite-allowall' => 'Hemû bikarhêner',
 	'protectsite-protect' => 'Biparêze',
+	'protectsite-createaccount-0' => 'Hemû bikarhêner',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
