@@ -55,10 +55,29 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'protectsite-desc' => '{{desc}}',
+	'protectsite-allowall' => '{{Identical|All users}}',
+	'protectsite-allowusersysop' => '{{Identical|Registered user and administrator}}',
+	'protectsite-allowsysop' => '{{Identical|Administrator only}}',
+	'protectsite-timeout' => '{{Identical|Timeout}}',
+	'protectsite-comment' => '{{Identical|Comment}}',
+	'protectsite-createaccount-0' => '{{Identical|All users}}',
+	'protectsite-createaccount-1' => '{{Identical|Registered user and administrator}}',
+	'protectsite-createaccount-2' => '{{Identical|Administrator only}}',
+	'protectsite-createpage-0' => '{{Identical|All users}}',
+	'protectsite-createpage-1' => '{{Identical|Registered user and administrator}}',
+	'protectsite-createpage-2' => '{{Identical|Administrator only}}',
+	'protectsite-edit-0' => '{{Identical|All users}}',
+	'protectsite-edit-1' => '{{Identical|Registered user and administrator}}',
+	'protectsite-edit-2' => '{{Identical|Administrator only}}',
+	'protectsite-move-0' => '{{Identical|Registered user and administrator}}',
+	'protectsite-move-1' => '{{Identical|Administrator only}}',
+	'protectsite-upload-0' => '{{Identical|Registered user and administrator}}',
+	'protectsite-upload-1' => '{{Identical|Administrator only}}',
 	'right-protectsite' => '{{doc-right|protectsite}}',
 );
 
@@ -797,12 +816,12 @@ $messages['ja'] = array(
 	'protectsite-edit' => 'ページの編集を許可する利用者グループ',
 	'protectsite-move' => 'ページの移動を許可する利用者グループ',
 	'protectsite-upload' => 'ファイルのアップロードを許可する利用者グループ',
-	'protectsite-timeout' => '期間：',
+	'protectsite-timeout' => '期間:',
 	'protectsite-timeout-error' => "'''期間が無効です。'''",
-	'protectsite-maxtimeout' => '最大：$1',
-	'protectsite-comment' => '保護の理由：',
-	'protectsite-ucomment' => '保護解除の理由：',
-	'protectsite-until' => '保護期限：',
+	'protectsite-maxtimeout' => '最大: $1',
+	'protectsite-comment' => '保護の理由:',
+	'protectsite-ucomment' => '保護解除の理由:',
+	'protectsite-until' => '保護期限:',
 	'protectsite-protect' => '保護',
 	'protectsite-unprotect' => '保護解除',
 	'protectsite-createaccount-0' => 'すべての利用者',
