@@ -112,3 +112,8 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'ProtectSite' => array( '保护站点' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'ProtectSite' => array( '保護站點' ),
+);
