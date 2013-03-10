@@ -172,6 +172,9 @@ class ProtectSiteForm {
 	 * @return string HTML fieldset
 	 */
 	private function fieldset( $name, $content ) {
+		// Give grep a chance to find the usages:
+		// protectsite-title, protectsite-createaccount, protectsite-createpage,
+		// protectsite-edit, protectsite-move, protectsite-upload
 		return '<fieldset><legend>' . wfMsg( 'protectsite-' . $name ) .
 			"</legend>\n" . $content . "\n</fieldset>\n";
 	}
@@ -181,6 +184,12 @@ class ProtectSiteForm {
 	 * This was fixed in r16320 of the MW source; WM bugzilla bug #7188.
 	 */
 	private function radiobox( $varname, $fields ) {
+		// Give grep a chance to find the usages:
+		// protectsite-createaccount-0, protectsite-createaccount-1, protectsite-createaccount-2,
+		// protectsite-createpage-0, protectsite-createpage-1, protectsite-createpage-2,
+		// protectsite-edit-0, protectsite-edit-1, protectsite-edit-2,
+		// protectsite-move-0, protectsite-move-1,
+		// protectsite-upload-0, protectsite-upload-1
 		$s = '';
 		foreach( $fields as $value => $checked ) {
 			$s .= "<div><label><input type=\"radio\" name=\"{$varname}\" value=\"{$value}\"" . ( $checked ? ' checked="checked"' : '' ) . ' />'
@@ -200,6 +209,8 @@ class ProtectSiteForm {
 			$value = $this->mRequest->getText( $varname, $value );
 		}
 
+		// Give grep a chance to find the usages:
+		// protectsite-timeout,  protectsite-comment, protectsite-ucomment
 		$value = htmlspecialchars( $value );
 		return '<div><label>' . wfMsg( 'protectsite-' . $varname ) .
 				"<input type=\"text\" name=\"{$varname}\" value=\"{$value}\" /> " .
@@ -209,6 +220,15 @@ class ProtectSiteForm {
 
 	/* This function outputs the field status. */
 	private function showField( $name, $state ) {
+		// Give grep a chance to find the usages:
+		//   protectsite-createaccount, protectsite-createpage, protectsite-edit,
+		//   protectsite-move, protectsite-upload
+		// Give grep a chance to find the usages:
+		//   protectsite-createaccount-0, protectsite-createaccount-1, protectsite-createaccount-2,
+		//   protectsite-createpage-0, protectsite-createpage-1, protectsite-createpage-2,
+		//   protectsite-edit-0, protectsite-edit-1, protectsite-edit-2,
+		//   protectsite-move-0, protectsite-move-1,
+		//   protectsite-upload-0, protectsite-upload-1
 		return '<b>' . wfMsg( 'protectsite-' . $name ) . ' - <i>' .
 					'<span style="color: ' . ( ( $state > 0 ) ? 'red' : 'green' ) . '">' .
 					wfMsg( 'protectsite-' . $name . '-' . $state ) . '</span>' .
