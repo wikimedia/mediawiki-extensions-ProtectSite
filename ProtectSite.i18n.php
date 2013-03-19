@@ -63,7 +63,16 @@ $messages['qqq'] = array(
 	'protectsite-allowall' => '{{Identical|All users}}',
 	'protectsite-allowusersysop' => '{{Identical|Registered user and administrator}}',
 	'protectsite-allowsysop' => '{{Identical|Administrator only}}',
-	'protectsite-timeout' => '{{Identical|Timeout}}',
+	'protectsite-timeout' => 'Used as label for "timeout" input box.
+
+The input box is followed by the message {{msg-mw|Protectsite-maxtimeout}}.
+{{Identical|Timeout}}',
+	'protectsite-maxtimeout' => 'Used as description for "timeout" input box.
+
+The label for the input box is {{msg-mw|protectsite-timeout}}.
+
+Parameters:
+* $1 - maximum time allowed for protection of the site. (value of <code>$wgProtectSiteLimit</code>) e.g. "1 week"',
 	'protectsite-comment' => '{{Identical|Comment}}',
 	'protectsite-createaccount-0' => '{{Identical|All users}}',
 	'protectsite-createaccount-1' => '{{Identical|Registered user and administrator}}',
