@@ -59,6 +59,7 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'protectsite' => '{{doc-special|ProtectSite|unlisted=1}}',
 	'protectsite-desc' => '{{desc|name=Protect Site|url=http://www.mediawiki.org/wiki/Extension:ProtectSite}}',
 	'protectsite-allowall' => '{{Identical|All users}}',
 	'protectsite-allowusersysop' => '{{Identical|Registered user and administrator}}',
