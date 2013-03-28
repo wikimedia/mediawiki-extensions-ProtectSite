@@ -1107,6 +1107,13 @@ $messages['nb'] = array(
 	'protectsite-unprotect' => 'Opphev beskyttelse',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'protectsite-allowall' => 'All Brukers',
+);
+
 /** Nepali (नेपाली)
  * @author RajeshPandey
  */
