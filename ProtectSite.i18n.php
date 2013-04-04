@@ -53,7 +53,10 @@ $messages['en'] = array(
 	'right-protectsite' => 'Limit actions that can be performed for some groups for a limited time',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author Purodha
  * @author Shirayuki
  * @author Umherirrender
@@ -61,33 +64,120 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'protectsite' => '{{doc-special|ProtectSite|unlisted=1}}',
 	'protectsite-desc' => '{{desc|name=Protect Site|url=http://www.mediawiki.org/wiki/Extension:ProtectSite}}',
+	'protectsite-text-protect' => 'Used as HTML comment.
+
+Followed by the "Protect site" form.
+
+See also:
+* {{msg-mw|Protectsite-text-unprotect}}',
+	'protectsite-text-unprotect' => 'Used as HTML comment.
+
+Followed by the "Unprotect site" form.
+
+See also:
+* {{msg-mw|Protectsite-text-protect}}',
+	'protectsite-title' => 'Used as fieldset label for the "Protect site" form and the "Unprotect site" form.
+{{Related|Protectsite-legend}}',
 	'protectsite-allowall' => '{{Identical|All users}}',
 	'protectsite-allowusersysop' => '{{Identical|Registered user and administrator}}',
 	'protectsite-allowsysop' => '{{Identical|Administrator only}}',
+	'protectsite-createaccount' => 'Used as fieldset label for the radio buttons in the "Protect site" form.
+
+Followed by the following radio button labels:
+* {{msg-mw|Protectsite-createaccount-0}}
+* {{msg-mw|Protectsite-createaccount-1}}
+* {{msg-mw|Protectsite-createaccount-2}}
+{{Related|Protectsite-legend}}',
+	'protectsite-createpage' => 'Used as fieldset label for the radio buttons in the "Protect site" form.
+
+Followed by the following radio button labels:
+* {{msg-mw|Protectsite-createpage-0}}
+* {{msg-mw|Protectsite-createpage-1}}
+* {{msg-mw|Protectsite-createpage-2}}
+{{Related|Protectsite-legend}}',
+	'protectsite-edit' => 'Used as fieldset label for the radio buttons in the "Protect site" form.
+
+Followed by the following radio button labels:
+* {{msg-mw|Protectsite-edit-0}}
+* {{msg-mw|Protectsite-edit-1}}
+* {{msg-mw|Protectsite-edit-2}}
+{{Related|Protectsite-legend}}',
+	'protectsite-move' => 'Used as fieldset label for the radio buttons in the "Protect site" form.
+
+Followed by the following radio button labels:
+* {{msg-mw|Protectsite-move-0}}
+* {{msg-mw|Protectsite-move-1}}
+{{Related|Protectsite-legend}}',
+	'protectsite-upload' => 'Used as fieldset label for the radio buttons in the "Protect site" form.
+
+Followed by the following radio button labels:
+* {{msg-mw|Protectsite-upload-0}}
+* {{msg-mw|Protectsite-upload-1}}
+{{Related|Protectsite-legend}}',
 	'protectsite-timeout' => 'Used as label for "timeout" input box.
 
 The input box is followed by the message {{msg-mw|Protectsite-maxtimeout}}.
 {{Identical|Timeout}}',
+	'protectsite-timeout-error' => 'Used if the time limit exceeds the limit.',
 	'protectsite-maxtimeout' => 'Used as description for "timeout" input box.
 
 The label for the input box is {{msg-mw|protectsite-timeout}}.
 
 Parameters:
 * $1 - maximum time allowed for protection of the site. (value of <code>$wgProtectSiteLimit</code>) e.g. "1 week"',
-	'protectsite-comment' => '{{Identical|Comment}}',
-	'protectsite-createaccount-0' => '{{Identical|All users}}',
-	'protectsite-createaccount-1' => '{{Identical|Registered user and administrator}}',
-	'protectsite-createaccount-2' => '{{Identical|Administrator only}}',
-	'protectsite-createpage-0' => '{{Identical|All users}}',
-	'protectsite-createpage-1' => '{{Identical|Registered user and administrator}}',
-	'protectsite-createpage-2' => '{{Identical|Administrator only}}',
-	'protectsite-edit-0' => '{{Identical|All users}}',
-	'protectsite-edit-1' => '{{Identical|Registered user and administrator}}',
-	'protectsite-edit-2' => '{{Identical|Administrator only}}',
-	'protectsite-move-0' => '{{Identical|Registered user and administrator}}',
-	'protectsite-move-1' => '{{Identical|Administrator only}}',
-	'protectsite-upload-0' => '{{Identical|Registered user and administrator}}',
-	'protectsite-upload-1' => '{{Identical|Administrator only}}',
+	'protectsite-comment' => 'Used as label for "comment (reason for protection)" input box.
+{{Identical|Comment}}',
+	'protectsite-ucomment' => 'Used as label for the "comment (reason)" input box.',
+	'protectsite-until' => 'Unused at this time.',
+	'protectsite-protect' => 'Used as label for Submit button.
+
+See also:
+* {{msg-mw|Protectsite-unprotect}}
+{{Identical|Protect}}',
+	'protectsite-unprotect' => 'Used as label for Submit button.
+
+See also:
+* {{msg-mw|Protectsite-protect}}
+{{Identical|Unprotect}}',
+	'protectsite-createaccount-0' => 'See also:
+* {{msg-mw|Protectsite-createaccount}}
+{{Identical|All users}}',
+	'protectsite-createaccount-1' => 'See also:
+* {{msg-mw|Protectsite-createaccount}}
+{{Identical|Registered user and administrator}}',
+	'protectsite-createaccount-2' => 'See also:
+* {{msg-mw|Protectsite-createaccount}}
+{{Identical|Administrator only}}',
+	'protectsite-createpage-0' => 'See also:
+* {{msg-mw|Protectsite-createpage}}
+{{Identical|All users}}',
+	'protectsite-createpage-1' => 'See also:
+* {{msg-mw|Protectsite-createpage}}
+{{Identical|Registered user and administrator}}',
+	'protectsite-createpage-2' => 'See also:
+* {{msg-mw|Protectsite-createpage}}
+{{Identical|Administrator only}}',
+	'protectsite-edit-0' => 'See also:
+* {{msg-mw|Protectsite-edit}}
+{{Identical|All users}}',
+	'protectsite-edit-1' => 'See also:
+* {{msg-mw|Protectsite-edit}}
+{{Identical|Registered user and administrator}}',
+	'protectsite-edit-2' => 'See also:
+* {{msg-mw|Protectsite-edit}}
+{{Identical|Administrator only}}',
+	'protectsite-move-0' => 'See also:
+* {{msg-mw|Protectsite-move}}
+{{Identical|Registered user and administrator}}',
+	'protectsite-move-1' => 'See also:
+* {{msg-mw|Protectsite-move}}
+{{Identical|Administrator only}}',
+	'protectsite-upload-0' => 'See also:
+* {{msg-mw|Protectsite-upload}}
+{{Identical|Registered user and administrator}}',
+	'protectsite-upload-1' => 'See also:
+* {{msg-mw|Protectsite-upload}}
+{{Identical|Administrator only}}',
 	'right-protectsite' => '{{doc-right|protectsite}}',
 );
 
