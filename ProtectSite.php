@@ -32,7 +32,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Protect Site',
 	'version' => '0.3.4',
-	'author' => array( '[http://uncyclopedia.org/wiki/User:Dawg Eric Johnston]', 'Chris Stafford', 'Jack Phoenix' ),
+	'author' => array( '[http://en.uncyclopedia.co/wiki/User:Dawg Eric Johnston]', 'Chris Stafford', 'Jack Phoenix' ),
 	'descriptionmsg' => 'protectsite-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ProtectSite',
 );
