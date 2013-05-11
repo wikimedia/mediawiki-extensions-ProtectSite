@@ -1404,13 +1404,14 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
 	'protectsite-allowall' => 'Todos os usuários',
 	'protectsite-allowusersysop' => 'Usuários registrados e administradores',
 	'protectsite-allowsysop' => 'Somente administradores',
-	'protectsite-maxtimeout' => 'Máximo:', # Fuzzy
+	'protectsite-maxtimeout' => 'Máximo: $1',
 	'protectsite-comment' => 'Comentário:',
 	'protectsite-until' => 'Protegido até:',
 	'protectsite-protect' => 'Proteger',
