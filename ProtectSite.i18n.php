@@ -1463,6 +1463,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'protectsite' => 'Site protette',
 	'protectsite-allowall' => "Tutte l'utinde",
 	'protectsite-allowsysop' => 'Sulamende pe le amministrature',
 	'protectsite-maxtimeout' => 'Massime: $1',
