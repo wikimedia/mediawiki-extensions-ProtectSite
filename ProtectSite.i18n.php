@@ -347,6 +347,15 @@ $messages['br'] = array(
 	'right-protectsite' => "Bevenniñ a ra an oberoù a c'hall bezañ sevenet gant strolladoù zo evit ur prantad bennak",
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'protectsite-createaccount-0' => 'Массо декъашхой',
+	'protectsite-createpage-0' => 'Массо декъашхой',
+	'protectsite-edit-0' => 'Массо декъашхой',
+);
+
 /** Czech (česky)
  * @author Vks
  */
@@ -1364,13 +1373,14 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  */
 $messages['pt'] = array(
 	'protectsite' => 'Proteger o site',
 	'protectsite-desc' => 'Permite que um administrador bloqueie temporariamente várias modificações do site',
 	'protectsite-text-protect' => '<!-- Instruções/Comentários/Normas de utilização -->',
-	'protectsite-text-unprotect' => '<!-- Instruções/Comentários quando sob protecção -->',
-	'protectsite-title' => 'Configurações de protecção do site',
+	'protectsite-text-unprotect' => '<!-- Instruções/Comentários quando sob proteção -->',
+	'protectsite-title' => 'Configurações de proteção do site',
 	'protectsite-allowall' => 'Todos os utilizadores',
 	'protectsite-allowusersysop' => 'Utilizadores registrados e administradores',
 	'protectsite-allowsysop' => 'Apenas administradores',
