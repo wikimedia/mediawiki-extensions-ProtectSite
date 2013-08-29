@@ -1474,8 +1474,20 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'protectsite' => 'Site protette',
+	'protectsite-desc' => "Permette a 'n'amministratore d'u site de bloccà temboraneamende diverse modifiche d'u site",
+	'protectsite-text-protect' => "<!-- 'Struziune/Commende/Regole pe l'ause -->",
+	'protectsite-text-unprotect' => "<!-- 'Struziune/Commende quanne è protette -->",
+	'protectsite-title' => "'Mbostaziune d'a protezione d'u site",
 	'protectsite-allowall' => "Tutte l'utinde",
+	'protectsite-allowusersysop' => 'Utinde reggistrate e amministrature',
 	'protectsite-allowsysop' => 'Sulamende pe le amministrature',
+	'protectsite-createaccount' => "Permette 'a ccrejazione de cunde nuève da",
+	'protectsite-createpage' => "Permette 'a ccrejazione de pàggene da",
+	'protectsite-edit' => "Permette 'u cangiamende de le pàggene da",
+	'protectsite-move' => "Permette 'u spustamende de le pàggene da",
+	'protectsite-upload' => "Permette 'u carecamende de le file da",
+	'protectsite-timeout' => 'Fore tiembe:',
+	'protectsite-timeout-error' => '"Tiembe massime invalide."',
 	'protectsite-maxtimeout' => 'Massime: $1',
 	'protectsite-comment' => 'Commende:',
 	'protectsite-ucomment' => "Sprotegge 'u commende:",
@@ -1495,6 +1507,7 @@ $messages['roa-tara'] = array(
 	'protectsite-move-1' => 'Sulamende pe le amministrature',
 	'protectsite-upload-0' => 'Utinde reggistrate e amministrature',
 	'protectsite-upload-1' => 'Sulamende pe le amministrature',
+	'right-protectsite' => "Limite l'aziune ca ponne essere fatte da certe gruppe pe 'nu tiembe limitate",
 );
 
 /** Russian (русский)
