@@ -1591,6 +1591,7 @@ $messages['si'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Rancher
  * @author Verlor
  */
@@ -1608,6 +1609,19 @@ $messages['sr-ec'] = array(
 	'protectsite-until' => 'Заштићено до:',
 	'protectsite-protect' => 'Заштити',
 	'protectsite-unprotect' => 'Скини заштиту',
+	'protectsite-createaccount-0' => 'Сви корисници',
+	'protectsite-createaccount-1' => 'Регистровани корисници и администратори',
+	'protectsite-createaccount-2' => 'Само администратори',
+	'protectsite-createpage-0' => 'Сви корисници',
+	'protectsite-createpage-1' => 'Регистровани корисници и администратори',
+	'protectsite-createpage-2' => 'Само администратори',
+	'protectsite-edit-0' => 'Сви корисници',
+	'protectsite-edit-1' => 'Регистровани корисници и администратори',
+	'protectsite-edit-2' => 'Само администратори',
+	'protectsite-move-0' => 'Регистровани корисници и администратори',
+	'protectsite-move-1' => 'Само администратори',
+	'protectsite-upload-0' => 'Регистровани корисници и администратори',
+	'protectsite-upload-1' => 'Само администратори',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
