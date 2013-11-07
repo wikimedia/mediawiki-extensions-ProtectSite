@@ -121,7 +121,8 @@ The input box is followed by the message {{msg-mw|Protectsite-maxtimeout}}.
 The label for the input box is {{msg-mw|protectsite-timeout}}.
 
 Parameters:
-* $1 - maximum time allowed for protection of the site. (value of <code>$wgProtectSiteLimit</code>) e.g. "1 week"',
+* $1 - maximum time allowed for protection of the site. (value of <code>$wgProtectSiteLimit</code>) e.g. "1 week"
+{{Identical|Maximum}}',
 	'protectsite-comment' => 'Used as label for "comment (reason for protection)" input box.
 {{Identical|Comment}}',
 	'protectsite-ucomment' => 'Used as label for the "comment (reason)" input box.',
