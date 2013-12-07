@@ -357,7 +357,7 @@ $messages['ce'] = array(
 	'protectsite-edit-0' => 'Массо декъашхой',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
