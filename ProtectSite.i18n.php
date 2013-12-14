@@ -986,6 +986,13 @@ $messages['ka'] = array(
 	'protectsite-upload-1' => 'მხოლოდ ადმინისტრატორები',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Dimension10
+ */
+$messages['kn'] = array(
+	'protectsite-comment' => 'ಟಿಪ್ಪಣಿ :',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
