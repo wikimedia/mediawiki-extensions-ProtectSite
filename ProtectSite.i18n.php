@@ -525,10 +525,12 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'protectsite-allowall' => 'همهٔ کاربران',
 	'protectsite-maxtimeout' => 'حداکثر: $1',
+	'protectsite-comment' => 'توضیح:',
 	'protectsite-protect' => 'محافظت',
 	'protectsite-unprotect' => 'از حالت محافظت در آوردن',
 	'protectsite-createaccount-0' => 'همهٔ کاربران',
