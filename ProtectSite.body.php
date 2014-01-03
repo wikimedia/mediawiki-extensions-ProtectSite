@@ -64,7 +64,7 @@ class ProtectSiteForm {
 			require_once( $IP . '/includes/BagOStuff.php' );
 		}
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
-		$this->action = $titleObj->escapeLocalURL();
+		$this->action = htmlspecialchars( $titleObj->getLocalURL() );
 		$this->mRequest =& $request;
 		$this->persist_data = new MediaWikiBagOStuff();
 
