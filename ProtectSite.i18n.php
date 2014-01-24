@@ -535,19 +535,39 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  * @author Reza1615
  */
 $messages['fa'] = array(
+	'protectsite' => 'محافظت سایت',
+	'protectsite-title' => 'تنظیمات محافظت سایت',
 	'protectsite-allowall' => 'همهٔ کاربران',
+	'protectsite-allowusersysop' => 'کاربران و سرپرستان ثبت‌نام شده',
+	'protectsite-allowsysop' => 'فقط سرپرستان',
+	'protectsite-createaccount' => 'اجازهٔ ایجاد حساب‌های جدید توسط',
+	'protectsite-createpage' => 'اجازهٔ ایجاد صفحات توسط',
+	'protectsite-edit' => 'اجازهٔ ویرایش صفحات توسط',
+	'protectsite-move' => 'اجازهٔ ترک صفحات توسط',
+	'protectsite-upload' => 'اجازهٔ انتقال پوشه توسط',
 	'protectsite-maxtimeout' => 'حداکثر: $1',
 	'protectsite-comment' => 'توضیح:',
+	'protectsite-ucomment' => 'نظر محافظت نشده:',
+	'protectsite-until' => 'محافظت شده تا:',
 	'protectsite-protect' => 'محافظت',
 	'protectsite-unprotect' => 'از حالت محافظت در آوردن',
 	'protectsite-createaccount-0' => 'همهٔ کاربران',
+	'protectsite-createaccount-1' => 'کاربران و سرپرستان ثبت‌نام شده',
+	'protectsite-createaccount-2' => 'فقط سرپرستان',
 	'protectsite-createpage-0' => 'همهٔ کاربران',
+	'protectsite-createpage-1' => 'کاربران و سرپرستان ثبت‌نام شده',
+	'protectsite-createpage-2' => 'فقط سرپرستان',
 	'protectsite-edit-0' => 'همهٔ کاربران',
+	'protectsite-edit-1' => 'کاربران و سرپرستان ثبت‌نام شده',
 	'protectsite-edit-2' => 'فقط مدیران',
+	'protectsite-move-0' => 'کاربران و سرپرستان ثبت‌نام شده',
+	'protectsite-move-1' => 'فقط سرپرستان',
+	'protectsite-upload-0' => 'کاربران و سرپرستان ثبت‌نام شده',
 	'protectsite-upload-1' => 'فقط مدیران',
 );
 
