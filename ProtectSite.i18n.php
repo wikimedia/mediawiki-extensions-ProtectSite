@@ -541,6 +541,9 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'protectsite' => 'محافظت سایت',
+	'protectsite-desc' => 'اجازهٔ سرپرست یک سایت برای مسدود موقت تغییرات سایت مختلف سایت',
+	'protectsite-text-protect' => '<!-- Instructions/Comments/Policy for use -->',
+	'protectsite-text-unprotect' => '<!-- Instructions/Comments when protected -->',
 	'protectsite-title' => 'تنظیمات محافظت سایت',
 	'protectsite-allowall' => 'همهٔ کاربران',
 	'protectsite-allowusersysop' => 'کاربران و سرپرستان ثبت‌نام شده',
@@ -550,6 +553,8 @@ $messages['fa'] = array(
 	'protectsite-edit' => 'اجازهٔ ویرایش صفحات توسط',
 	'protectsite-move' => 'اجازهٔ ترک صفحات توسط',
 	'protectsite-upload' => 'اجازهٔ انتقال پوشه توسط',
+	'protectsite-timeout' => 'توقف:',
+	'protectsite-timeout-error' => "'''توقف نامعتبر.'''",
 	'protectsite-maxtimeout' => 'حداکثر: $1',
 	'protectsite-comment' => 'توضیح:',
 	'protectsite-ucomment' => 'نظر محافظت نشده:',
@@ -569,6 +574,7 @@ $messages['fa'] = array(
 	'protectsite-move-1' => 'فقط سرپرستان',
 	'protectsite-upload-0' => 'کاربران و سرپرستان ثبت‌نام شده',
 	'protectsite-upload-1' => 'فقط مدیران',
+	'right-protectsite' => 'فعالیت‌های محدودی که می‌توانند برای بعضی از گروه‌ها برای مدت محدودی انجام شود',
 );
 
 /** Finnish (suomi)
