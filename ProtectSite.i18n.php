@@ -1994,6 +1994,7 @@ $messages['yi'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
  * @author Xiaomingyan
  * @author Yfdyh000
  */
@@ -2004,6 +2005,7 @@ $messages['zh-hans'] = array(
 	'protectsite-allowall' => '所有用户',
 	'protectsite-allowusersysop' => '已注册的用户和管理员',
 	'protectsite-allowsysop' => '仅操作员',
+	'protectsite-upload' => '允许上传文件自',
 	'protectsite-timeout' => '超时：',
 	'protectsite-timeout-error' => "'''无效的超时'''",
 	'protectsite-maxtimeout' => '最大值：$1',
