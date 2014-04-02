@@ -1,0 +1,23 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kenrick95",
+            "StefanusRA"
+        ]
+    },
+    "protectsite": "Lindungi situs",
+    "protectsite-desc": "Memungkinkan administrator situs untuk memblokir sementara berbagai modifikasi situs",
+    "protectsite-text-protect": "<!--Petunjuk/Komentar/Kebijakan penggunaan-->",
+    "protectsite-text-unprotect": "<!--Petunjuk/Komentar ketika dilindungi-->",
+    "protectsite-title": "Pengaturan perlindungan situs",
+    "protectsite-allowall": "Semua pengguna",
+    "protectsite-allowusersysop": "Pengguna terdaftar dan administrator",
+    "protectsite-allowsysop": "Administrator saja",
+    "protectsite-createaccount": "Mengijinkan pembuatan akun baru oleh",
+    "protectsite-createpage": "Mengijinkan pembuatan halaman oleh",
+    "protectsite-edit": "Mengijinkan penyuntingan halaman oleh",
+    "protectsite-move": "Mengijinkan pemindahan halaman oleh",
+    "protectsite-upload": "Mengijinkan pengunggahan berkas oleh",
+    "protectsite-comment": "Komentar:",
+    "protectsite-protect": "Lindungi"
+}

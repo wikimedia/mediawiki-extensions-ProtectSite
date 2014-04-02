@@ -1,0 +1,42 @@
+{
+    "@metadata": {
+        "authors": [
+            "Xuacu"
+        ]
+    },
+    "protectsite": "Protexer el sitiu",
+    "protectsite-desc": "Permite a un alministrador del sitiu bloquiar temporalmente dellos cambios al mesmu",
+    "protectsite-text-protect": "<!-- Instrucciones/Comentarios/Política d'usu -->",
+    "protectsite-text-unprotect": "<!-- Instrucciones/Comentarios demientres la proteición -->",
+    "protectsite-title": "Configuración de la protección del sitiu",
+    "protectsite-allowall": "Tolos usuarios",
+    "protectsite-allowusersysop": "Usuarios rexistraos y alministradores",
+    "protectsite-allowsysop": "Solo alministradores",
+    "protectsite-createaccount": "Permitir la creación de cuentes nueves por",
+    "protectsite-createpage": "Permitir la creación de páxines por",
+    "protectsite-edit": "Permitir la edición de páxines por",
+    "protectsite-move": "Permitir el treslláu de páxines por",
+    "protectsite-upload": "Permitir la carga de ficheros por",
+    "protectsite-timeout": "Tiempu máximu:",
+    "protectsite-timeout-error": "'''Tiempu de caducidá inválidu.'''",
+    "protectsite-maxtimeout": "Máximu: $1",
+    "protectsite-comment": "Comentariu:",
+    "protectsite-ucomment": "Comentariu de desprotección:",
+    "protectsite-until": "Protexío fasta:",
+    "protectsite-protect": "Protexer",
+    "protectsite-unprotect": "Desprotexer",
+    "protectsite-createaccount-0": "Tolos usuarios",
+    "protectsite-createaccount-1": "Usuarios rexistraos y alministradores",
+    "protectsite-createaccount-2": "Solo alministradores",
+    "protectsite-createpage-0": "Tolos usuarios",
+    "protectsite-createpage-1": "Usuarios rexistraos y alministradores",
+    "protectsite-createpage-2": "Solo alministradores",
+    "protectsite-edit-0": "Tolos usuarios",
+    "protectsite-edit-1": "Usuarios rexistraos y alministradores",
+    "protectsite-edit-2": "Solo alministradores",
+    "protectsite-move-0": "Usuarios rexistraos y alministradores",
+    "protectsite-move-1": "Solo alministradores",
+    "protectsite-upload-0": "Usuarios rexistraos y alministradores",
+    "protectsite-upload-1": "Solo alministradores",
+    "right-protectsite": "Torgar les aiciones que puen facer dellos grupos d'usuarios por un tiempu determináu"
+}

@@ -12,7 +12,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.3.4
  * @author Eric Johnston <e.wolfie@gmail.com>
  * @author Chris Stafford <c.stafford@gmail.com>
  * @author Jack Phoenix <jack@countervandalism.net>
@@ -31,7 +30,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Protect Site',
-	'version' => '0.3.4',
+	'version' => '0.4.0',
 	'author' => array( '[http://en.uncyclopedia.co/wiki/User:Dawg Eric Johnston]', 'Chris Stafford', 'Jack Phoenix' ),
 	'descriptionmsg' => 'protectsite-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ProtectSite',
@@ -55,6 +54,7 @@ $wgGroupPermissions['bureaucrat']['protectsite'] = true;
 
 /* Add this special page to the special page listing array */
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['ProtectSite'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ProtectSite'] = $dir . 'ProtectSite.i18n.php';
 $wgExtensionMessagesFiles['ProtectSiteAliases'] = $dir . 'ProtectSite.alias.php';
 $wgAutoloadClasses['ProtectSite'] = $dir . 'ProtectSite.body.php';

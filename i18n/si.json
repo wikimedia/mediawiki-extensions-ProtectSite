@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Singhalawap",
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "protectsite": "අඩවිය ආරක්ෂණය කරන්න",
+    "protectsite-title": "අඩවිය ආරක්ෂණ සැකසුම්",
+    "protectsite-allowall": "සියලුම පරිශීලකයන්",
+    "protectsite-allowusersysop": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-allowsysop": "පරිපාලකවරුන්ට පමණයි",
+    "protectsite-createaccount": "නව ගිණුම් තැනීම්වලට ඉඩ දෙන්න",
+    "protectsite-createpage": "පිටු තැනීම්වලට ඉඩ දෙන්න",
+    "protectsite-edit": "පිටු සංස්කරණවලට ඉඩ දෙන්න",
+    "protectsite-move": "පිටු ගෙනයාම්වලට ඉඩ දෙන්න",
+    "protectsite-upload": "ගොනු උඩුගත කිරීම්වලට ඉඩ දෙන්න",
+    "protectsite-timeout": "කාලයෙන්ඉවත්",
+    "protectsite-timeout-error": "'''වලංගු නොවන කාලඉවත්වීම.'''",
+    "protectsite-maxtimeout": "උපරිම: $1",
+    "protectsite-comment": "පරිකථනය:",
+    "protectsite-ucomment": "පරිකථනය අනාරක්ෂිත කරන්න:",
+    "protectsite-until": "මේ දක්වා ආරක්ෂණය කරන්න:",
+    "protectsite-protect": "ආරක්‍ෂණය",
+    "protectsite-unprotect": "අනාරක්ෂිත කරන්න",
+    "protectsite-createaccount-0": "සියලුම පරිශීලකයන්",
+    "protectsite-createaccount-1": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-createaccount-2": "පරිපාලකවරුන්ට පමණයි",
+    "protectsite-createpage-0": "සියලුම පරිශීලකයන්",
+    "protectsite-createpage-1": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-createpage-2": "පරිපාලකවරුන්ට පමණයි",
+    "protectsite-edit-0": "සියලුම පරිශීලකයන්",
+    "protectsite-edit-1": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-edit-2": "පරිපාලකවරුන්ට පමණයි",
+    "protectsite-move-0": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-move-1": "පරිපාලකවරුන්ට පමණයි",
+    "protectsite-upload-0": "ලියාපදිංචි පරිශීලකයන් සහ පරිපාලකවරු",
+    "protectsite-upload-1": "පරිපාලකවරුන්ට පමණයි"
+}

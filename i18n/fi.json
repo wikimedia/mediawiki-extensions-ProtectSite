@@ -1,0 +1,39 @@
+{
+    "@metadata": {
+        "authors": [
+            "Beluga",
+            "Jack Phoenix <jack@countervandalism.net>"
+        ]
+    },
+    "protectsite": "Suojaa sivusto",
+    "protectsite-title": "Sivuston suojauksen asetukset",
+    "protectsite-allowall": "Kaikki käyttäjät",
+    "protectsite-allowusersysop": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-allowsysop": "Vain ylläpitäjät",
+    "protectsite-createaccount": "Salli seuraavien luoda uusia tunnuksia",
+    "protectsite-createpage": "Salli seuraavien luoda uusia sivuja",
+    "protectsite-edit": "Salli seuraavien muokata sivuja",
+    "protectsite-move": "Salli seuraavien siirtää sivuja",
+    "protectsite-upload": "Salli seuraavien tallentaa tiedostoja",
+    "protectsite-timeout": "Aikakatkaisu:",
+    "protectsite-timeout-error": "'''Kelpaamaton aikakatkaisu.'''",
+    "protectsite-maxtimeout": "Maksimi: $1",
+    "protectsite-comment": "Kommentti:",
+    "protectsite-ucomment": "Suojauksen poiston kommentti:",
+    "protectsite-protect": "Suojaa",
+    "protectsite-unprotect": "Poista suojaus",
+    "protectsite-createaccount-0": "Kaikki käyttäjät",
+    "protectsite-createaccount-1": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-createaccount-2": "Vain ylläpitäjät",
+    "protectsite-createpage-0": "Kaikki käyttäjät",
+    "protectsite-createpage-1": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-createpage-2": "Vain ylläpitäjät",
+    "protectsite-edit-0": "Kaikki käyttäjät",
+    "protectsite-edit-1": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-edit-2": "Vain ylläpitäjät",
+    "protectsite-move-0": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-move-1": "Vain ylläpitäjät",
+    "protectsite-upload-0": "Rekisteröityneet käyttäjät ja ylläpitäjät",
+    "protectsite-upload-1": "Vain ylläpitäjät",
+    "right-protectsite": "Rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa"
+}

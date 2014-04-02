@@ -1,0 +1,43 @@
+{
+    "@metadata": {
+        "authors": [
+            "Borichèt",
+            "Dragonòt"
+        ]
+    },
+    "protectsite": "Sit protet",
+    "protectsite-desc": "A përmët a n'aministrator dël sit ëd bloché temporaneament vàire modìfiche dël sit",
+    "protectsite-text-protect": "<!-- Istrussion/Coment/Polìtica për dovragi -->",
+    "protectsite-text-unprotect": "<!-- Istrussion/Coment quand protet -->",
+    "protectsite-title": "Ampostassion ëd protession dël sit",
+    "protectsite-allowall": "Tùit j'utent",
+    "protectsite-allowusersysop": "Utent registrà e aministrador",
+    "protectsite-allowsysop": "Mach aministrador",
+    "protectsite-createaccount": "Përmëtt creassion ëd neuv utent da",
+    "protectsite-createpage": "Përmëtt creassion ëd pàgine da",
+    "protectsite-edit": "Përmëtt modìfica ëd pàgine da",
+    "protectsite-move": "Përmëtt tramuda ëd pàgine da",
+    "protectsite-upload": "Përmëtt caria ëd pàgine da",
+    "protectsite-timeout": "Timeout:",
+    "protectsite-timeout-error": "'''Timeout pa bon.'''",
+    "protectsite-maxtimeout": "Màssim: $1",
+    "protectsite-comment": "Coment:",
+    "protectsite-ucomment": "Sprotegg coment:",
+    "protectsite-until": "Protegg fin a:",
+    "protectsite-protect": "Protet",
+    "protectsite-unprotect": "Sprotet",
+    "protectsite-createaccount-0": "Tùit j'utent",
+    "protectsite-createaccount-1": "J'utent registrà e j'aministrator",
+    "protectsite-createaccount-2": "Mach j'aministrator",
+    "protectsite-createpage-0": "Tùit j'utent",
+    "protectsite-createpage-1": "J'utent registrà e j'aministrator",
+    "protectsite-createpage-2": "Mach j'aministrator",
+    "protectsite-edit-0": "Tùit j'utent",
+    "protectsite-edit-1": "J'utent registrà e aministrator",
+    "protectsite-edit-2": "Mach j'aministrator",
+    "protectsite-move-0": "J'utent registrà e j'aministrator",
+    "protectsite-move-1": "Mach j'aministrator",
+    "protectsite-upload-0": "J'utent registrà e j'aministrator",
+    "protectsite-upload-1": "Mach j'aministrator",
+    "right-protectsite": "Limité j'assion che a peulo esse fàite për chèiche partìe për un temp limità"
+}
