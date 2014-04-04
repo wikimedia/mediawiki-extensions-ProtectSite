@@ -6,9 +6,9 @@
             "Yfdyh000"
         ]
     },
-    "protectsite": "保护站点",
-    "protectsite-desc": "允许站点管理员暂时阻止各种对网站的修改",
-    "protectsite-title": "站点保护设置",
+    "protectsite": "保护网站",
+    "protectsite-desc": "允许网站管理员临时阻止多种网站修改",
+    "protectsite-title": "网站保护设置",
     "protectsite-allowall": "所有用户",
     "protectsite-allowusersysop": "已注册的用户和管理员",
     "protectsite-allowsysop": "仅操作员",
