@@ -61,7 +61,7 @@ $specialPageAliases['ia'] = array(
 
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
-	'ProtectSite' => array( 'SitoProtetto' ),
+	'ProtectSite' => array( 'ProteggiSito' ),
 );
 
 /** Japanese (日本語) */
