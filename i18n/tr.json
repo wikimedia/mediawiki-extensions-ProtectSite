@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Suelnur"
-        ]
-    },
-    "protectsite-createaccount-1": "Kayıtlı kullanıcılar ve hizmetliler",
-    "protectsite-createaccount-2": "Sadece hizmetliler",
-    "protectsite-move-0": "Kayıtlı kullanıcılar ve hizmetliler",
-    "protectsite-move-1": "Sadece hizmetliler",
-    "protectsite-upload-0": "Kayıtlı kullanıcılar ve hizmetliler",
-    "protectsite-upload-1": "Sadece hizmetliler"
+	"@metadata": {
+		"authors": [
+			"Suelnur"
+		]
+	},
+	"protectsite-createaccount-1": "Kayıtlı kullanıcılar ve hizmetliler",
+	"protectsite-createaccount-2": "Sadece hizmetliler",
+	"protectsite-move-0": "Kayıtlı kullanıcılar ve hizmetliler",
+	"protectsite-move-1": "Sadece hizmetliler",
+	"protectsite-upload-0": "Kayıtlı kullanıcılar ve hizmetliler",
+	"protectsite-upload-1": "Sadece hizmetliler"
 }

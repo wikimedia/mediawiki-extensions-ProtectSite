@@ -1,28 +1,28 @@
 {
-    "@metadata": {
-        "authors": [
-            "Avjoska"
-        ]
-    },
-    "protectsite-allowall": "Kõigile kasutajatele",
-    "protectsite-allowusersysop": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-allowsysop": "Ainult administraatoritele",
-    "protectsite-comment": "Kommentaar:",
-    "protectsite-ucomment": "Kaitse eemaldamise kommentaar:",
-    "protectsite-until": "Kaitse all kuni:",
-    "protectsite-protect": "Kaitse",
-    "protectsite-unprotect": "Eemalda kaitse",
-    "protectsite-createaccount-0": "Kõigile kasutajatele",
-    "protectsite-createaccount-1": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-createaccount-2": "Ainult administraatoritele",
-    "protectsite-createpage-0": "Kõigile kasutajatele",
-    "protectsite-createpage-1": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-createpage-2": "Ainult administraatoritele",
-    "protectsite-edit-0": "Kõigile kasutajatele",
-    "protectsite-edit-1": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-edit-2": "Ainult administraatoritele",
-    "protectsite-move-0": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-move-1": "Ainult administraatoritele",
-    "protectsite-upload-0": "Registreeritud kasutajatele ja administraatoritele",
-    "protectsite-upload-1": "Ainult administraatoritele"
+	"@metadata": {
+		"authors": [
+			"Avjoska"
+		]
+	},
+	"protectsite-allowall": "Kõigile kasutajatele",
+	"protectsite-allowusersysop": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-allowsysop": "Ainult administraatoritele",
+	"protectsite-comment": "Kommentaar:",
+	"protectsite-ucomment": "Kaitse eemaldamise kommentaar:",
+	"protectsite-until": "Kaitse all kuni:",
+	"protectsite-protect": "Kaitse",
+	"protectsite-unprotect": "Eemalda kaitse",
+	"protectsite-createaccount-0": "Kõigile kasutajatele",
+	"protectsite-createaccount-1": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-createaccount-2": "Ainult administraatoritele",
+	"protectsite-createpage-0": "Kõigile kasutajatele",
+	"protectsite-createpage-1": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-createpage-2": "Ainult administraatoritele",
+	"protectsite-edit-0": "Kõigile kasutajatele",
+	"protectsite-edit-1": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-edit-2": "Ainult administraatoritele",
+	"protectsite-move-0": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-move-1": "Ainult administraatoritele",
+	"protectsite-upload-0": "Registreeritud kasutajatele ja administraatoritele",
+	"protectsite-upload-1": "Ainult administraatoritele"
 }

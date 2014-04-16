@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "protectsite-desc": "Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.",
-    "protectsite-allowall": "Alle Metmaacher",
-    "protectsite-comment": "Aanmärkung:",
-    "protectsite-createaccount-0": "Alle Metmaacher",
-    "protectsite-createpage-0": "Alle Metmaacher",
-    "protectsite-edit-0": "Alle Metmaacher"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"protectsite-desc": "Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.",
+	"protectsite-allowall": "Alle Metmaacher",
+	"protectsite-comment": "Aanmärkung:",
+	"protectsite-createaccount-0": "Alle Metmaacher",
+	"protectsite-createpage-0": "Alle Metmaacher",
+	"protectsite-edit-0": "Alle Metmaacher"
 }

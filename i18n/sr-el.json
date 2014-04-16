@@ -1,18 +1,16 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "protectsite-allowall": "Svi korisnici",
-    "protectsite-allowusersysop": "Upisani korisnici i administratori",
-    "protectsite-allowsysop": "Samo administratori",
-    "protectsite-createpage": "Dozvoli stvaranje stranica od",
-    "protectsite-edit": "Dozvoli uređivanje strana od strane",
-    "protectsite-move": "Dozvoli preusmeravanje strana od strane",
-    "protectsite-timeout": "Ističe:",
-    "protectsite-maxtimeout": "Najviše: $1",
-    "protectsite-comment": "Komentar:",
-    "protectsite-ucomment": "Skini zaštitu sa komentara:",
-    "protectsite-until": "Zaštićeno do:",
-    "protectsite-protect": "Zaštiti",
-    "protectsite-unprotect": "Skini zaštitu"
+	"@metadata": [],
+	"protectsite-allowall": "Svi korisnici",
+	"protectsite-allowusersysop": "Upisani korisnici i administratori",
+	"protectsite-allowsysop": "Samo administratori",
+	"protectsite-createpage": "Dozvoli stvaranje stranica od",
+	"protectsite-edit": "Dozvoli uređivanje strana od strane",
+	"protectsite-move": "Dozvoli preusmeravanje strana od strane",
+	"protectsite-timeout": "Ističe:",
+	"protectsite-maxtimeout": "Najviše: $1",
+	"protectsite-comment": "Komentar:",
+	"protectsite-ucomment": "Skini zaštitu sa komentara:",
+	"protectsite-until": "Zaštićeno do:",
+	"protectsite-protect": "Zaštiti",
+	"protectsite-unprotect": "Skini zaštitu"
 }

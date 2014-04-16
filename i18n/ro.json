@@ -1,29 +1,29 @@
 {
-    "@metadata": {
-        "authors": [
-            "Minisarm",
-            "Stelistcristi"
-        ]
-    },
-    "protectsite": "Protejează situl",
-    "protectsite-title": "Setări de protejare a sitului",
-    "protectsite-allowall": "Toți utilizatorii",
-    "protectsite-allowusersysop": "Utilizatori înregistrați și administratori",
-    "protectsite-allowsysop": "Doar administratori",
-    "protectsite-timeout": "Expirare:",
-    "protectsite-maxtimeout": "Maxim: $1",
-    "protectsite-comment": "Comentariu:",
-    "protectsite-createaccount-0": "Toți utilizatorii",
-    "protectsite-createaccount-1": "Utilizatori înregistrați și administratori",
-    "protectsite-createaccount-2": "Doar administratori",
-    "protectsite-createpage-0": "Toți utilizatorii",
-    "protectsite-createpage-1": "Utilizatori înregistrați și administratori",
-    "protectsite-createpage-2": "Doar administratori",
-    "protectsite-edit-0": "Toți utilizatorii",
-    "protectsite-edit-1": "Utilizatori înregistrați și administratori",
-    "protectsite-edit-2": "Doar administratori",
-    "protectsite-move-0": "Utilizatori înregistrați și administratori",
-    "protectsite-move-1": "Doar administratori",
-    "protectsite-upload-0": "Utilizatori înregistrați și administratori",
-    "protectsite-upload-1": "Doar administratori"
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"protectsite": "Protejează situl",
+	"protectsite-title": "Setări de protejare a sitului",
+	"protectsite-allowall": "Toți utilizatorii",
+	"protectsite-allowusersysop": "Utilizatori înregistrați și administratori",
+	"protectsite-allowsysop": "Doar administratori",
+	"protectsite-timeout": "Expirare:",
+	"protectsite-maxtimeout": "Maxim: $1",
+	"protectsite-comment": "Comentariu:",
+	"protectsite-createaccount-0": "Toți utilizatorii",
+	"protectsite-createaccount-1": "Utilizatori înregistrați și administratori",
+	"protectsite-createaccount-2": "Doar administratori",
+	"protectsite-createpage-0": "Toți utilizatorii",
+	"protectsite-createpage-1": "Utilizatori înregistrați și administratori",
+	"protectsite-createpage-2": "Doar administratori",
+	"protectsite-edit-0": "Toți utilizatorii",
+	"protectsite-edit-1": "Utilizatori înregistrați și administratori",
+	"protectsite-edit-2": "Doar administratori",
+	"protectsite-move-0": "Utilizatori înregistrați și administratori",
+	"protectsite-move-1": "Doar administratori",
+	"protectsite-upload-0": "Utilizatori înregistrați și administratori",
+	"protectsite-upload-1": "Doar administratori"
 }

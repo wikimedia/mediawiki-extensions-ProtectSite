@@ -1,30 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Karthi.dr",
-            "Shanmugamp7"
-        ]
-    },
-    "protectsite-allowall": "அனைத்துப் பயனர்கள்",
-    "protectsite-allowusersysop": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-allowsysop": "நிருவாகிகள் மட்டும்",
-    "protectsite-maxtimeout": "அதிகபட்சம்: $1",
-    "protectsite-comment": "கருத்து:",
-    "protectsite-ucomment": "காப்புச் செய்யப்படாத கருத்து:",
-    "protectsite-until": "இதுவரை காப்புச்செய்யப்பட்டுள்ளது:",
-    "protectsite-protect": "காக்கவும்",
-    "protectsite-unprotect": "காப்பு நீக்கு",
-    "protectsite-createaccount-0": "அனைத்துப் பயனர்கள்",
-    "protectsite-createaccount-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-createaccount-2": "நிருவாகிகள் மட்டும்",
-    "protectsite-createpage-0": "அனைத்துப் பயனர்கள்",
-    "protectsite-createpage-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-createpage-2": "நிருவாகிகள் மட்டும்",
-    "protectsite-edit-0": "அனைத்துப் பயனர்கள்",
-    "protectsite-edit-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-edit-2": "நிருவாகிகள் மட்டும்",
-    "protectsite-move-0": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-move-1": "நிருவாகிகள் மட்டும்",
-    "protectsite-upload-0": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
-    "protectsite-upload-1": "நிருவாகிகள் மட்டும்"
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"Shanmugamp7"
+		]
+	},
+	"protectsite-allowall": "அனைத்துப் பயனர்கள்",
+	"protectsite-allowusersysop": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-allowsysop": "நிருவாகிகள் மட்டும்",
+	"protectsite-maxtimeout": "அதிகபட்சம்: $1",
+	"protectsite-comment": "கருத்து:",
+	"protectsite-ucomment": "காப்புச் செய்யப்படாத கருத்து:",
+	"protectsite-until": "இதுவரை காப்புச்செய்யப்பட்டுள்ளது:",
+	"protectsite-protect": "காக்கவும்",
+	"protectsite-unprotect": "காப்பு நீக்கு",
+	"protectsite-createaccount-0": "அனைத்துப் பயனர்கள்",
+	"protectsite-createaccount-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-createaccount-2": "நிருவாகிகள் மட்டும்",
+	"protectsite-createpage-0": "அனைத்துப் பயனர்கள்",
+	"protectsite-createpage-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-createpage-2": "நிருவாகிகள் மட்டும்",
+	"protectsite-edit-0": "அனைத்துப் பயனர்கள்",
+	"protectsite-edit-1": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-edit-2": "நிருவாகிகள் மட்டும்",
+	"protectsite-move-0": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-move-1": "நிருவாகிகள் மட்டும்",
+	"protectsite-upload-0": "பதிவுசெய்த பயனர்கள் மற்றும் நிருவாகிகள்",
+	"protectsite-upload-1": "நிருவாகிகள் மட்டும்"
 }

@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ahmed-Najib-Biabani-Ibrahimkhel"
-        ]
-    },
-    "protectsite-allowall": "ټول کارنان",
-    "protectsite-comment": "تبصره:",
-    "protectsite-protect": "ژغورل",
-    "protectsite-unprotect": "ناژغورل",
-    "protectsite-createaccount-0": "ټول کارنان",
-    "protectsite-createaccount-2": "يواځې پازوالان",
-    "protectsite-createpage-0": "ټول کارنان",
-    "protectsite-createpage-2": "يواځې پازوالان",
-    "protectsite-edit-0": "ټول کارنان",
-    "protectsite-edit-2": "يواځې پازوالان",
-    "protectsite-move-1": "يواځې پازوالان",
-    "protectsite-upload-1": "يواځې پازوالان"
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"protectsite-allowall": "ټول کارنان",
+	"protectsite-comment": "تبصره:",
+	"protectsite-protect": "ژغورل",
+	"protectsite-unprotect": "ناژغورل",
+	"protectsite-createaccount-0": "ټول کارنان",
+	"protectsite-createaccount-2": "يواځې پازوالان",
+	"protectsite-createpage-0": "ټول کارنان",
+	"protectsite-createpage-2": "يواځې پازوالان",
+	"protectsite-edit-0": "ټول کارنان",
+	"protectsite-edit-2": "يواځې پازوالان",
+	"protectsite-move-1": "يواځې پازوالان",
+	"protectsite-upload-1": "يواځې پازوالان"
 }

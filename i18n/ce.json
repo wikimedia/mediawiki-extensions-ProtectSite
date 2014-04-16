@@ -1,21 +1,21 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "protectsite-createpage": "АгӀонаш кхолла магийта",
-    "protectsite-createaccount-0": "Массо декъашхой",
-    "protectsite-createaccount-1": "ДӀабазбелла декъашхой а куьйгалхой а",
-    "protectsite-createaccount-2": "Куьйгалхой бен",
-    "protectsite-createpage-0": "Массо декъашхой",
-    "protectsite-createpage-1": "ДӀабазбелла декъашхой а куьйгалхой а",
-    "protectsite-createpage-2": "Куьйгалхой бен",
-    "protectsite-edit-0": "Массо декъашхой",
-    "protectsite-edit-1": "ДӀабазбелла декъашхой а куьйгалхой а",
-    "protectsite-edit-2": "Куьйгалхой бен",
-    "protectsite-move-0": "ДӀабазбелла декъашхой а куьйгалхой а",
-    "protectsite-move-1": "Куьйгалхой бен",
-    "protectsite-upload-0": "ДӀабазбелла декъашхой а куьйгалхой а",
-    "protectsite-upload-1": "Куьйгалхой бен"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"protectsite-createpage": "АгӀонаш кхолла магийта",
+	"protectsite-createaccount-0": "Массо декъашхой",
+	"protectsite-createaccount-1": "ДӀабазбелла декъашхой а куьйгалхой а",
+	"protectsite-createaccount-2": "Куьйгалхой бен",
+	"protectsite-createpage-0": "Массо декъашхой",
+	"protectsite-createpage-1": "ДӀабазбелла декъашхой а куьйгалхой а",
+	"protectsite-createpage-2": "Куьйгалхой бен",
+	"protectsite-edit-0": "Массо декъашхой",
+	"protectsite-edit-1": "ДӀабазбелла декъашхой а куьйгалхой а",
+	"protectsite-edit-2": "Куьйгалхой бен",
+	"protectsite-move-0": "ДӀабазбелла декъашхой а куьйгалхой а",
+	"protectsite-move-1": "Куьйгалхой бен",
+	"protectsite-upload-0": "ДӀабазбелла декъашхой а куьйгалхой а",
+	"protectsite-upload-1": "Куьйгалхой бен"
 }
