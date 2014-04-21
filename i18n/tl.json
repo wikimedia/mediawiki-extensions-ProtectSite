@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"protectsite": "Prutektahan ang sayt",
@@ -12,7 +13,7 @@
 	"protectsite-allowall": "Lahat ng mga tagagamit",
 	"protectsite-allowusersysop": "Nakatalang mga tagagamit at mga tagapagpaandar ng sistema",
 	"protectsite-allowsysop": "Mga tagapagpaandar lang ng sistema",
-	"protectsite-createaccount": "Ipahintulot ang paglikha ng bagong mga akawnt sa pamamagitan ng",
+	"protectsite-createaccount": "Ipahintulot ang paglikha ng bagong mga account sa pamamagitan ng",
 	"protectsite-createpage": "Ipahintulot ang paglikha ng pahina sa pamamagitan ng",
 	"protectsite-edit": "Pahintulutan ang pamamatnugot ng mga pahina sa pamamagitan ng",
 	"protectsite-move": "Ipahintulot ang paglipat ng mga pahina sa pamamagitan ng",
