@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Kenrick95",
-			"StefanusRA"
+			"StefanusRA",
+			"Bennylin"
 		]
 	},
 	"protectsite": "Lindungi situs",
@@ -13,11 +14,11 @@
 	"protectsite-allowall": "Semua pengguna",
 	"protectsite-allowusersysop": "Pengguna terdaftar dan administrator",
 	"protectsite-allowsysop": "Administrator saja",
-	"protectsite-createaccount": "Mengijinkan pembuatan akun baru oleh",
-	"protectsite-createpage": "Mengijinkan pembuatan halaman oleh",
-	"protectsite-edit": "Mengijinkan penyuntingan halaman oleh",
-	"protectsite-move": "Mengijinkan pemindahan halaman oleh",
-	"protectsite-upload": "Mengijinkan pengunggahan berkas oleh",
+	"protectsite-createaccount": "Mengizinkan pembuatan akun baru oleh",
+	"protectsite-createpage": "Mengizinkan pembuatan halaman oleh",
+	"protectsite-edit": "Mengizinkan penyuntingan halaman oleh",
+	"protectsite-move": "Mengizinkan pemindahan halaman oleh",
+	"protectsite-upload": "Mengizinkan pengunggahan berkas oleh",
 	"protectsite-comment": "Komentar:",
 	"protectsite-protect": "Lindungi"
 }
