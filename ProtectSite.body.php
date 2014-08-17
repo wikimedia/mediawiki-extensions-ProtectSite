@@ -53,7 +53,7 @@ class ProtectSite extends SpecialPage {
  * @todo FIXME: could probably be rewritten to use the modern HTMLForm :)
  */
 class ProtectSiteForm {
-	var $mRequest, $action, $persist_data;
+	public $mRequest, $action, $persist_data;
 
 	/* Constructor */
 	function __construct( &$request ) {
