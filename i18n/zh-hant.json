@@ -2,16 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Simon Shek"
+			"Simon Shek",
+			"Liuxinyu970226"
 		]
 	},
+	"protectsite": "保護網站",
+	"protectsite-title": "網站保護設定",
 	"protectsite-allowall": "所有用戶",
+	"protectsite-allowusersysop": "註冊的使用者與管理員",
 	"protectsite-allowsysop": "僅操作員",
+	"protectsite-timeout": "逾時：",
+	"protectsite-maxtimeout": "最大：$1",
 	"protectsite-comment": "評論：",
 	"protectsite-protect": "保護",
+	"protectsite-unprotect": "解除保護",
 	"protectsite-createaccount-0": "所有用戶",
+	"protectsite-createaccount-1": "註冊的使用者與管理員",
 	"protectsite-createaccount-2": "僅操作員",
 	"protectsite-createpage-0": "所有用戶",
+	"protectsite-createpage-1": "註冊的使用者與管理員",
 	"protectsite-createpage-2": "僅操作員",
 	"protectsite-edit-0": "所有用戶",
 	"protectsite-edit-2": "僅操作員",
