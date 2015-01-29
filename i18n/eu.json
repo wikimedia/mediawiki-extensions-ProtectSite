@@ -1,8 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Subi"
 		]
 	},
-	"protectsite-comment": "Iruzkina:"
+	"protectsite-comment": "Iruzkina:",
+	"protectsite-createaccount-0": "Erabiltzaile guztiak",
+	"protectsite-createaccount-2": "Administratzaileak bakarrik",
+	"protectsite-createpage-0": "Erabiltzaile guztiak",
+	"protectsite-createpage-2": "Administratzaileak bakarrik",
+	"protectsite-edit-0": "Erabiltzaile guztiak",
+	"protectsite-edit-2": "Administratzaileak bakarrik",
+	"protectsite-move-1": "Administratzaileak bakarrik",
+	"protectsite-upload-1": "Administratzaileak bakarrik"
 }
