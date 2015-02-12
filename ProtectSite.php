@@ -58,6 +58,7 @@ $wgMessagesDirs['ProtectSite'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ProtectSite'] = $dir . 'ProtectSite.i18n.php';
 $wgExtensionMessagesFiles['ProtectSiteAliases'] = $dir . 'ProtectSite.alias.php';
 $wgAutoloadClasses['ProtectSite'] = $dir . 'ProtectSite.body.php';
+$wgAutoloadClasses['ProtectSiteForm'] = $dir . 'ProtectSite.body.php';
 $wgSpecialPages['ProtectSite'] = 'ProtectSite';
 
 /* Register initialization function */
