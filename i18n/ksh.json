@@ -5,9 +5,25 @@
 		]
 	},
 	"protectsite-desc": "Löht dem Wiki sing Köbesse ongerscheidlijje Veränderonge aam Wiki op Zick verbeede.",
+	"protectsite-title": "Ennschtällonge för dem Wikki singe Schoz",
 	"protectsite-allowall": "Alle Metmaacher",
+	"protectsite-createaccount": "Lohß et neu Zohjäng zom Wikki Aanlähje zoh vun:",
+	"protectsite-createpage": "Lohß et Sigge neu Aanlähje zoh vun:",
+	"protectsite-edit": "Lohß et Sigge Ändere zoh vun:",
+	"protectsite-move": "Lohß et Sigge Ömnänne zoh vun:",
+	"protectsite-upload": "Donn et Datteije Huhlahde zohlohße vun:",
 	"protectsite-comment": "Aanmärkung:",
 	"protectsite-createaccount-0": "Alle Metmaacher",
+	"protectsite-createaccount-1": "Aanjemälldte Medmaacher un Wikki_Köhbeße",
+	"protectsite-createaccount-2": "Blohß de Wikki_Köhbeße",
 	"protectsite-createpage-0": "Alle Metmaacher",
-	"protectsite-edit-0": "Alle Metmaacher"
+	"protectsite-createpage-1": "Aanjemälldte Medmaacher un Wikki_Köhbeße",
+	"protectsite-createpage-2": "Blohß de Wikki_Köhbeße",
+	"protectsite-edit-0": "Alle Metmaacher",
+	"protectsite-edit-1": "Aanjemälldte Medmaacher un Wikki_Köhbeße",
+	"protectsite-edit-2": "Blohß de Wikki_Köhbeße",
+	"protectsite-move-0": "Aanjemälldte Medmaacher un Wikki_Köhbeße",
+	"protectsite-move-1": "Blohß de Wikki_Köhbeße",
+	"protectsite-upload-0": "Aanjemälldte Medmaacher un Wikki_Köhbeße",
+	"protectsite-upload-1": "Blohß de Wikki_Köhbeße"
 }

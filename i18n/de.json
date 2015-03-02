@@ -3,14 +3,15 @@
 		"authors": [
 			"Geitost",
 			"Kghbln",
-			"LWChris"
+			"LWChris",
+			"Purodha"
 		]
 	},
 	"protectsite": "Seite schützen",
 	"protectsite-desc": "Ermöglicht es einem Systemadministrator, vorübergehend verschiedene Aktionen für bestimmte Benutzergruppen des Wikis außer Kraft zu setzen",
 	"protectsite-text-protect": "<!-- Anweisungen/Kommentare/Nutzungsrichtlinie -->",
 	"protectsite-text-unprotect": "<!-- Anweisungen/Kommentare, sofern gesperrt -->",
-	"protectsite-title": "Seitenschutzeinstellungen",
+	"protectsite-title": "Schutzeinstellungen des Wikis",
 	"protectsite-allowall": "Alle Benutzer",
 	"protectsite-allowusersysop": "Registrierte Benutzer und Administratoren",
 	"protectsite-allowsysop": "Nur Administratoren",
