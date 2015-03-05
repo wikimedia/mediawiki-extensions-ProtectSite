@@ -3,7 +3,8 @@
 		"authors": [
 			"Shirayuki",
 			"Simon Shek",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"LNDDYL"
 		]
 	},
 	"protectsite": "保護網站",
@@ -16,7 +17,7 @@
 	"protectsite-comment": "評論：",
 	"protectsite-protect": "保護",
 	"protectsite-unprotect": "解除保護",
-	"protectsite-createaccount-0": "所有用戶",
+	"protectsite-createaccount-0": "所有使用者",
 	"protectsite-createaccount-1": "註冊的使用者與管理員",
 	"protectsite-createaccount-2": "僅操作員",
 	"protectsite-createpage-0": "所有用戶",
