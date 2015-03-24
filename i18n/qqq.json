@@ -7,7 +7,7 @@
 		]
 	},
 	"protectsite": "{{doc-special|ProtectSite|unlisted=1}}",
-	"protectsite-desc": "{{desc|name=Protect Site|url=http://www.mediawiki.org/wiki/Extension:ProtectSite}}",
+	"protectsite-desc": "{{desc|name=Protect Site|url=https://www.mediawiki.org/wiki/Extension:ProtectSite}}",
 	"protectsite-text-protect": "Used as HTML comment.\n\nFollowed by the \"Protect site\" form.\n\nSee also:\n* {{msg-mw|Protectsite-text-unprotect}}",
 	"protectsite-text-unprotect": "Used as HTML comment.\n\nFollowed by the \"Unprotect site\" form.\n\nSee also:\n* {{msg-mw|Protectsite-text-protect}}",
 	"protectsite-title": "[[File:ProtectSite_MediaWiki_extension.png|thumb]]\nUsed as fieldset label for the \"Protect site\" form and the \"Unprotect site\" form.\n{{Related|Protectsite-legend}}",
