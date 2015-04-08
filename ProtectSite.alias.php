@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'ProtectSite' => array( 'ছাইট_সুৰক্ষা_কৰক' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'ProtectSite' => array( 'ویب_سایٹ_ئی_ساتوکان' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ProtectSite' => array( 'Wiki_schützen', 'Website_schützen' ),
