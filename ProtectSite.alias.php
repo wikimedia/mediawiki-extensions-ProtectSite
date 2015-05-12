@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'ProtectSite' => array( 'حماية_الموقع' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ProtectSite' => array( 'حمايه_الموقع' ),
 );
