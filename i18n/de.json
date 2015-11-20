@@ -4,7 +4,8 @@
 			"Geitost",
 			"Kghbln",
 			"LWChris",
-			"Purodha"
+			"Purodha",
+			"Metalhead64"
 		]
 	},
 	"protectsite": "Seite schützen",
@@ -41,5 +42,6 @@
 	"protectsite-move-1": "Nur Administratoren",
 	"protectsite-upload-0": "Registrierte Benutzer und Administratoren",
 	"protectsite-upload-1": "Nur Administratoren",
+	"action-protectsite": "Aktionen zu beschränken, die einige Gruppen für eine begrenzte Zeit ausführen können",
 	"right-protectsite": "Durchführbare Aktionen für eine bestimmte Benutzergruppe während eines begrenzten Zeitraums einschränken"
 }
