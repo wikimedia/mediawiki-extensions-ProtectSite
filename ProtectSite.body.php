@@ -1,8 +1,21 @@
 <?php
 /**
- * Two classes for providing Special:ProtectSite page.
+ * This extension provides Special:ProtectSite, which makes it possible for
+ * users with protectsite permissions to quickly lock down and restore various
+ * privileges for anonymous and registered users on a wiki.
+ *
+ * Knobs:
+ * 'protectsite' - Group permission to use the special page.
+ * $wgProtectSiteLimit - Maximum time allowed for protection of the site.
+ * $wgProtectSiteDefaultTimeout - Default protection time.
+ * $wgProtectSiteExempt - Array of non-sysop usergroups to be not effected by rights changes
+ *
  * @file
  * @ingroup Extensions
+ * @author Eric Johnston <e.wolfie@gmail.com>
+ * @author Chris Stafford <c.stafford@gmail.com>
+ * @author Jack Phoenix <jack@countervandalism.net>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 class ProtectSite extends SpecialPage {
@@ -17,32 +30,100 @@ class ProtectSite extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $par Mixed: parameter passed to the page or null
+	 * @param mixed|null $par Parameter passed to the page
 	 */
 	public function execute( $par ) {
-		global $wgOut, $wgUser, $wgRequest;
+		$user = $this->getUser();
 
 		// If the user doesn't have 'protectsite' permission, display an error
-		if ( !$wgUser->isAllowed( 'protectsite' ) ) {
+		if ( !$user->isAllowed( 'protectsite' ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
 
 		// Show a message if the database is in read-only mode
 		if ( wfReadOnly() ) {
-			$wgOut->readOnlyPage();
-			return;
+			throw new ReadOnlyError;
 		}
 
 		// If user is blocked, s/he doesn't need to access this page
-		if ( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
-			return;
+		if ( $user->isBlocked() ) {
+			throw new UserBlockedError( $user->mBlock );
 		}
 
 		$this->setHeaders();
 
-		$form = new ProtectSiteForm( $wgRequest );
+		$form = new ProtectSiteForm( $this->getRequest() );
+	}
+
+	/**
+	 * Persistent data is unserialized from a record in the objectcache table
+	 * which is set in the special page. It will change the permissions for
+	 * various functions for anonymous and registered users based on the data
+	 * in the array. The data expires after the set amount of time, just like
+	 * a block.
+	 */
+	public static function setup() {
+		/* Globals */
+		global $wgGroupPermissions, $wgMemc, $wgProtectSiteExempt, $wgCommandLineMode;
+
+		// macbre: don't run code below when running in command line mode (memcache starts to act strange)
+		if ( !empty( $wgCommandLineMode ) ) {
+			return;
+		}
+
+		/* Initialize Object */
+		$persist_data = new SqlBagOStuff( array() );
+
+		/* Get data into the prot hash */
+		$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
+		if ( !$prot ) {
+			$prot = $persist_data->get( 'protectsite' );
+			if ( !$prot ) {
+				$wgMemc->set( wfMemcKey( 'protectsite' ), 'disabled' );
+			}
+		}
+
+		/* Logic to disable the selected user rights */
+		if ( is_array( $prot ) ) {
+			/* MW doesn't timeout correctly, this handles it */
+			if ( time() >= $prot['until'] ) {
+				$persist_data->delete( 'protectsite' );
+			}
+
+			/* Protection-related code for MediaWiki 1.8+ */
+			$wgGroupPermissions['*']['createaccount'] = !( $prot['createaccount'] >= 1 );
+			$wgGroupPermissions['user']['createaccount'] = !( $prot['createaccount'] == 2 );
+
+			$wgGroupPermissions['*']['createpage'] = !( $prot['createpage'] >= 1 );
+			$wgGroupPermissions['*']['createtalk'] = !( $prot['createpage'] >= 1 );
+			$wgGroupPermissions['user']['createpage'] = !( $prot['createpage'] == 2 );
+			$wgGroupPermissions['user']['createtalk'] = !( $prot['createpage'] == 2 );
+
+			$wgGroupPermissions['*']['edit'] = !( $prot['edit'] >= 1 );
+			$wgGroupPermissions['user']['edit'] = !( $prot['edit'] == 2 );
+			$wgGroupPermissions['sysop']['edit'] = true;
+
+			$wgGroupPermissions['user']['move'] = !( $prot['move'] == 1 );
+			$wgGroupPermissions['user']['upload'] = !( $prot['upload'] == 1 );
+			$wgGroupPermissions['user']['reupload'] = !( $prot['upload'] == 1 );
+			$wgGroupPermissions['user']['reupload-shared'] = !( $prot['upload'] == 1 );
+
+			// are there any groups that should not get affected by ProtectSite's lockdown?
+			if ( !empty( $wgProtectSiteExempt ) && is_array( $wgProtectSiteExempt ) ) {
+				// there are, so loop over them, and force these rights to be true
+				// will resolve any problems from inheriting rights from 'user' or 'sysop'
+				foreach ( $wgProtectSiteExempt as $exemptGroup ) {
+					$wgGroupPermissions[$exemptGroup]['edit'] = 1;
+					$wgGroupPermissions[$exemptGroup]['createpage'] = 1;
+					$wgGroupPermissions[$exemptGroup]['createtalk'] = 1;
+					$wgGroupPermissions[$exemptGroup]['move'] = 1;
+					$wgGroupPermissions[$exemptGroup]['upload'] = 1;
+					$wgGroupPermissions[$exemptGroup]['reupload'] = 1;
+					$wgGroupPermissions[$exemptGroup]['reupload-shared'] = 1;
+				}
+			}
+		}
 	}
 
 }
@@ -59,25 +140,21 @@ class ProtectSiteForm {
 	function __construct( &$request ) {
 		global $wgMemc;
 
-		if( !class_exists( 'BagOStuff' ) || !class_exists( 'MediaWikiBagOStuff' ) ) {
-			global $IP;
-			require_once( $IP . '/includes/BagOStuff.php' );
-		}
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
-		$this->action = htmlspecialchars( $titleObj->getLocalURL() );
+		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
 		$this->mRequest =& $request;
-		$this->persist_data = new MediaWikiBagOStuff();
+		$this->persist_data = new SqlBagOStuff();
 
 		/* Get data into the value variable/array */
 		$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
-		if( !$prot ) {
+		if ( !$prot ) {
 			$prot = $this->persist_data->get( 'protectsite' );
 		}
 
 		/* If this was a GET request */
-		if( !$this->mRequest->wasPosted() ) {
+		if ( !$this->mRequest->wasPosted() ) {
 			/* If $value is an array, protection is set, allow unsetting */
-			if( is_array( $prot ) ) {
+			if ( is_array( $prot ) ) {
 				$this->unProtectSiteForm( $prot );
 			} else {
 				/* If $value is not an array, protection is not set */
@@ -85,7 +162,7 @@ class ProtectSiteForm {
 			}
 		} else {
 			/* If this was a POST request, process the data sent */
-			if( $this->mRequest->getVal( 'protect' ) ) {
+			if ( $this->mRequest->getVal( 'protect' ) ) {
 				$this->setProtectSite();
 			} else {
 				$this->unProtectSite();
@@ -167,15 +244,15 @@ class ProtectSiteForm {
 	}
 
 	/**
-	 * @param $name String: name of the fieldset.
-	 * @param $content String: HTML content to put in.
+	 * @param string $name Name of the fieldset.
+	 * @param string $content HTML content to put in.
 	 * @return string HTML fieldset
 	 */
 	private function fieldset( $name, $content ) {
 		// Give grep a chance to find the usages:
 		// protectsite-title, protectsite-createaccount, protectsite-createpage,
 		// protectsite-edit, protectsite-move, protectsite-upload
-		return '<fieldset><legend>' . wfMsg( 'protectsite-' . $name ) .
+		return '<fieldset><legend>' . wfMessage( 'protectsite-' . $name )->text() .
 			"</legend>\n" . $content . "\n</fieldset>\n";
 	}
 
@@ -191,9 +268,9 @@ class ProtectSiteForm {
 		// protectsite-move-0, protectsite-move-1,
 		// protectsite-upload-0, protectsite-upload-1
 		$s = '';
-		foreach( $fields as $value => $checked ) {
+		foreach ( $fields as $value => $checked ) {
 			$s .= "<div><label><input type=\"radio\" name=\"{$varname}\" value=\"{$value}\"" . ( $checked ? ' checked="checked"' : '' ) . ' />'
-			. wfMsg( 'protectsite-' . $varname . '-' . $value ) .
+			. wfMessage( 'protectsite-' . $varname . '-' . $value )->text() .
 			"</label></div>\n";
 		}
 
@@ -205,14 +282,14 @@ class ProtectSiteForm {
 	 * after the text box itself.
 	 */
 	private function textbox( $varname, $value = '', $append = '' ) {
-		if( $this->mRequest->wasPosted() ) {
+		if ( $this->mRequest->wasPosted() ) {
 			$value = $this->mRequest->getText( $varname, $value );
 		}
 
 		// Give grep a chance to find the usages:
-		// protectsite-timeout,  protectsite-comment, protectsite-ucomment
-		$value = htmlspecialchars( $value );
-		return '<div><label>' . wfMsg( 'protectsite-' . $varname ) .
+		// protectsite-timeout, protectsite-comment, protectsite-ucomment
+		$value = htmlspecialchars( $value, ENT_QUOTES );
+		return '<div><label>' . wfMessage( 'protectsite-' . $varname )->text() .
 				"<input type=\"text\" name=\"{$varname}\" value=\"{$value}\" /> " .
 				$append .
 				"</label></div>\n";
@@ -229,9 +306,9 @@ class ProtectSiteForm {
 		//   protectsite-edit-0, protectsite-edit-1, protectsite-edit-2,
 		//   protectsite-move-0, protectsite-move-1,
 		//   protectsite-upload-0, protectsite-upload-1
-		return '<b>' . wfMsg( 'protectsite-' . $name ) . ' - <i>' .
+		return '<b>' . wfMessage( 'protectsite-' . $name )->text() . ' - <i>' .
 					'<span style="color: ' . ( ( $state > 0 ) ? 'red' : 'green' ) . '">' .
-					wfMsg( 'protectsite-' . $name . '-' . $state ) . '</span>' .
+					wfMessage( 'protectsite-' . $name . '-' . $state )->text() . '</span>' .
 					"</i></b><br />\n";
 	}
 
@@ -248,11 +325,11 @@ class ProtectSiteForm {
 					$this->showField( 'edit', $prot['edit'] ) .
 					$this->showField( 'move', $prot['move'] ) .
 					$this->showField( 'upload', $prot['upload'] ) .
-					'<b>' . wfMsg( 'protectsite-timeout' ) . ' </b> ' .
+					'<b>' . wfMessage( 'protectsite-timeout' )->text() . ' </b> ' .
 					'<i>' . $wgLang->timeAndDate( wfTimestamp( TS_MW, $prot['until'] ), true ) . '</i>' .
 					'<br />' .
 					( $prot['comment'] != '' ?
-					'<b>' . wfMsg( 'protectsite-comment' ) . ' </b> ' .
+					'<b>' . wfMessage( 'protectsite-comment' )->text() . ' </b> ' .
 					'<i>' . $prot['comment'] . '</i>' .
 					'<br />' : '' ) .
 					"<br />\n" .
@@ -261,7 +338,7 @@ class ProtectSiteForm {
 					Xml::element( 'input', array(
 						'type'	=> 'submit',
 						'name'	=> 'unprotect',
-						'value' => wfMsg( 'protectsite-unprotect' ) )
+						'value' => wfMessage( 'protectsite-unprotect' )->text() )
 					)
 				) .
 			'</form>'
@@ -295,7 +372,7 @@ class ProtectSiteForm {
 					$this->radiobox( 'upload', $upload ) .
 					$this->textbox( 'timeout', $wgProtectSiteDefaultTimeout,
 					( isset( $wgProtectSiteLimit ) ?
-						' (' . wfMsg( 'protectsite-maxtimeout', $wgProtectSiteLimit ) . ')' :
+						' (' . wfMessage( 'protectsite-maxtimeout', $wgProtectSiteLimit )->text() . ')' :
 						''
 					)) .
 					"\n<br />" .
@@ -304,7 +381,7 @@ class ProtectSiteForm {
 					Xml::element( 'input', array(
 						'type'	=> 'submit',
 						'name'	=> 'protect',
-						'value' => wfMsg( 'protectsite-protect' ) )
+						'value' => wfMessage( 'protectsite-protect' )->text() )
 					)
 				) .
 			'</form>'
