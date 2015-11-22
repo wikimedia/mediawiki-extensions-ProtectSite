@@ -41,5 +41,6 @@
 	"protectsite-move-1": "仅限管理员",
 	"protectsite-upload-0": "注册用户及管理员",
 	"protectsite-upload-1": "仅限管理员",
+	"action-protectsite": "限制某些用户组在有限的时间内可进行的操作",
 	"right-protectsite": "限制某些用户组在有限的时间内可进行的操作"
 }
