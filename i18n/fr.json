@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alexandre Emsenhuber",
-			"Balzac 40"
+			"Balzac 40",
+			"Gomoko"
 		]
 	},
 	"protectsite": "Protéger le site",
@@ -39,5 +40,6 @@
 	"protectsite-move-1": "Administrateurs seulement",
 	"protectsite-upload-0": "Les utilisateurs enregistrés et les administrateurs",
 	"protectsite-upload-1": "Administrateurs seulement",
+	"action-protectsite": "restreindre les actions qui peuvent être effectuées par certains groupes pendant un temps limité",
 	"right-protectsite": "Limiter les actions qui peuvent être effectuées pour certains groupes pour un temps limité"
 }

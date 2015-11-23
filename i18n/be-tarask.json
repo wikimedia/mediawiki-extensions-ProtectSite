@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"protectsite": "Абарона сайту",
@@ -39,5 +40,6 @@
 	"protectsite-move-1": "Толькі адміністратары",
 	"protectsite-upload-0": "Зарэгістраваныя ўдзельнікі і адміністратары",
 	"protectsite-upload-1": "Толькі адміністратары",
+	"action-protectsite": "абмежаваць дзеяньні, якія могуць быць выкананыя некаторымі групамі за абмежаваны час",
 	"right-protectsite": "абмежаваньне дзеяньняў, якія могуць быць выкананьня групай у вызначаны час"
 }

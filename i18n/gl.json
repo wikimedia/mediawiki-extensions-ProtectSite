@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"protectsite": "Protexer o sitio",
@@ -38,5 +39,6 @@
 	"protectsite-move-1": "Só os administradores",
 	"protectsite-upload-0": "Usuarios rexistrados e administradores",
 	"protectsite-upload-1": "Só os administradores",
+	"action-protectsite": "limitar accións que poden ser realizadas por algúns grupos por un tempo limitado",
 	"right-protectsite": "Limita as accións que algúns grupos poden realizar por un tempo limitado"
 }

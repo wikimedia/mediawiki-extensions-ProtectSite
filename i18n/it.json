@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Fringio"
 		]
 	},
 	"protectsite": "Proteggi sito",
@@ -38,5 +39,6 @@
 	"protectsite-move-1": "Solo amministratori",
 	"protectsite-upload-0": "Utenti registrati ed amministratori",
 	"protectsite-upload-1": "Solo amministratori",
+	"action-protectsite": "Limita le azioni che possono essere eseguite da alcuni gruppi per un tempo limitato",
 	"right-protectsite": "Limita le azioni che possono essere eseguite da alcuni gruppi per un tempo limitato"
 }
