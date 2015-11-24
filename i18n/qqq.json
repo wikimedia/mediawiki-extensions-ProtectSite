@@ -3,7 +3,8 @@
 		"authors": [
 			"Purodha",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Beta16"
 		]
 	},
 	"protectsite": "{{doc-special|ProtectSite|unlisted=1}}",
@@ -40,5 +41,6 @@
 	"protectsite-move-1": "[[File:ProtectSite_MediaWiki_extension.png|thumb]]\n\nSee also:\n* {{msg-mw|Protectsite-move}}\n{{Identical|Administrator only}}",
 	"protectsite-upload-0": "[[File:ProtectSite_MediaWiki_extension.png|thumb]]\n\nSee also:\n* {{msg-mw|Protectsite-upload}}\n{{Identical|Registered user and administrator}}",
 	"protectsite-upload-1": "[[File:ProtectSite_MediaWiki_extension.png|thumb]]\n\nSee also:\n* {{msg-mw|Protectsite-upload}}\n{{Identical|Administrator only}}",
+	"action-protectsite": "{{doc-action|protectsite}}",
 	"right-protectsite": "{{doc-right|protectsite}}"
 }
