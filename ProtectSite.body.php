@@ -27,6 +27,10 @@ class ProtectSite extends SpecialPage {
 		parent::__construct( 'ProtectSite'/*class*/, 'protectsite'/*restriction*/ );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
