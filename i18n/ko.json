@@ -39,5 +39,5 @@
 	"protectsite-move-1": "관리자만 가능",
 	"protectsite-upload-0": "등록한 사용자와 관리자",
 	"protectsite-upload-1": "관리자만 가능",
-	"right-protectsite": "제한된 시간 동안 어떤 그룹에 수행할 수 있는 행동 제한"
+	"right-protectsite": "제한된 시간 동안 어떤 그룹에 수행할 수 있는 동작 제한"
 }
