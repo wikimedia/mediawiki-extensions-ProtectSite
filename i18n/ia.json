@@ -38,5 +38,6 @@
 	"protectsite-move-1": "Administratores solmente",
 	"protectsite-upload-0": "Usatores registrate e administratores",
 	"protectsite-upload-1": "Administratores solmente",
+	"action-protectsite": "limitar actiones que pote esser exequite pro alcun gruppos durante un tempore limitate",
 	"right-protectsite": "Limitar actiones que pote esser exequite pro alcun gruppos durante un tempore limitate"
 }
