@@ -16,7 +16,7 @@
 	"protectsite-maxtimeout": "最大：$1",
 	"protectsite-comment": "評論：",
 	"protectsite-protect": "保護",
-	"protectsite-unprotect": "解除保護",
+	"protectsite-unprotect": "取消保護",
 	"protectsite-createaccount-0": "所有使用者",
 	"protectsite-createaccount-1": "註冊的使用者與管理員",
 	"protectsite-createaccount-2": "僅操作員",
