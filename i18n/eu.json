@@ -5,6 +5,9 @@
 			"Subi"
 		]
 	},
+	"protectsite-allowall": "Erabiltzaile guztiak",
+	"protectsite-allowusersysop": "Erregistratutako erabiltzaileak eta administratzaileak",
+	"protectsite-allowsysop": "Administratzaileak bakarrik",
 	"protectsite-comment": "Iruzkina:",
 	"protectsite-createaccount-0": "Erabiltzaile guztiak",
 	"protectsite-createaccount-2": "Administratzaileak bakarrik",
