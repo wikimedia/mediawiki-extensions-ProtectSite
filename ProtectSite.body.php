@@ -40,15 +40,10 @@ class ProtectSite extends SpecialPage {
 		$user = $this->getUser();
 
 		// If the user doesn't have 'protectsite' permission, display an error
-		if ( !$user->isAllowed( 'protectsite' ) ) {
-			$this->displayRestrictionError();
-			return;
-		}
+		$this->checkPermissions();
 
 		// Show a message if the database is in read-only mode
-		if ( wfReadOnly() ) {
-			throw new ReadOnlyError;
-		}
+		$this->checkReadOnly();
 
 		// If user is blocked, s/he doesn't need to access this page
 		if ( $user->isBlocked() ) {
