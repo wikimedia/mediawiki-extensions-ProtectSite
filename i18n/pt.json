@@ -39,5 +39,6 @@
 	"protectsite-move-1": "Apenas administradores",
 	"protectsite-upload-0": "Utilizadores registados e administradores",
 	"protectsite-upload-1": "Apenas administradores",
-	"right-protectsite": "Limitar as operações que alguns grupos podem realizar por um tempo limitado"
+	"action-protectsite": "limitar as operações que podem ser realizadas por alguns grupos por um tempo limitado",
+	"right-protectsite": "Limitar as operações que podem ser realizadas por alguns grupos por um tempo limitado"
 }
