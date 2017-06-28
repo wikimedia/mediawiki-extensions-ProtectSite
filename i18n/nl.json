@@ -3,7 +3,8 @@
 		"authors": [
 			"Mark van Alphen",
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Mainframe98"
 		]
 	},
 	"protectsite": "Site beveiligen",
@@ -40,5 +41,6 @@
 	"protectsite-move-1": "Alleen beheerders",
 	"protectsite-upload-0": "Geregistreerde gebruikers en beheerders",
 	"protectsite-upload-1": "Alleen beheerders",
+	"action-protectsite": "handelingen te beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd",
 	"right-protectsite": "Handelingen beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd"
 }
