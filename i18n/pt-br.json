@@ -2,14 +2,28 @@
 	"@metadata": {
 		"authors": [
 			"Luckas",
-			"Luckas Blade"
+			"Luckas Blade",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"protectsite": "Proteger o site",
+	"protectsite-desc": "Permite que um administrador bloqueie temporariamente várias modificações do site",
+	"protectsite-text-protect": "<!-- Instruções/Comentários/Normas de utilização -->",
+	"protectsite-text-unprotect": "<!-- Instruções/Comentários quando sob proteção -->",
+	"protectsite-title": "Configurações de proteção do site",
 	"protectsite-allowall": "Todos os usuários",
 	"protectsite-allowusersysop": "Usuários registrados e administradores",
 	"protectsite-allowsysop": "Somente administradores",
+	"protectsite-createaccount": "Permitir a criação de contas novas por",
+	"protectsite-createpage": "Permitir a criação de páginas por",
+	"protectsite-edit": "Permitir a edição de páginas por",
+	"protectsite-move": "Permitir a movimentação de páginas por",
+	"protectsite-upload": "Permitir o envio de arquivos por",
+	"protectsite-timeout": "Prazo de expiração:",
+	"protectsite-timeout-error": "'''Prazo de expiração inválido.'''",
 	"protectsite-maxtimeout": "Máximo: $1",
 	"protectsite-comment": "Comentário:",
+	"protectsite-ucomment": "Comentário de desprotecção:",
 	"protectsite-until": "Protegido até:",
 	"protectsite-protect": "Proteger",
 	"protectsite-unprotect": "Desproteger",
@@ -25,5 +39,7 @@
 	"protectsite-move-0": "Usuários registrados e administradores",
 	"protectsite-move-1": "Somente administradores",
 	"protectsite-upload-0": "Usuários registrados e administradores",
-	"protectsite-upload-1": "Somente administradores"
+	"protectsite-upload-1": "Somente administradores",
+	"action-protectsite": "limitar as operações que podem ser realizadas por alguns grupos por um tempo limitado",
+	"right-protectsite": "Limitar as operações que podem ser realizadas por alguns grupos por um tempo limitado"
 }
