@@ -5,12 +5,13 @@
 			"Ciencia Al Poder",
 			"Crazymadlover",
 			"Peter17",
-			"Translationista"
+			"Translationista",
+			"Fitoschido"
 		]
 	},
 	"protectsite": "Proteger el sitio",
 	"protectsite-desc": "Permite al administrador del sitio bloquear temporalmente varias modificaciones de sitio",
-	"protectsite-text-protect": "<!-- Instrucciones/Comentario/Políticas de uso -->",
+	"protectsite-text-protect": "<!-- Instrucciones/Comentarios/Normativa de utilización -->",
 	"protectsite-text-unprotect": "<!-- Instrucciones/Comentarios al estar protegidos-->",
 	"protectsite-title": "Configuraciones de protección de sitio",
 	"protectsite-allowall": "Todos los usuarios",
