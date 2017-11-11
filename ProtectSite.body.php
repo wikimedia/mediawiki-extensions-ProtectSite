@@ -14,7 +14,7 @@
  * @ingroup Extensions
  * @author Eric Johnston <e.wolfie@gmail.com>
  * @author Chris Stafford <c.stafford@gmail.com>
- * @author Jack Phoenix <jack@countervandalism.net>
+ * @author Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
