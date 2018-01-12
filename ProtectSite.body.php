@@ -75,11 +75,11 @@ class ProtectSite extends SpecialPage {
 		$persist_data = new SqlBagOStuff( array() );
 
 		/* Get data into the prot hash */
-		$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
+		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
 		if ( !$prot ) {
 			$prot = $persist_data->get( 'protectsite' );
 			if ( !$prot ) {
-				$wgMemc->set( wfMemcKey( 'protectsite' ), 'disabled' );
+				$wgMemc->set( $wgMemc->makeKey( 'protectsite' ), 'disabled' );
 			}
 		}
 
@@ -145,7 +145,7 @@ class ProtectSiteForm {
 		$this->persist_data = new SqlBagOStuff( array() );
 
 		/* Get data into the value variable/array */
-		$prot = $wgMemc->get( wfMemcKey( 'protectsite' ) );
+		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
 		if ( !$prot ) {
 			$prot = $this->persist_data->get( 'protectsite' );
 		}
@@ -204,7 +204,7 @@ class ProtectSiteForm {
 
 			/* Write the array out to the database */
 			$this->persist_data->set( 'protectsite', $prot, $prot['until'] );
-			$wgMemc->set( wfMemcKey( 'protectsite' ), $prot, $prot['until'] );
+			$wgMemc->set( $wgMemc->makeKey( 'protectsite' ), $prot, $prot['until'] );
 
 			/* Create a log entry */
 			$log = new LogPage( 'protect' );
@@ -228,7 +228,7 @@ class ProtectSiteForm {
 
 		/* Remove the data from the database to disable extension. */
 		$this->persist_data->delete( 'protectsite' );
-		$wgMemc->delete( wfMemcKey( 'protectsite' ) );
+		$wgMemc->delete( $wgMemc->makeKey( 'protectsite' ) );
 
 		/* Create a log entry */
 		$log = new LogPage( 'protect' );
