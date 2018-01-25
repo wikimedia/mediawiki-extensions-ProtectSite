@@ -23,7 +23,7 @@
 	"protectsite-move": "Permitir movimiento de páginas por",
 	"protectsite-upload": "Permitir cargas de archivo por",
 	"protectsite-timeout": "Tiempo de espera:",
-	"protectsite-timeout-error": "'''Tiempo de espera inválido.'''",
+	"protectsite-timeout-error": "'''Tiempo de espera no válido.'''",
 	"protectsite-maxtimeout": "Máximo: $1",
 	"protectsite-comment": "Comentario:",
 	"protectsite-ucomment": "Desproteger comentario:",
@@ -43,5 +43,6 @@
 	"protectsite-move-1": "Solo administradores",
 	"protectsite-upload-0": "Usuarios registrados y administradores",
 	"protectsite-upload-1": "Solo administradores",
+	"action-protectsite": "limitar acciones que algunos grupos pueden realizar por un plazo limitado",
 	"right-protectsite": "Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado"
 }
