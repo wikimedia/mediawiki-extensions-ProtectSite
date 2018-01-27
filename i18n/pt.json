@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
-			"Luckas"
+			"Luckas",
+			"Athena in Wonderland"
 		]
 	},
-	"protectsite": "Proteger o site",
+	"protectsite": "Proteger o sítio",
 	"protectsite-desc": "Permite que um administrador bloqueie temporariamente várias modificações do site",
 	"protectsite-text-protect": "<!-- Instruções/Comentários/Normas de utilização -->",
 	"protectsite-text-unprotect": "<!-- Instruções/Comentários quando sob proteção -->",
