@@ -7,10 +7,10 @@
 		]
 	},
 	"protectsite": "Proteger o sítio",
-	"protectsite-desc": "Permite que um administrador bloqueie temporariamente várias modificações do site",
+	"protectsite-desc": "Permite que um administrador bloqueie temporariamente várias modificações do sítio",
 	"protectsite-text-protect": "<!-- Instruções/Comentários/Normas de utilização -->",
 	"protectsite-text-unprotect": "<!-- Instruções/Comentários quando sob proteção -->",
-	"protectsite-title": "Configurações de proteção do site",
+	"protectsite-title": "Configurações de proteção do sítio",
 	"protectsite-allowall": "Todos os utilizadores",
 	"protectsite-allowusersysop": "Utilizadores registados e administradores",
 	"protectsite-allowsysop": "Apenas administradores",
