@@ -5,7 +5,8 @@
 			"Simon Shek",
 			"Liuxinyu970226",
 			"LNDDYL",
-			"Laundry Machine"
+			"Laundry Machine",
+			"Kly"
 		]
 	},
 	"protectsite": "保護網站",
@@ -22,6 +23,7 @@
 	"protectsite-move": "頁面移動限於",
 	"protectsite-upload": "文件上傳限於",
 	"protectsite-timeout": "逾時：",
+	"protectsite-timeout-error": "'''無效的逾時。'''",
 	"protectsite-maxtimeout": "最大：$1",
 	"protectsite-comment": "評論：",
 	"protectsite-ucomment": "未受保護的評論：",
