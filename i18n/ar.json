@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"protectsite": "حماية الموقع",
+	"protectsite-desc": "يسمح لإداري الموقع بحظر تعديلات الموقع المختلفة بشكل مؤقت",
+	"protectsite-text-protect": "<!-- تعليمات/تعليقات/سياسة الاستخدام -->",
+	"protectsite-text-unprotect": "<!--تعليمات/تعليقات عند الحماية -->",
+	"protectsite-title": "إعدادات حماية الموقع",
+	"protectsite-allowall": "كل المستخدمين",
+	"protectsite-allowusersysop": "المستخدمين المسجلين والإداريين",
+	"protectsite-allowsysop": "الإداريون فقط",
+	"protectsite-createaccount": "السماح بإنشاء حسابات جديدة بواسطة",
+	"protectsite-createpage": "السماح بإنشاء الصفحات بواسطة",
+	"protectsite-edit": "السماح بتحرير الصفحات بواسطة",
+	"protectsite-move": "السماح بنقل الصفحات بواسطة",
+	"protectsite-upload": "السماح برفع الملفات بواسطة",
+	"protectsite-timeout": "المهلة:",
+	"protectsite-timeout-error": "'''مهلة غير صالحة.'''",
+	"protectsite-maxtimeout": "الحد الأقصى: $1",
+	"protectsite-comment": "تعليق:",
+	"protectsite-ucomment": "إلغاء حماية التعليق:",
+	"protectsite-until": "محمية حتى:",
+	"protectsite-protect": "حماية",
+	"protectsite-unprotect": "رفع الحماية",
+	"protectsite-createaccount-0": "كل المستخدمين",
+	"protectsite-createaccount-1": "المستخدمين المسجلين والإداريين",
+	"protectsite-createaccount-2": "الإداريون فقط",
+	"protectsite-createpage-0": "كل المستخدمين",
+	"protectsite-createpage-1": "المستخدمين المسجلين والإداريين",
+	"protectsite-createpage-2": "الإداريون فقط",
+	"protectsite-edit-0": "كل المستخدمين",
+	"protectsite-edit-1": "المستخدمين المسجلين والإداريين",
+	"protectsite-edit-2": "الإداريون فقط",
+	"protectsite-move-0": "المستخدمين المسجلين والإداريين",
+	"protectsite-move-1": "الإداريون فقط",
+	"protectsite-upload-0": "المستخدمين المسجلين والإداريين",
+	"protectsite-upload-1": "الإداريون فقط",
+	"action-protectsite": "الحد من الإجراءات التي يمكن تنفيذها لبعض المجموعات لفترة محدودة",
+	"right-protectsite": "الحد من الإجراءات التي يمكن تنفيذها لبعض المجموعات لفترة محدودة"
+}
