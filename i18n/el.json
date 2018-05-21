@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"protectsite": "Προστασία χώρου",
+	"protectsite-title": "Ρυθμίσεις προστασίας ιστοχώρου",
+	"protectsite-allowall": "Όλοι οι χρήστες",
+	"protectsite-allowusersysop": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-allowsysop": "Διαχειριστές μόνο",
+	"protectsite-maxtimeout": "Μέγιστο: $1",
+	"protectsite-comment": "Σχόλιο:",
+	"protectsite-ucomment": "Ξεπροστασία σχολίου:",
+	"protectsite-until": "Προστατευμένο μέχρι:",
+	"protectsite-protect": "Προστασία",
+	"protectsite-unprotect": "Άρση προστασίας",
+	"protectsite-createaccount-0": "Όλοι οι χρήστες",
+	"protectsite-createaccount-1": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-createaccount-2": "Διαχειριστές μόνο",
+	"protectsite-createpage-0": "Όλοι οι χρήστες",
+	"protectsite-createpage-1": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-createpage-2": "Διαχειριστές μόνο",
+	"protectsite-edit-0": "Όλοι οι χρήστες",
+	"protectsite-edit-1": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-edit-2": "Διαχειριστές μόνο",
+	"protectsite-move-0": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-move-1": "Διαχειριστές μόνο",
+	"protectsite-upload-0": "Εγγεγραμμένοι χρήστες και διαχειριστές",
+	"protectsite-upload-1": "Διαχειριστές μόνο"
+}
