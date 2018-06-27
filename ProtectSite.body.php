@@ -72,7 +72,7 @@ class ProtectSite extends SpecialPage {
 		}
 
 		/* Initialize Object */
-		$persist_data = new SqlBagOStuff( array() );
+		$persist_data = new SqlBagOStuff( [] );
 
 		/* Get data into the prot hash */
 		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
@@ -142,7 +142,7 @@ class ProtectSiteForm {
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
 		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
 		$this->mRequest =& $request;
-		$this->persist_data = new SqlBagOStuff( array() );
+		$this->persist_data = new SqlBagOStuff( [] );
 
 		/* Get data into the value variable/array */
 		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
@@ -334,10 +334,10 @@ class ProtectSiteForm {
 					"<br />\n" .
 					$this->textbox( 'ucomment' ) .
 					'<br />' .
-					Xml::element( 'input', array(
+					Xml::element( 'input', [
 						'type'	=> 'submit',
 						'name'	=> 'unprotect',
-						'value' => wfMessage( 'protectsite-unprotect' )->text() )
+						'value' => wfMessage( 'protectsite-unprotect' )->text() ]
 					)
 				) .
 			'</form>'
@@ -348,15 +348,15 @@ class ProtectSiteForm {
 		global $wgOut, $wgProtectSiteDefaultTimeout, $wgProtectSiteLimit;
 
 		$request = $this->mRequest->getValues();
-		$createaccount = array( 0 => false, 1 => false, 2 => false );
+		$createaccount = [ 0 => false, 1 => false, 2 => false ];
 		$createaccount[(isset( $request['createaccount'] ) ? $request['createaccount'] : 0)] = true;
-		$createpage = array( 0 => false, 1 => false, 2 => false );
+		$createpage = [ 0 => false, 1 => false, 2 => false ];
 		$createpage[(isset( $request['createpage'] ) ? $request['createpage'] : 0)] = true;
-		$edit = array( 0 => false, 1 => false, 2 => false );
+		$edit = [ 0 => false, 1 => false, 2 => false ];
 		$edit[(isset( $request['edit'] ) ? $request['edit'] : 0)] = true;
-		$move = array( 0 => false, 1 => false );
+		$move = [ 0 => false, 1 => false ];
 		$move[(isset( $request['move'] ) ? $request['move'] : 0)] = true;
-		$upload = array( 0 => false, 1 => false );
+		$upload = [ 0 => false, 1 => false ];
 		$upload[(isset( $request['upload'] ) ? $request['upload'] : 0)] = true;
 
 		/* Construct page data and add to output. */
@@ -373,14 +373,14 @@ class ProtectSiteForm {
 					( isset( $wgProtectSiteLimit ) ?
 						' (' . wfMessage( 'protectsite-maxtimeout', $wgProtectSiteLimit )->text() . ')' :
 						''
-					)) .
+					) ) .
 					"\n<br />" .
 					$this->textbox( 'comment', isset( $request['comment'] ) ? $request['comment'] : '' ) .
 					"\n<br />" .
-					Xml::element( 'input', array(
+					Xml::element( 'input', [
 						'type'	=> 'submit',
 						'name'	=> 'protect',
-						'value' => wfMessage( 'protectsite-protect' )->text() )
+						'value' => wfMessage( 'protectsite-protect' )->text() ]
 					)
 				) .
 			'</form>'
