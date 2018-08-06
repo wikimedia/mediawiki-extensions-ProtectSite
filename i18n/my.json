@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"protectsite": "ဆိုဒ်ကို ကာကွယ်ရန်",
+	"protectsite-desc": "အမျိုးမျိုးသော ဆိုဒ်ပြုပြင်ပြောင်းလဲမှုများကို ယာယီတားဆီးရန် ဆိုဒ်အက်ဒမင်တစ်ဦးအား ခွင့်ပြုပါ",
+	"protectsite-title": "ဆိုဒ်ကာကွယ်မှု အပြင်အဆင်များ",
+	"protectsite-allowall": "အသုံးပြုသူများ အားလုံး",
+	"protectsite-allowusersysop": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-allowsysop": "အက်ဒမင်များသာ",
+	"protectsite-protect": "ကာကွယ်ပါ",
+	"protectsite-unprotect": "မကာကွယ်တော့ရန်",
+	"protectsite-createaccount-0": "အသုံးပြုသူများ အားလုံး",
+	"protectsite-createaccount-1": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-createaccount-2": "အက်ဒမင်များသာ",
+	"protectsite-createpage-0": "အသုံးပြုသူများ အားလုံး",
+	"protectsite-createpage-1": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-createpage-2": "အက်ဒမင်များသာ",
+	"protectsite-edit-0": "အသုံးပြုသူများ အားလုံး",
+	"protectsite-edit-1": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-edit-2": "အက်ဒမင်များသာ",
+	"protectsite-move-0": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-move-1": "အက်ဒမင်များသာ",
+	"protectsite-upload-0": "မှတ်ပုံတင်ထားသော အသုံးပြုသူများနှင့် အက်ဒမင်များ",
+	"protectsite-upload-1": "အက်ဒမင်များသာ"
+}
