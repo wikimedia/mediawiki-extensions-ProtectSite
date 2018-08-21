@@ -102,6 +102,7 @@ class ProtectSite extends SpecialPage {
 			$wgGroupPermissions['*']['edit'] = !( $prot['edit'] >= 1 );
 			$wgGroupPermissions['user']['edit'] = !( $prot['edit'] == 2 );
 			$wgGroupPermissions['sysop']['edit'] = true;
+			$wgGroupPermissions['sysop']['createpage'] = true;
 
 			$wgGroupPermissions['user']['move'] = !( $prot['move'] == 1 );
 			$wgGroupPermissions['user']['upload'] = !( $prot['upload'] == 1 );
