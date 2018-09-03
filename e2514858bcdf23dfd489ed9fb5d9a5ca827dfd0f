@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ce723a1_2c91fd1f",
+        "filename": "ProtectSite.body.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 99
+      },
+      "writtenOn": "2018-09-03T12:41:07Z",
+      "side": 1,
+      "message": "Arguably, ProtectSiteForm should be changed to just not take its parameter by reference.",
+      "range": {
+        "startLine": 56,
+        "startChar": 31,
+        "endLine": 56,
+        "endChar": 40
+      },
+      "revId": "e2514858bcdf23dfd489ed9fb5d9a5ca827dfd0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b494f32_5d6f9e9d",
+        "filename": "ProtectSite.body.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 99
+      },
+      "writtenOn": "2018-09-03T12:41:07Z",
+      "side": 1,
+      "message": "The lack of escaping here (and in the other functions) is also concerning. In particular, I suspect there is an xss here with the createpage and createaccount",
+      "range": {
+        "startLine": 273,
+        "startChar": 50,
+        "endLine": 273,
+        "endChar": 81
+      },
+      "revId": "e2514858bcdf23dfd489ed9fb5d9a5ca827dfd0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "98cf665b_01d6f88d",
+        "filename": "ProtectSite.body.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 99
+      },
+      "writtenOn": "2018-09-03T12:41:07Z",
+      "side": 1,
+      "message": "text is correct for this one as xml::element does the escaping.",
+      "range": {
+        "startLine": 385,
+        "startChar": 53,
+        "endLine": 385,
+        "endChar": 63
+      },
+      "revId": "e2514858bcdf23dfd489ed9fb5d9a5ca827dfd0f",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
