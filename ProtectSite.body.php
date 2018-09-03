@@ -52,7 +52,8 @@ class ProtectSite extends SpecialPage {
 
 		$this->setHeaders();
 
-		$form = new ProtectSiteForm( $this->getRequest() );
+		$request = $this->getRequest();
+		$form = new ProtectSiteForm( $request );
 	}
 
 	/**
@@ -252,7 +253,7 @@ class ProtectSiteForm {
 		// Give grep a chance to find the usages:
 		// protectsite-title, protectsite-createaccount, protectsite-createpage,
 		// protectsite-edit, protectsite-move, protectsite-upload
-		return '<fieldset><legend>' . wfMessage( 'protectsite-' . $name )->text() .
+		return '<fieldset><legend>' . wfMessage( 'protectsite-' . $name )->escaped() .
 			"</legend>\n" . $content . "\n</fieldset>\n";
 	}
 
@@ -270,7 +271,7 @@ class ProtectSiteForm {
 		$s = '';
 		foreach ( $fields as $value => $checked ) {
 			$s .= "<div><label><input type=\"radio\" name=\"{$varname}\" value=\"{$value}\"" . ( $checked ? ' checked="checked"' : '' ) . ' />'
-			. wfMessage( 'protectsite-' . $varname . '-' . $value )->text() .
+			. wfMessage( 'protectsite-' . $varname . '-' . $value )->escaped() .
 			"</label></div>\n";
 		}
 
@@ -289,7 +290,7 @@ class ProtectSiteForm {
 		// Give grep a chance to find the usages:
 		// protectsite-timeout, protectsite-comment, protectsite-ucomment
 		$value = htmlspecialchars( $value, ENT_QUOTES );
-		return '<div><label>' . wfMessage( 'protectsite-' . $varname )->text() .
+		return '<div><label>' . wfMessage( 'protectsite-' . $varname )->escaped() .
 				"<input type=\"text\" name=\"{$varname}\" value=\"{$value}\" /> " .
 				$append .
 				"</label></div>\n";
@@ -300,15 +301,15 @@ class ProtectSiteForm {
 		// Give grep a chance to find the usages:
 		//   protectsite-createaccount, protectsite-createpage, protectsite-edit,
 		//   protectsite-move, protectsite-upload
-		// Give grep a chance to find the usages:
+		//
 		//   protectsite-createaccount-0, protectsite-createaccount-1, protectsite-createaccount-2,
 		//   protectsite-createpage-0, protectsite-createpage-1, protectsite-createpage-2,
 		//   protectsite-edit-0, protectsite-edit-1, protectsite-edit-2,
 		//   protectsite-move-0, protectsite-move-1,
 		//   protectsite-upload-0, protectsite-upload-1
-		return '<b>' . wfMessage( 'protectsite-' . $name )->text() . ' - <i>' .
+		return '<b>' . wfMessage( 'protectsite-' . $name )->escaped() . ' - <i>' .
 					'<span style="color: ' . ( ( $state > 0 ) ? 'red' : 'green' ) . '">' .
-					wfMessage( 'protectsite-' . $name . '-' . $state )->text() . '</span>' .
+					wfMessage( 'protectsite-' . $name . '-' . $state )->escaped() . '</span>' .
 					"</i></b><br />\n";
 	}
 
@@ -325,11 +326,11 @@ class ProtectSiteForm {
 					$this->showField( 'edit', $prot['edit'] ) .
 					$this->showField( 'move', $prot['move'] ) .
 					$this->showField( 'upload', $prot['upload'] ) .
-					'<b>' . wfMessage( 'protectsite-timeout' )->text() . ' </b> ' .
+					'<b>' . wfMessage( 'protectsite-timeout' )->escaped() . ' </b> ' .
 					'<i>' . $wgLang->timeAndDate( wfTimestamp( TS_MW, $prot['until'] ), true ) . '</i>' .
 					'<br />' .
 					( $prot['comment'] != '' ?
-					'<b>' . wfMessage( 'protectsite-comment' )->text() . ' </b> ' .
+					'<b>' . wfMessage( 'protectsite-comment' )->escaped() . ' </b> ' .
 					'<i>' . $prot['comment'] . '</i>' .
 					'<br />' : '' ) .
 					"<br />\n" .
@@ -338,7 +339,7 @@ class ProtectSiteForm {
 					Xml::element( 'input', [
 						'type'	=> 'submit',
 						'name'	=> 'unprotect',
-						'value' => wfMessage( 'protectsite-unprotect' )->text() ]
+						'value' => wfMessage( 'protectsite-unprotect' )->escaped() ]
 					)
 				) .
 			'</form>'
@@ -372,7 +373,7 @@ class ProtectSiteForm {
 					$this->radiobox( 'upload', $upload ) .
 					$this->textbox( 'timeout', $wgProtectSiteDefaultTimeout,
 					( isset( $wgProtectSiteLimit ) ?
-						' (' . wfMessage( 'protectsite-maxtimeout', $wgProtectSiteLimit )->text() . ')' :
+						' (' . wfMessage( 'protectsite-maxtimeout', $wgProtectSiteLimit )->parse() . ')' :
 						''
 					) ) .
 					"\n<br />" .
@@ -381,7 +382,7 @@ class ProtectSiteForm {
 					Xml::element( 'input', [
 						'type'	=> 'submit',
 						'name'	=> 'protect',
-						'value' => wfMessage( 'protectsite-protect' )->text() ]
+						'value' => wfMessage( 'protectsite-protect' )->escaped() ]
 					)
 				) .
 			'</form>'
