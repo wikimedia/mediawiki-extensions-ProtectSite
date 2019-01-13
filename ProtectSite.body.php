@@ -114,6 +114,7 @@ class ProtectSite extends SpecialPage {
 				// there are, so loop over them, and force these rights to be true
 				// will resolve any problems from inheriting rights from 'user' or 'sysop'
 				foreach ( $wgProtectSiteExempt as $exemptGroup ) {
+					$wgGroupPermissions[$exemptGroup]['createaccount'] = 1;                                  
 					$wgGroupPermissions[$exemptGroup]['edit'] = 1;
 					$wgGroupPermissions[$exemptGroup]['createpage'] = 1;
 					$wgGroupPermissions[$exemptGroup]['createtalk'] = 1;
