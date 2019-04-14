@@ -40,5 +40,6 @@
 	"protectsite-move-1": "管理者のみ",
 	"protectsite-upload-0": "登録利用者および管理者",
 	"protectsite-upload-1": "管理者のみ",
+	"action-protectsite": "いくつかのグループが実行できる操作の期間限定での制限",
 	"right-protectsite": "いくつかのグループが実行できる操作を期間限定で制限"
 }
