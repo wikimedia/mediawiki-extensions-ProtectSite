@@ -26,7 +26,7 @@
 	"protectsite-timeout-error": "'''Tiempo de espera no válido.'''",
 	"protectsite-maxtimeout": "Máximo: $1",
 	"protectsite-comment": "Comentario:",
-	"protectsite-ucomment": "Desproteger comentario:",
+	"protectsite-ucomment": "Comentario al desproteger:",
 	"protectsite-until": "Protegido hasta:",
 	"protectsite-protect": "Proteger",
 	"protectsite-unprotect": "Desproteger",
@@ -44,5 +44,5 @@
 	"protectsite-upload-0": "Usuarios registrados y administradores",
 	"protectsite-upload-1": "Solo administradores",
 	"action-protectsite": "limitar acciones que algunos grupos pueden realizar por un plazo limitado",
-	"right-protectsite": "Limitar las acciones que pueden realizar algunos grupos de usuarios durante un tiempo limitado"
+	"right-protectsite": "Limitar acciones que algunos grupos pueden realizar por un plazo limitado"
 }
