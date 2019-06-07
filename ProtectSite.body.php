@@ -213,7 +213,8 @@ class ProtectSiteForm {
 				'protect',
 				SpecialPage::getTitleFor( 'Allpages' ),
 				$prot['timeout'] .
-				( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' )
+				( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' ),
+				[ '4::description' => '' ],
 			);
 
 			/* Call the Unprotect Form function to display the current state. */
