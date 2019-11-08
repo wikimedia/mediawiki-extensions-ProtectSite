@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"protectsite": "Beskytt side",
+	"protectsite-desc": "Lar en sideadministrator blokkere diverse sideendringer midlertidig",
 	"protectsite-text-protect": "<!-- Instruksjoner/kommentarer/fremgangsmåte for bruk -->",
 	"protectsite-text-unprotect": "<!-- Instruksjoner/kommentarer når beskyttet -->",
 	"protectsite-title": "Innstillinger for sidebeskyttelse",
@@ -18,10 +20,25 @@
 	"protectsite-upload": "Tillat filopplasting av",
 	"protectsite-timeout": "Tidsavbrudd:",
 	"protectsite-timeout-error": "'''Ugyldig tidsavbrudd.'''",
-	"protectsite-maxtimeout": "Maksimum:",
+	"protectsite-maxtimeout": "Maksimalt: $1",
 	"protectsite-comment": "Kommentar:",
 	"protectsite-ucomment": "Opphev beskyttelse av kommentar:",
 	"protectsite-until": "Beskyttet til:",
 	"protectsite-protect": "Beskytt",
-	"protectsite-unprotect": "Opphev beskyttelse"
+	"protectsite-unprotect": "Opphev beskyttelse",
+	"protectsite-createaccount-0": "Alle brukere",
+	"protectsite-createaccount-1": "Registrerte brukere og administratorer",
+	"protectsite-createaccount-2": "Kun administratorer",
+	"protectsite-createpage-0": "Alle brukere",
+	"protectsite-createpage-1": "Registrerte brukere og administratorer",
+	"protectsite-createpage-2": "Kun administratorer",
+	"protectsite-edit-0": "Alle brukere",
+	"protectsite-edit-1": "Registrerte brukere og administratorer",
+	"protectsite-edit-2": "Kun administratorer",
+	"protectsite-move-0": "Registrerte brukere og administratorer",
+	"protectsite-move-1": "Kun administratorer",
+	"protectsite-upload-0": "Registrerte brukere og administratorer",
+	"protectsite-upload-1": "Kun administratorer",
+	"action-protectsite": "midlertidig begrense handlinger som kan utføres av visse grupper",
+	"right-protectsite": "Midlertidig begrense handlinger som kan utføres av visse grupper"
 }
