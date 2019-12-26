@@ -1,13 +1,44 @@
 {
 	"@metadata": {
 		"authors": [
-			"Suelnur"
+			"Suelnur",
+			"BaRaN6161 TURK"
 		]
 	},
+	"protectsite": "Siteyi koru",
+	"protectsite-desc": "Site yöneticisine çeşitli site değişikliklerini geçici olarak engelleme izni verir",
+	"protectsite-text-protect": "<!-- Talimatlar/Yorumlar/Kullanım Politikası -->",
+	"protectsite-text-unprotect": "<!-- Korunduğunda Talimatlar/Yorumlar -->",
+	"protectsite-title": "Site koruma ayarları",
+	"protectsite-allowall": "Tüm kullanıcılar",
+	"protectsite-allowusersysop": "Kayıtlı kullanıcılar ve yöneticiler",
+	"protectsite-allowsysop": "Yalnızca yöneticiler",
+	"protectsite-createaccount": "Göre yeni hesaplar oluşturulmasına izin ver",
+	"protectsite-createpage": "Göre sayfa oluşturulmasına izin ver",
+	"protectsite-edit": "Sayfaların tarafından düzenlenmesine izin ver",
+	"protectsite-move": "Sayfaların tarafından taşınmasına izin ver",
+	"protectsite-upload": "Tarafından dosya yüklemeye izin ver",
+	"protectsite-timeout": "Zaman aşımı:",
+	"protectsite-timeout-error": "'''Geçersiz zaman aşımı.'''",
+	"protectsite-maxtimeout": "Maksimum: $1",
+	"protectsite-comment": "Yorum:",
+	"protectsite-ucomment": "Yorumun korumasını kaldır:",
+	"protectsite-until": "Şu tarihe kadar koruma:",
+	"protectsite-protect": "Koru",
+	"protectsite-unprotect": "Korumayı kaldır",
+	"protectsite-createaccount-0": "Tüm kullanıcılar",
 	"protectsite-createaccount-1": "Kayıtlı kullanıcılar ve hizmetliler",
 	"protectsite-createaccount-2": "Sadece hizmetliler",
+	"protectsite-createpage-0": "Tüm kullanıcılar",
+	"protectsite-createpage-1": "Kayıtlı kullanıcılar ve yöneticiler",
+	"protectsite-createpage-2": "Yalnızca yöneticiler",
+	"protectsite-edit-0": "Tüm kullanıcılar",
+	"protectsite-edit-1": "Kayıtlı kullanıcılar ve hizmetliler",
+	"protectsite-edit-2": "Yalnızca yöneticiler",
 	"protectsite-move-0": "Kayıtlı kullanıcılar ve hizmetliler",
 	"protectsite-move-1": "Sadece hizmetliler",
 	"protectsite-upload-0": "Kayıtlı kullanıcılar ve hizmetliler",
-	"protectsite-upload-1": "Sadece hizmetliler"
+	"protectsite-upload-1": "Sadece hizmetliler",
+	"action-protectsite": "sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırlama",
+	"right-protectsite": "Sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırlayın"
 }
