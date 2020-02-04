@@ -52,7 +52,7 @@ class ProtectSite extends SpecialPage {
 
 		$this->setHeaders();
 
-		$form = new ProtectSiteForm( $this->getRequest() );
+		$form = new ProtectSiteForm( $this->getRequest(), $user );
 	}
 
 	/**
@@ -138,7 +138,7 @@ class ProtectSiteForm {
 	public $mRequest, $action, $persist_data;
 
 	/* Constructor */
-	function __construct( $request ) {
+	function __construct( $request, User $user ) {
 		global $wgMemc;
 
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
@@ -164,9 +164,9 @@ class ProtectSiteForm {
 		} else {
 			/* If this was a POST request, process the data sent */
 			if ( $this->mRequest->getVal( 'protect' ) ) {
-				$this->setProtectSite();
+				$this->setProtectSite( $user );
 			} else {
-				$this->unProtectSite();
+				$this->unProtectSite( $user );
 			}
 		}
 	}
@@ -215,7 +215,8 @@ class ProtectSiteForm {
 				SpecialPage::getTitleFor( 'Allpages' ),
 				$prot['timeout'] .
 				( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' ),
-				[ '4::description' => '' ]
+				[ '4::description' => '' ],
+				$user
 			);
 
 			/* Call the Unprotect Form function to display the current state. */
@@ -238,7 +239,9 @@ class ProtectSiteForm {
 		$log->addEntry(
 			'unprotect',
 			SpecialPage::getTitleFor( 'Allpages' ),
-			$request['ucomment']
+			$request['ucomment'],
+			[],
+			$user
 		);
 
 		/* Call the Protect Form function to display the current state. */
