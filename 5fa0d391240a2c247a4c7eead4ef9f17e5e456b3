@@ -16,6 +16,29 @@
       "revId": "5fa0d391240a2c247a4c7eead4ef9f17e5e456b3",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fab774c_3d713bd5",
+        "filename": "includes/ProtectSiteForm.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1453
+      },
+      "writtenOn": "2020-02-19T19:26:48Z",
+      "side": 1,
+      "message": "This doesn\u0027t require a User, but a UserIdentity. Using the more narrow interface is always preferred, if this is possible.",
+      "range": {
+        "startLine": 107,
+        "startChar": 13,
+        "endLine": 107,
+        "endChar": 25
+      },
+      "revId": "5fa0d391240a2c247a4c7eead4ef9f17e5e456b3",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
