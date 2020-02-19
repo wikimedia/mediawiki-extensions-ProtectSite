@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e3e1589_e44880d4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 6729
+      },
+      "writtenOn": "2020-02-19T11:36:11Z",
+      "side": 1,
+      "message": "Please split into multiple lines",
+      "revId": "55dec49e6b133ddad6f22104643df46deede6bab",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39e9cb2a_baad3f63",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 6729
+      },
+      "writtenOn": "2020-02-19T11:36:11Z",
+      "side": 1,
+      "message": "resolved?",
+      "range": {
+        "startLine": 9,
+        "startChar": 247,
+        "endLine": 9,
+        "endChar": 254
+      },
+      "revId": "55dec49e6b133ddad6f22104643df46deede6bab",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
+    }
+  ]
+}
