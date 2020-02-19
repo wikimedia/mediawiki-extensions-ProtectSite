@@ -41,7 +41,7 @@ class ProtectSiteForm {
 		}
 	}
 
-	function setProtectSite() {
+	function setProtectSite( User $user ) {
 		global $wgOut, $wgMemc, $wgProtectSiteLimit;
 
 		/* Get the request data */
@@ -92,7 +92,7 @@ class ProtectSiteForm {
 		}
 	}
 
-	function unProtectSite() {
+	function unProtectSite( User $user ) {
 		global $wgMemc;
 
 		/* Get the request data */
