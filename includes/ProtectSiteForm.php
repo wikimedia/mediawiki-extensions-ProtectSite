@@ -79,15 +79,13 @@ class ProtectSiteForm {
 			$wgMemc->set( $wgMemc->makeKey( 'protectsite' ), $prot, $prot['until'] );
 
 			/* Create a log entry */
-			$log = new LogPage( 'protect' );
-			$log->addEntry(
-				'protect',
-				SpecialPage::getTitleFor( 'Allpages' ),
-				$prot['timeout'] .
-				( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' ),
-				[ '4::description' => '' ],
-				$user
+			$logEntry = new ManualLogEntry( 'protect', 'protect' );
+			$logEntry->setPerformer( $user );
+			$logEntry->setTarget( SpecialPage::getTitleFor( 'Allpages' ) );
+			$logEntry->setComment(
+				$prot['timeout'] . ( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' )
 			);
+			$logEntry->publish( $logEntry->insert() );
 
 			/* Call the Unprotect Form function to display the current state. */
 			$this->unProtectSiteForm( $prot );
@@ -105,14 +103,11 @@ class ProtectSiteForm {
 		$wgMemc->delete( $wgMemc->makeKey( 'protectsite' ) );
 
 		/* Create a log entry */
-		$log = new LogPage( 'protect' );
-		$log->addEntry(
-			'unprotect',
-			SpecialPage::getTitleFor( 'Allpages' ),
-			$request['ucomment'],
-			[],
-			$user
-		);
+		$logEntry = new ManualLogEntry( 'protect', 'unprotect' );
+		$logEntry->setPerformer( $user );
+		$logEntry->setTarget( SpecialPage::getTitleFor( 'Allpages' ) );
+		$logEntry->setComment( $request['ucomment'] );
+		$logEntry->publish( $logEntry->insert() );
 
 		/* Call the Protect Form function to display the current state. */
 		$this->setProtectSiteForm();
