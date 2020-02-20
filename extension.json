@@ -1,10 +1,11 @@
 {
 	"name": "Protect Site",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"author": [
 		"[http://en.uncyclopedia.co/wiki/User:Dawg Eric Johnston]",
 		"Chris Stafford",
-		"Jack Phoenix"
+		"Jack Phoenix",
+		"Martyna Nowicka"
 	],
 	"license-name": "GPL-2.0-or-later",
 	"url": "https://www.mediawiki.org/wiki/Extension:ProtectSite",
