@@ -39,6 +39,29 @@
       "revId": "55dec49e6b133ddad6f22104643df46deede6bab",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "183e18d2_df9fd38e",
+        "filename": "includes/ProtectSiteForm.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1453
+      },
+      "writtenOn": "2020-03-10T19:15:19Z",
+      "side": 1,
+      "message": "There is no $user in this method.",
+      "range": {
+        "startLine": 107,
+        "startChar": 27,
+        "endLine": 107,
+        "endChar": 32
+      },
+      "revId": "55dec49e6b133ddad6f22104643df46deede6bab",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": false
     }
   ]
 }
