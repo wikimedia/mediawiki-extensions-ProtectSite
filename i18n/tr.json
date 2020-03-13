@@ -23,7 +23,7 @@
 	"protectsite-maxtimeout": "Maksimum: $1",
 	"protectsite-comment": "Yorum:",
 	"protectsite-ucomment": "Yorumun korumasını kaldır:",
-	"protectsite-until": "Şu tarihe kadar koruma:",
+	"protectsite-until": "Şu tarihe kadar korumada:",
 	"protectsite-protect": "Koru",
 	"protectsite-unprotect": "Korumayı kaldır",
 	"protectsite-createaccount-0": "Tüm kullanıcılar",
@@ -39,6 +39,6 @@
 	"protectsite-move-1": "Sadece hizmetliler",
 	"protectsite-upload-0": "Kayıtlı kullanıcılar ve hizmetliler",
 	"protectsite-upload-1": "Sadece hizmetliler",
-	"action-protectsite": "sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırlama",
-	"right-protectsite": "Sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırlayın"
+	"action-protectsite": "sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırla",
+	"right-protectsite": "Sınırlı bir süre için bazı gruplar için gerçekleştirilebilecek eylemleri sınırla"
 }
