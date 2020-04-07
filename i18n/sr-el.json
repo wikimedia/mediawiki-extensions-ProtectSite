@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"protectsite-allowall": "Svi korisnici",
 	"protectsite-allowusersysop": "Upisani korisnici i administratori",
 	"protectsite-allowsysop": "Samo administratori",
