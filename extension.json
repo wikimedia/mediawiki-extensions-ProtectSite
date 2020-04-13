@@ -1,6 +1,6 @@
 {
 	"name": "Protect Site",
-	"version": "0.5.2",
+	"version": "0.6.0",
 	"author": [
 		"[http://en.uncyclopedia.co/wiki/User:Dawg Eric Johnston]",
 		"Chris Stafford",
@@ -11,6 +11,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ProtectSite",
 	"descriptionmsg": "protectsite-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
 	"config": {
 		"ProtectSiteExempt": [],
 		"ProtectsiteDefaultTimeout": "1 hour",
