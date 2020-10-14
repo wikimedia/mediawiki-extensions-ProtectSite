@@ -18,6 +18,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 class ProtectSite extends SpecialPage {
 
 	/**
@@ -64,22 +66,32 @@ class ProtectSite extends SpecialPage {
 	 */
 	public static function setup() {
 		/* Globals */
-		global $wgGroupPermissions, $wgMemc, $wgProtectSiteExempt, $wgCommandLineMode;
+		global $wgGroupPermissions, $wgProtectSiteExempt, $wgCommandLineMode;
 
 		// macbre: don't run code below when running in command line mode (memcache starts to act strange)
 		if ( !empty( $wgCommandLineMode ) ) {
 			return;
 		}
 
+		$params = [
+			'localKeyLB' = [
+				'factory' => function () {
+					return MediaWikiServices::getInstance()->getDBLoadBalancer();
+				}
+			]
+		];
+
 		/* Initialize Object */
-		$persist_data = new SqlBagOStuff( [] );
+		$persist_data = new SqlBagOStuff( $params );
+
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
 		/* Get data into the prot hash */
-		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
+		$prot = $cache->get( $cache->makeKey( 'protectsite' ) );
 		if ( !$prot ) {
 			$prot = $persist_data->get( 'protectsite' );
 			if ( !$prot ) {
-				$wgMemc->set( $wgMemc->makeKey( 'protectsite' ), 'disabled' );
+				$cache->set( $cache->makeKey( 'protectsite' ), 'disabled' );
 			}
 		}
 
