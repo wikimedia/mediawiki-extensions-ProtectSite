@@ -72,7 +72,7 @@ class ProtectSite extends SpecialPage {
 		}
 
 		/* Initialize Object */
-		$persist_data = new SqlBagOStuff( [] );
+		$persist_data = new SqlBagOStuff( [ 'servers' => [] ] );
 
 		/* Get data into the prot hash */
 		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
