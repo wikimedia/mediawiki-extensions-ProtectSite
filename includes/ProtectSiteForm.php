@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * Class that handles the actual Special:ProtectSite page
  * This is a modified version of the ancient HTMLForm class.
@@ -6,18 +9,27 @@
  */
 class ProtectSiteForm {
 	public $mRequest, $action, $persist_data;
+	private $wanCache;
 
 	/* Constructor */
 	function __construct( $request, User $user ) {
-		global $wgMemc;
-
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
 		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
 		$this->mRequest = $request;
-		$this->persist_data = new SqlBagOStuff( [] );
+
+		$params = [
+			'localKeyLB' => [
+				'factory' => function () {
+					return MediaWikiServices::getInstance()->getDBLoadBalancer();
+				}
+			]
+		];
+		$this->persist_data = new SqlBagOStuff( $params );
+
+		$this->wanCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
 		/* Get data into the value variable/array */
-		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
+		$prot = $this->wanCache->get( $this->wanCache->makeKey( 'protectsite' ) );
 		if ( !$prot ) {
 			$prot = $this->persist_data->get( 'protectsite' );
 		}
@@ -42,7 +54,7 @@ class ProtectSiteForm {
 	}
 
 	function setProtectSite( User $user ) {
-		global $wgOut, $wgMemc, $wgProtectSiteLimit;
+		global $wgOut, $wgProtectSiteLimit;
 
 		/* Get the request data */
 		$request = $this->mRequest->getValues();
@@ -76,7 +88,8 @@ class ProtectSiteForm {
 
 			/* Write the array out to the database */
 			$this->persist_data->set( 'protectsite', $prot, $prot['until'] );
-			$wgMemc->set( $wgMemc->makeKey( 'protectsite' ), $prot, $prot['until'] );
+			$this->wanCache->set(
+				$this->wanCache->makeKey( 'protectsite' ), $prot, $prot['until'] );
 
 			/* Create a log entry */
 			$logEntry = new ManualLogEntry( 'protect', 'protect' );
@@ -93,14 +106,12 @@ class ProtectSiteForm {
 	}
 
 	function unProtectSite( User $user ) {
-		global $wgMemc;
-
 		/* Get the request data */
 		$request = $this->mRequest->getValues();
 
 		/* Remove the data from the database to disable extension. */
 		$this->persist_data->delete( 'protectsite' );
-		$wgMemc->delete( $wgMemc->makeKey( 'protectsite' ) );
+		$this->wanCache->delete( $this->wanCache->makeKey( 'protectsite' ) );
 
 		/* Create a log entry */
 		$logEntry = new ManualLogEntry( 'protect', 'unprotect' );
