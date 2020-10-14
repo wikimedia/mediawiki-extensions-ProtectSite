@@ -14,7 +14,7 @@ class ProtectSiteForm {
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
 		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
 		$this->mRequest = $request;
-		$this->persist_data = new SqlBagOStuff( [] );
+		$this->persist_data = new SqlBagOStuff( [ 'servers' => [] ] );
 
 		/* Get data into the value variable/array */
 		$prot = $wgMemc->get( $wgMemc->makeKey( 'protectsite' ) );
