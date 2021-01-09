@@ -60,10 +60,8 @@ class ProtectSiteForm {
 
 		/* Check to see if the time limit exceeds the limit. */
 		$curr_time = time();
-		if (
-			( ( $until = strtotime( '+' . $request['timeout'], $curr_time ) ) === false ) ||
-			( $until < $curr_time )
-		) {
+		$until = strtotime( '+' . $request['timeout'], $curr_time );
+		if ( $until === false || $until < $curr_time ) {
 			$wgOut->addWikiMsg( 'protectsite-timeout-error' );
 			$this->setProtectSiteForm();
 		} else {
