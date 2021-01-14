@@ -10,7 +10,12 @@ use MediaWiki\MediaWikiServices;
 class ProtectSiteForm {
 	public $mRequest, $action, $persist_data, $wanCache;
 
-	/* Constructor */
+	/**
+	 * Constructor
+	 *
+	 * @param WebRequest $request
+	 * @param User $user
+	 */
 	function __construct( $request, User $user ) {
 		$titleObj = SpecialPage::getTitleFor( 'ProtectSite' );
 		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
@@ -175,7 +180,12 @@ class ProtectSiteForm {
 				"</label></div>\n";
 	}
 
-	/* This function outputs the field status. */
+	/**
+	 * This function outputs the field status.
+	 *
+	 * @param string $name
+	 * @param array $state
+	 */
 	private function showField( $name, $state ) {
 		// Give grep a chance to find the usages:
 		//   protectsite-createaccount, protectsite-createpage, protectsite-edit,
