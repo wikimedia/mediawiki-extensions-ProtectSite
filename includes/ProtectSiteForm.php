@@ -8,7 +8,14 @@ use MediaWiki\MediaWikiServices;
  * @todo FIXME: could probably be rewritten to use the modern HTMLForm :)
  */
 class ProtectSiteForm {
-	public $mRequest, $action, $persist_data, $wanCache;
+	/** @var WebRequest */
+	public $mRequest;
+	/** @var string */
+	public $action;
+	/** @var SqlBagOStuff */
+	public $persist_data;
+	/** @var WANObjectCache */
+	public $wanCache;
 
 	/**
 	 * Constructor
@@ -57,6 +64,9 @@ class ProtectSiteForm {
 		}
 	}
 
+	/**
+	 * @param User $user
+	 */
 	function setProtectSite( User $user ) {
 		global $wgOut, $wgProtectSiteLimit;
 
@@ -108,6 +118,9 @@ class ProtectSiteForm {
 		}
 	}
 
+	/**
+	 * @param User $user
+	 */
 	function unProtectSite( User $user ) {
 		/* Get the request data */
 		$request = $this->mRequest->getValues();
@@ -143,6 +156,9 @@ class ProtectSiteForm {
 	/**
 	 * Override the broken function in the HTMLForm class
 	 * This was fixed in r16320 of the MW source; WM bugzilla bug #7188.
+	 * @param string $varname
+	 * @param array $fields
+	 * @return string
 	 */
 	private function radiobox( $varname, $fields ) {
 		// Give grep a chance to find the usages:
@@ -165,6 +181,10 @@ class ProtectSiteForm {
 	/**
 	 * Overridden textbox method, allowing for the inclusion of something
 	 * after the text box itself.
+	 * @param string $varname
+	 * @param string $value
+	 * @param string $append
+	 * @return string
 	 */
 	private function textbox( $varname, $value = '', $append = '' ) {
 		if ( $this->mRequest->wasPosted() ) {
@@ -185,6 +205,7 @@ class ProtectSiteForm {
 	 *
 	 * @param string $name
 	 * @param array $state
+	 * @return string
 	 */
 	private function showField( $name, $state ) {
 		// Give grep a chance to find the usages:
@@ -202,6 +223,9 @@ class ProtectSiteForm {
 					"</i></b><br />\n";
 	}
 
+	/**
+	 * @param array $prot
+	 */
 	function unProtectsiteForm( $prot ) {
 		global $wgOut, $wgLang;
 

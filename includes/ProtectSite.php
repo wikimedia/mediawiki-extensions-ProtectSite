@@ -29,6 +29,7 @@ class ProtectSite extends SpecialPage {
 		parent::__construct( 'ProtectSite'/*class*/, 'protectsite'/*restriction*/ );
 	}
 
+	/** @inheritDoc */
 	public function doesWrites() {
 		return true;
 	}
@@ -36,7 +37,7 @@ class ProtectSite extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param mixed|null $par Parameter passed to the page
+	 * @param string|null $par Parameter passed to the page
 	 */
 	public function execute( $par ) {
 		$user = $this->getUser();
