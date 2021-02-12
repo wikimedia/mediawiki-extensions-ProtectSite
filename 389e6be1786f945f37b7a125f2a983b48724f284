@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "459f2b6f_72502bfc",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 11
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 34
+      },
+      "writtenOn": "2021-02-12T21:41:19Z",
+      "side": 1,
+      "message": "I\u0027m not sure exactly what this was meant to do, as I\u0027ve not seen before code constructing its own SqlBagOStuff in an extension unless for the purpose of interacting with a custom database.\n\nIf the intention is as it appears, to use the default db-replicated objectcache table through the main DB connection, one should use ObjectCache::getInstance(\u0027db-replicated\u0027) to obtain it, which handles all this automatically, and that has worked consistently for many years unchanged.\n\nConsidering using that here, as the current (new) code is duplicating core internals that you might not want to have to maintain as-such.",
+      "revId": "389e6be1786f945f37b7a125f2a983b48724f284",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951",
+      "unresolved": true
+    }
+  ]
+}
