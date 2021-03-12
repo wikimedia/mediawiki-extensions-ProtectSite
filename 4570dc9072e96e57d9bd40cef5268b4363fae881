@@ -1,0 +1,7 @@
+Code-Review+2: L10n-bot <l10n-bot@translatewiki.net>
+Verified+2: jenkins-bot
+Submitted-by: jenkins-bot
+Submitted-at: Fri, 12 Mar 2021 07:48:57 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ProtectSite/+/671057
+Project: mediawiki/extensions/ProtectSite
+Branch: refs/heads/master
