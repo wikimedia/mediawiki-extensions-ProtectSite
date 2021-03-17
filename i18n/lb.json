@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"protectsite": "Site schützen",
@@ -38,5 +39,5 @@
 	"protectsite-move-1": "Nëmmen Administrateuren",
 	"protectsite-upload-0": "Registréiert Benotzer an Administrateuren",
 	"protectsite-upload-1": "Nëmmen Administrateuren",
-	"right-protectsite": "Aktiounen déi vu bestëmmte Benotzergruppen während enger limitéierter Zäit agrenzen"
+	"right-protectsite": "Aktiounen déi vu bestëmmte Benotzergruppen wärend enger limitéierter Zäit agrenzen"
 }
