@@ -1,28 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chaduvari",
 			"Veeven"
 		]
 	},
 	"protectsite-text-protect": "<!-- ఉపయోగించడానికి సూచనలు/వ్యాఖ్యలు/విధానం -->",
 	"protectsite-title": "సైటు సంరక్షణ అమరికలు",
 	"protectsite-allowall": "అందరు వాడుకరులు",
-	"protectsite-allowusersysop": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-allowusersysop": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-allowsysop": "నిర్వాహకులు మాత్రమే",
 	"protectsite-maxtimeout": "గరిష్ఠం: $1",
 	"protectsite-comment": "వ్యాఖ్య:",
 	"protectsite-protect": "సంరక్షించు",
 	"protectsite-createaccount-0": "వాడుకరులందరూ",
-	"protectsite-createaccount-1": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-createaccount-1": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-createaccount-2": "నిర్వాహకులు మాత్రమే",
 	"protectsite-createpage-0": "వాడుకరులందరూ",
-	"protectsite-createpage-1": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-createpage-1": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-createpage-2": "నిర్వాహకులు మాత్రమే",
 	"protectsite-edit-0": "వాడుకరులందరూ",
-	"protectsite-edit-1": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-edit-1": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-edit-2": "నిర్వాహకులు మాత్రమే",
-	"protectsite-move-0": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-move-0": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-move-1": "నిర్వాహకులు మాత్రమే",
-	"protectsite-upload-0": "నమోదైన వాడుకరులు మరియు నిర్వాహకులు",
+	"protectsite-upload-0": "నమోదైన వాడుకరులు, నిర్వాహకులు",
 	"protectsite-upload-1": "నిర్వాహకులు మాత్రమే"
 }
