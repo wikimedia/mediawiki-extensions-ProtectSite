@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48fcad3b_30c4f984",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6729
+      },
+      "writtenOn": "2021-10-05T21:49:08Z",
+      "side": 1,
+      "message": "try again, failure appears temporary (permissions denied)",
+      "revId": "66d412770332f5ca6fe46834008e90be35566ca5",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
