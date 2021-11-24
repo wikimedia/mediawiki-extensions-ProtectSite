@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"protectsite-allowall": "Tutti li utenti",
+	"protectsite-allowsysop": "Sulu amministratura",
+	"protectsite-createaccount-0": "Tutti li utenti",
+	"protectsite-createaccount-2": "Sulu amministratura",
+	"protectsite-createpage-0": "Tutti li utenti",
+	"protectsite-createpage-2": "Sulu amministratura",
+	"protectsite-edit-0": "Tutti li utenti",
+	"protectsite-edit-2": "Sulu amministratura",
+	"protectsite-move-1": "Sulu amministratura",
+	"protectsite-upload-1": "Sulu amministratura"
+}
