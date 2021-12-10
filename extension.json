@@ -11,6 +11,9 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:ProtectSite",
 	"descriptionmsg": "protectsite-desc",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"config": {
 		"ProtectSiteExempt": [],
 		"ProtectsiteDefaultTimeout": "1 hour",
