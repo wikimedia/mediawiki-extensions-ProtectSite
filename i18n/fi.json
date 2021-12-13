@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beluga",
-			"Jack Phoenix"
+			"Jack Phoenix",
+			"01miki10"
 		]
 	},
 	"protectsite": "Suojaa sivusto",
@@ -35,5 +36,6 @@
 	"protectsite-move-1": "Vain ylläpitäjät",
 	"protectsite-upload-0": "Rekisteröityneet käyttäjät ja ylläpitäjät",
 	"protectsite-upload-1": "Vain ylläpitäjät",
+	"action-protectsite": "rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa",
 	"right-protectsite": "Rajoittaa toimintoja, joita jotkin ryhmät voivat tehdä, tietyn aikaa"
 }

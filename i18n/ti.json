@@ -4,5 +4,10 @@
 			"Joanmp17"
 		]
 	},
-	"protectsite-comment": "ርእይቶ፥"
+	"protectsite-maxtimeout": "ዝለዓለ፦ $1",
+	"protectsite-comment": "ርእይቶ፦",
+	"protectsite-protect": "ሓልው",
+	"protectsite-createaccount-0": "ኩሎም ተጠቀምቲ",
+	"protectsite-createpage-0": "ኩሎም ተጠቀምቲ",
+	"protectsite-edit-0": "ኩሎም ተጠቀምቲ"
 }
