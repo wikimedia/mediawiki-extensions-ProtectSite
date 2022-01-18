@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"乌拉跨氪"
+			"乌拉跨氪",
+			"Tranve"
 		]
 	},
 	"protectsite": "保护网站",
@@ -15,7 +16,7 @@
 	"protectsite-allowall": "所有用户",
 	"protectsite-allowusersysop": "注册用户及管理员",
 	"protectsite-allowsysop": "仅限管理员",
-	"protectsite-createaccount": "允许新账户的创建由",
+	"protectsite-createaccount": "允许新账号的创建由",
 	"protectsite-createpage": "允许页面创建由",
 	"protectsite-edit": "允许页面编辑由",
 	"protectsite-move": "允许页面移动由",
