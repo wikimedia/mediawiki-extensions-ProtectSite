@@ -4,5 +4,7 @@
 			"Joao Xavier"
 		]
 	},
-	"protectsite-comment": "Komento:"
+	"protectsite-comment": "Komento:",
+	"protectsite-protect": "Protektar",
+	"protectsite-unprotect": "Desprotektar"
 }

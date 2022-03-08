@@ -4,8 +4,11 @@
 			"Seipinne"
 		]
 	},
+	"protectsite-allowall": "Puoh kevtteeh",
 	"protectsite-allowusersysop": "Registeristum kevtteeh já haldâšeijeeh",
+	"protectsite-createaccount-0": "Puoh kevtteeh",
 	"protectsite-createaccount-1": "Registeristum kevtteeh já haldâšeijeeh",
+	"protectsite-createpage-0": "Puoh kevtteeh",
 	"protectsite-createpage-1": "Registeristum kevtteeh já haldâšeijeeh",
 	"protectsite-edit-1": "Registeristum kevtteeh já haldâšeijeeh",
 	"protectsite-move-0": "Registeristum kevtteeh já haldâšeijeeh",
