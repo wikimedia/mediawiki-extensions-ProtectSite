@@ -3,7 +3,8 @@
 		"authors": [
 			"Armin1392",
 			"Mjbmr",
-			"Reza1615"
+			"Reza1615",
+			"Beginneruser"
 		]
 	},
 	"protectsite": "محافظت سایت",
@@ -15,9 +16,9 @@
 	"protectsite-allowusersysop": "کاربران و سرپرستان ثبت‌نام شده",
 	"protectsite-allowsysop": "فقط سرپرستان",
 	"protectsite-createaccount": "اجازهٔ ایجاد حساب‌های جدید توسط",
-	"protectsite-createpage": "اجازهٔ ایجاد صفحات توسط",
-	"protectsite-edit": "اجازهٔ ویرایش صفحات توسط",
-	"protectsite-move": "اجازهٔ ترک صفحات توسط",
+	"protectsite-createpage": "اجازهٔ ایجاد صفحه‌ها توسط",
+	"protectsite-edit": "اجازهٔ ویرایش صفحه‌ها توسط",
+	"protectsite-move": "اجازهٔ ترک صفحه‌ها توسط",
 	"protectsite-upload": "اجازهٔ انتقال پوشه توسط",
 	"protectsite-timeout": "توقف:",
 	"protectsite-timeout-error": "'''توقف نامعتبر.'''",
