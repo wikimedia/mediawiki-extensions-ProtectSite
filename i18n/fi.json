@@ -21,6 +21,7 @@
 	"protectsite-maxtimeout": "Maksimi: $1",
 	"protectsite-comment": "Kommentti:",
 	"protectsite-ucomment": "Suojauksen poiston kommentti:",
+	"protectsite-until": "Suojauksen päättymisaika:",
 	"protectsite-protect": "Suojaa",
 	"protectsite-unprotect": "Poista suojaus",
 	"protectsite-createaccount-0": "Kaikki käyttäjät",
