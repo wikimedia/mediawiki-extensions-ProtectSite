@@ -4,5 +4,10 @@
 			"Yupik"
 		]
 	},
-	"protectsite-protect": "Suõjjâd"
+	"protectsite-allowall": "Puk õõʹnni",
+	"protectsite-comment": "Kommeʹntt:",
+	"protectsite-protect": "Suõjjâd",
+	"protectsite-createaccount-0": "Puk õõʹnni",
+	"protectsite-createpage-0": "Puk õõʹnni",
+	"protectsite-edit-0": "Puk õõʹnni"
 }
