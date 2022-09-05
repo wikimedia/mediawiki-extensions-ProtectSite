@@ -3,7 +3,8 @@
 		"authors": [
 			"Fulup",
 			"Gwenn-Ael",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"protectsite": "Gwareziñ al lec'hienn",
@@ -18,7 +19,7 @@
 	"protectsite-createpage": "Aotren da grouiñ pajennoù dre",
 	"protectsite-edit": "Aotren da gemm pajennoù dre",
 	"protectsite-move": "Aotren da adenvel pajennoù dre",
-	"protectsite-upload": "Aotren da enporzhiañ restroù dre",
+	"protectsite-upload": "Aotren da bellgas restroù dre",
 	"protectsite-timeout": "Termen",
 	"protectsite-timeout-error": "'''Termen direizh.'''",
 	"protectsite-maxtimeout": "Maximum : $1",
