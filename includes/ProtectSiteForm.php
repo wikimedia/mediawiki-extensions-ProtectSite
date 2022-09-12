@@ -28,14 +28,7 @@ class ProtectSiteForm {
 		$this->action = htmlspecialchars( $titleObj->getLocalURL(), ENT_QUOTES );
 		$this->mRequest = $request;
 
-		$params = [
-			'localKeyLB' => [
-				'factory' => static function () {
-					return MediaWikiServices::getInstance()->getDBLoadBalancer();
-				}
-			]
-		];
-		$this->persist_data = new SqlBagOStuff( $params );
+		$this->persist_data = ObjectCache::getInstance( CACHE_DB );
 
 		$this->wanCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
