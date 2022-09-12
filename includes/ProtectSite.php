@@ -74,16 +74,7 @@ class ProtectSite extends SpecialPage {
 			return;
 		}
 
-		$params = [
-			'localKeyLB' => [
-				'factory' => static function () {
-					return MediaWikiServices::getInstance()->getDBLoadBalancer();
-				}
-			]
-		];
-
-		/* Initialize Object */
-		$persist_data = new SqlBagOStuff( $params );
+		$persist_data = ObjectCache::getInstance( CACHE_DB );
 
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
