@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dd2c8d1_293a68ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 608
+      },
+      "writtenOn": "2022-09-23T20:02:34Z",
+      "side": 1,
+      "message": "This is not an issue in the presented code, but there is another such constructor to be replaced in includes/ProtectSiteForm.php (in the constructor of ProtectSiteForm, the initialisation of the property persist_data), see https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/ProtectSite/+/refs/heads/master/includes/ProtectSiteForm.php#38",
+      "revId": "35f831d41b036897acc29969748ba31807c09b6c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
