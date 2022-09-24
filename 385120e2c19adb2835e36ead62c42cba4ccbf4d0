@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bad93ca_e9e5d958",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 608
+      },
+      "writtenOn": "2022-09-24T18:37:10Z",
+      "side": 1,
+      "message": "I don’t understand why Selenium tests fail, I’m not sure if it is specific to this patch or not.",
+      "revId": "385120e2c19adb2835e36ead62c42cba4ccbf4d0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
