@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "385120e2c19adb2835e36ead62c42cba4ccbf4d0",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ac9a62a_d5f4e765",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 608
+      },
+      "writtenOn": "2022-09-24T18:56:52Z",
+      "side": 1,
+      "message": "Ok, I tested my patch with MW 1.38, but it fails on master/1.40-alpha because of T317499/If32e52269c, so this other patch must be merged before to make Jenkins happy.",
+      "revId": "385120e2c19adb2835e36ead62c42cba4ccbf4d0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     }
   ]
 }
