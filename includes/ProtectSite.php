@@ -104,37 +104,37 @@ class ProtectSite extends SpecialPage {
 			}
 
 			/* Protection-related code for MediaWiki 1.8+ */
-			$wgGroupPermissions['*']['createaccount'] = !( $prot['createaccount'] >= 1 );
-			$wgGroupPermissions['user']['createaccount'] = !( $prot['createaccount'] == 2 );
+			$wgGroupPermissions['*']['createaccount'] = ( $wgGroupPermissions['*']['createaccount'] ?? false ) && !( $prot['createaccount'] >= 1 );
+			$wgGroupPermissions['user']['createaccount'] = ( $wgGroupPermissions['user']['createaccount'] ?? false ) && !( $prot['createaccount'] == 2 );
 
-			$wgGroupPermissions['*']['createpage'] = !( $prot['createpage'] >= 1 );
-			$wgGroupPermissions['*']['createtalk'] = !( $prot['createpage'] >= 1 );
-			$wgGroupPermissions['user']['createpage'] = !( $prot['createpage'] == 2 );
-			$wgGroupPermissions['user']['createtalk'] = !( $prot['createpage'] == 2 );
+			$wgGroupPermissions['*']['createpage'] = ( $wgGroupPermissions['*']['createpage'] ?? false ) && !( $prot['createpage'] >= 1 );
+			$wgGroupPermissions['*']['createtalk'] = ( $wgGroupPermissions['*']['createtalk'] ?? false ) && !( $prot['createpage'] >= 1 );
+			$wgGroupPermissions['user']['createpage'] = ( $wgGroupPermissions['user']['createpage'] ?? false ) && !( $prot['createpage'] == 2 );
+			$wgGroupPermissions['user']['createtalk'] = ( $wgGroupPermissions['user']['createtalk'] ?? false ) && !( $prot['createpage'] == 2 );
 
-			$wgGroupPermissions['*']['edit'] = !( $prot['edit'] >= 1 );
-			$wgGroupPermissions['user']['edit'] = !( $prot['edit'] == 2 );
+			$wgGroupPermissions['*']['edit'] = ( $wgGroupPermissions['*']['edit'] ?? false ) && !( $prot['edit'] >= 1 );
+			$wgGroupPermissions['user']['edit'] = ( $wgGroupPermissions['user']['edit'] ?? false ) && !( $prot['edit'] == 2 );
 			$wgGroupPermissions['sysop']['edit'] = true;
 			$wgGroupPermissions['sysop']['createpage'] = true;
 
-			$wgGroupPermissions['user']['move'] = !( $prot['move'] == 1 );
-			$wgGroupPermissions['user']['upload'] = !( $prot['upload'] == 1 );
-			$wgGroupPermissions['user']['reupload'] = !( $prot['upload'] == 1 );
-			$wgGroupPermissions['user']['reupload-shared'] = !( $prot['upload'] == 1 );
+			$wgGroupPermissions['user']['move'] = ( $wgGroupPermissions['user']['move'] ?? false ) && !( $prot['move'] == 1 );
+			$wgGroupPermissions['user']['upload'] = ( $wgGroupPermissions['user']['upload'] ?? false ) && !( $prot['upload'] == 1 );
+			$wgGroupPermissions['user']['reupload'] = ( $wgGroupPermissions['user']['reupload'] ?? false ) && !( $prot['upload'] == 1 );
+			$wgGroupPermissions['user']['reupload-shared'] = ( $wgGroupPermissions['user']['reupload-shared'] ?? false ) && !( $prot['upload'] == 1 );
 
 			// are there any groups that should not get affected by ProtectSite's lockdown?
 			if ( !empty( $wgProtectSiteExempt ) && is_array( $wgProtectSiteExempt ) ) {
 				// there are, so loop over them, and force these rights to be true
 				// will resolve any problems from inheriting rights from 'user' or 'sysop'
 				foreach ( $wgProtectSiteExempt as $exemptGroup ) {
-					$wgGroupPermissions[$exemptGroup]['createaccount'] = 1;
-					$wgGroupPermissions[$exemptGroup]['edit'] = 1;
-					$wgGroupPermissions[$exemptGroup]['createpage'] = 1;
-					$wgGroupPermissions[$exemptGroup]['createtalk'] = 1;
-					$wgGroupPermissions[$exemptGroup]['move'] = 1;
-					$wgGroupPermissions[$exemptGroup]['upload'] = 1;
-					$wgGroupPermissions[$exemptGroup]['reupload'] = 1;
-					$wgGroupPermissions[$exemptGroup]['reupload-shared'] = 1;
+					$wgGroupPermissions[$exemptGroup]['createaccount'] = true;
+					$wgGroupPermissions[$exemptGroup]['edit'] = true;
+					$wgGroupPermissions[$exemptGroup]['createpage'] = true;
+					$wgGroupPermissions[$exemptGroup]['createtalk'] = true;
+					$wgGroupPermissions[$exemptGroup]['move'] = true;
+					$wgGroupPermissions[$exemptGroup]['upload'] = true;
+					$wgGroupPermissions[$exemptGroup]['reupload'] = true;
+					$wgGroupPermissions[$exemptGroup]['reupload-shared'] = true;
 				}
 			}
 		}
