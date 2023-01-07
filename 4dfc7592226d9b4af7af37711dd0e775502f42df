@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "944ba84f_1979d457",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2023-01-07T23:40:57Z",
+      "side": 1,
+      "message": "Can you edit/removed the comment as well?",
+      "revId": "4dfc7592226d9b4af7af37711dd0e775502f42df",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e197ce23_42b6e591",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 27
+      },
+      "writtenOn": "2023-01-07T23:40:57Z",
+      "side": 1,
+      "message": "There is no longer an object initialization here",
+      "range": {
+        "startLine": 77,
+        "startChar": 2,
+        "endLine": 77,
+        "endChar": 25
+      },
+      "revId": "4dfc7592226d9b4af7af37711dd0e775502f42df",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
