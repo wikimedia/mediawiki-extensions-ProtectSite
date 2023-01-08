@@ -16,7 +16,7 @@
 	},
 	"config": {
 		"ProtectSiteExempt": [],
-		"ProtectsiteDefaultTimeout": "1 hour",
+		"ProtectSiteDefaultTimeout": "1 hour",
 		"ProtectSiteLimit": "1 week"
 	},
 	"SpecialPages": {
