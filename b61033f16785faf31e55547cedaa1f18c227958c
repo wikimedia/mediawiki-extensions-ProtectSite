@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "b61033f16785faf31e55547cedaa1f18c227958c",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74b9ef39_f575311a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8573
+      },
+      "writtenOn": "2023-01-08T10:01:50Z",
+      "side": 1,
+      "message": "https://gerrit.wikimedia.org/r/876296 for the PHP 8.1 warning that causes gate and submit job to fail.",
+      "revId": "b61033f16785faf31e55547cedaa1f18c227958c",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     }
   ]
 }
