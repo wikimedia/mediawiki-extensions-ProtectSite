@@ -193,7 +193,7 @@ class ProtectSiteForm {
 
 		// Give grep a chance to find the usages:
 		// protectsite-timeout, protectsite-comment, protectsite-ucomment
-		$value = htmlspecialchars( $value, ENT_QUOTES );
+		$value = htmlspecialchars( $value ?? '', ENT_QUOTES );
 		return '<div><label>' . wfMessage( 'protectsite-' . $varname )->escaped() .
 				Html::input( $varname, $value ) .
 				$append .
