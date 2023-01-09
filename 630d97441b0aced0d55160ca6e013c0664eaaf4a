@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cacf1344_95a5a9e1",
+        "filename": "includes/ProtectSiteForm.php",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1453
+      },
+      "writtenOn": "2023-01-09T14:27:06Z",
+      "side": 1,
+      "message": "According to this it should be impossible that $value is ever null. Is the documentation incomplete?",
+      "range": {
+        "startLine": 185,
+        "startChar": 11,
+        "endLine": 185,
+        "endChar": 17
+      },
+      "revId": "630d97441b0aced0d55160ca6e013c0664eaaf4a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
