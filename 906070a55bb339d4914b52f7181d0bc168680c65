@@ -16,6 +16,23 @@
       "message": "https://codesearch.wmcloud.org/search/?q\u003dProtect.iteDefaultTimeout 👍",
       "revId": "906070a55bb339d4914b52f7181d0bc168680c65",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd55c743_af4dba16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 8573
+      },
+      "writtenOn": "2023-01-09T17:12:38Z",
+      "side": 1,
+      "message": "gate and submit still fails due to https://gerrit.wikimedia.org/r/831620",
+      "revId": "906070a55bb339d4914b52f7181d0bc168680c65",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     }
   ]
 }
