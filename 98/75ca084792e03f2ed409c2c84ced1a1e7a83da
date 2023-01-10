@@ -1,0 +1,8 @@
+Verified+2: jenkins-bot
+Verified+2: Thiemo Kreuz (WMDE) <thiemo.kreuz@wikimedia.de>
+Code-Review+2: Thiemo Kreuz (WMDE) <thiemo.kreuz@wikimedia.de>
+Submitted-by: Thiemo Kreuz (WMDE) <thiemo.kreuz@wikimedia.de>
+Submitted-at: Tue, 10 Jan 2023 17:50:37 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ProtectSite/+/877985
+Project: mediawiki/extensions/ProtectSite
+Branch: refs/heads/REL1_35
