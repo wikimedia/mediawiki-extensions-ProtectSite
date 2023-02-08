@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Amire80"
 		]
 	},
+	"protectsite-timeout": "זמן קצוב:",
+	"protectsite-timeout-error": "'''זמן קצוב בלתי־תקין.'''",
 	"action-protectsite": "להגביל את כמות הפעולות שקבוצות מסוימות יכולות לבצע בפרק זמן מסוים",
 	"right-protectsite": "הגבלת כמות הפעולות שקבוצות מסוימות יכולות לבצע בפרק זמן מסוים"
 }
