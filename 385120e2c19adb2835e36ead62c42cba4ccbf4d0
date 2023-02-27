@@ -101,6 +101,23 @@
       "message": "@Legoktm: could you submit this change? it was blocked and the other change unblocked the tests.",
       "revId": "385120e2c19adb2835e36ead62c42cba4ccbf4d0",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb04593a_f0f46531",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 458
+      },
+      "writtenOn": "2023-02-27T02:00:22Z",
+      "side": 1,
+      "message": "...",
+      "revId": "385120e2c19adb2835e36ead62c42cba4ccbf4d0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     }
   ]
 }
