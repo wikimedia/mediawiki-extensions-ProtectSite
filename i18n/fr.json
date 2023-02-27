@@ -3,7 +3,8 @@
 		"authors": [
 			"Alexandre Emsenhuber",
 			"Balzac 40",
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
 	"protectsite": "Protéger le site",
@@ -22,7 +23,7 @@
 	"protectsite-timeout": "Expiration :",
 	"protectsite-timeout-error": "'''Expiration invalide.'''",
 	"protectsite-maxtimeout": "Maximum : $1",
-	"protectsite-comment": "Commentaire :",
+	"protectsite-comment": "Commentaire :",
 	"protectsite-ucomment": "Commentaire de déprotection :",
 	"protectsite-until": "Protéger jusqu'à :",
 	"protectsite-protect": "Protéger",
