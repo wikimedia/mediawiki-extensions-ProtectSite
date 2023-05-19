@@ -31,8 +31,7 @@
 		"ProtectSiteAliases": "ProtectSite.alias.php"
 	},
 	"AutoloadClasses": {
-		"ProtectSite": "includes/ProtectSite.php",
-		"ProtectSiteForm": "includes/ProtectSiteForm.php"
+		"ProtectSite": "includes/ProtectSite.php"
 	},
 	"AvailableRights": [
 		"protectsite"
