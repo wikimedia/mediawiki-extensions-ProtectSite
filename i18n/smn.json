@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Seipinne"
+			"Seipinne",
+			"Yupik"
 		]
 	},
 	"protectsite-allowall": "Puoh kevtteeh",
 	"protectsite-allowusersysop": "Registeristum kevtteeh já haldâšeijeeh",
+	"protectsite-comment": "Komment:",
 	"protectsite-createaccount-0": "Puoh kevtteeh",
 	"protectsite-createaccount-1": "Registeristum kevtteeh já haldâšeijeeh",
 	"protectsite-createpage-0": "Puoh kevtteeh",
