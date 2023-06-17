@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ea168e2_46abfbed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2023-06-17T12:05:22Z",
+      "side": 1,
+      "message": "❤️\n\nThis looks great (but I didn\u0027t test); a welcome improvement over my super lazy hacks of the past! 👍\n\nThe -1 is due to the code style issues which CI will complain about once you get whitelisted; I didn\u0027t see any obvious functional issues, although the variable iniializations in __construct() as opposed to execute() make me feel a bit iffy.",
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ebf51a6_5aad2f4d",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2023-06-17T12:05:22Z",
+      "side": 1,
+      "message": "There are various code style related issues that have zero impact on functionality but CI will (or would, if you were whitelisted) complain about, e.g. function foo(type $param) { would need more spacing, like so: function foo( type $param ) {",
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36ca7c8a_3c6baafa",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2023-06-17T12:05:22Z",
+      "side": 1,
+      "message": "Do these need to be initialized here or could they be done in execute()?\n\nIn general, these types of initializations have sometimes caused hard-to-track-down issues and initializing the vars in execute() has been sufficient enough for *most* use cases, hence the question. :)",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 3
+      },
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ed6eff1_82a7cc9b",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2023-06-17T12:05:22Z",
+      "side": 1,
+      "message": "Needs more spacing: $this-\u003egetOutput()-\u003eaddWikiMsg( \u0027protectsite-text-unprotect\u0027 );\n\nDitto for L71, L74, L86, L94, L96, L107-111, L273, L322 and the function definitions as per my file-level comment above.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 64
+      },
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
