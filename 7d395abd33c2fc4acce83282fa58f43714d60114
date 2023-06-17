@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "689af0f0_4cd82560",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11044
+      },
+      "writtenOn": "2023-06-17T14:12:41Z",
+      "side": 1,
+      "message": "Hey! I\u0027ve pushed an updated patch addressing these issues - hopefully I caught them all.",
+      "parentUuid": "4ea168e2_46abfbed",
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ebf51a6_5aad2f4d",
         "filename": "includes/ProtectSite.php",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2023-06-17T12:05:22Z",
       "side": 1,
       "message": "There are various code style related issues that have zero impact on functionality but CI will (or would, if you were whitelisted) complain about, e.g. function foo(type $param) { would need more spacing, like so: function foo( type $param ) {",
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e34cfe3_20582e6e",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11044
+      },
+      "writtenOn": "2023-06-17T14:12:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ebf51a6_5aad2f4d",
       "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     },
@@ -58,6 +94,30 @@
       "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6be5071c_21e0f33c",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 11044
+      },
+      "writtenOn": "2023-06-17T14:12:41Z",
+      "side": 1,
+      "message": "It doesn\u0027t seem to make a difference whether they\u0027re in the constructor or in execute(), so I\u0027ve moved them to the execute function.",
+      "parentUuid": "36ca7c8a_3c6baafa",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 3
+      },
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ed6eff1_82a7cc9b",
@@ -71,6 +131,30 @@
       "writtenOn": "2023-06-17T12:05:22Z",
       "side": 1,
       "message": "Needs more spacing: $this-\u003egetOutput()-\u003eaddWikiMsg( \u0027protectsite-text-unprotect\u0027 );\n\nDitto for L71, L74, L86, L94, L96, L107-111, L273, L322 and the function definitions as per my file-level comment above.",
+      "range": {
+        "startLine": 69,
+        "startChar": 3,
+        "endLine": 69,
+        "endChar": 64
+      },
+      "revId": "7d395abd33c2fc4acce83282fa58f43714d60114",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "212fb926_5bc7f9df",
+        "filename": "includes/ProtectSite.php",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 11044
+      },
+      "writtenOn": "2023-06-17T14:12:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ed6eff1_82a7cc9b",
       "range": {
         "startLine": 69,
         "startChar": 3,
