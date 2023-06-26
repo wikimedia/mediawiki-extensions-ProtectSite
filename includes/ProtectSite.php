@@ -20,7 +20,13 @@
 
 use MediaWiki\MediaWikiServices;
 
-class ProtectSite extends SpecialPage {
+class ProtectSite extends FormSpecialPage {
+	/** @var SqlBagOStuff */
+	public $persist_data;
+	/** @var WANObjectCache */
+	public $wanCache;
+	/** @var array */
+	public $prot;
 
 	/**
 	 * Constructor
@@ -42,20 +48,146 @@ class ProtectSite extends SpecialPage {
 	public function execute( $par ) {
 		$user = $this->getUser();
 
-		// If the user doesn't have 'protectsite' permission, display an error
-		$this->checkPermissions();
-
 		// Show a message if the database is in read-only mode
 		$this->checkReadOnly();
 
-		// If user is blocked, s/he doesn't need to access this page
+		// If user is blocked, they don't need to access this page
 		if ( $user->getBlock() ) {
 			throw new UserBlockedError( $user->getBlock() );
 		}
 
-		$this->setHeaders();
+		$this->persist_data = ObjectCache::getInstance( CACHE_DB );
+		$this->wanCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
-		$form = new ProtectSiteForm( $this->getRequest(), $user );
+		/* Get data into the value variable/array */
+		$this->prot = $this->wanCache->get( $this->wanCache->makeKey( 'protectsite' ) );
+		if ( !$this->prot ) {
+			$this->prot = $this->persist_data->get( 'protectsite' );
+		}
+
+		if ( is_array( $this->prot ) ) {
+			$this->getOutput()->addWikiMsg( 'protectsite-text-unprotect' );
+		} else {
+			$this->getOutput()->addWikiMsg( 'protectsite-text-protect' );
+		}
+
+		$this->getOutput()->addHTML( '<h3>' . $this->msg( 'protectsite-title' )->escaped() . '</h3>' );
+
+		parent::execute( $par );
+	}
+
+	/** @inheritDoc */
+	protected function getDisplayFormat() {
+		return 'ooui';
+	}
+
+	/**
+	 * @param string $name
+	 * @param array $values
+	 * @return array Two-dimensional label->value mapping array
+	 */
+	protected function getOptionsForFormField( string $name, array $values ) {
+		$options = [];
+		foreach ( $values as $val ) {
+			$label = $this->msg( 'protectsite-' . $name . '-' . $val )->escaped();
+			$options[$label] = $val;
+		}
+		return $options;
+	}
+
+	/**
+	 * @param HTMLForm $form
+	 */
+	protected function alterForm( HTMLForm $form ) {
+		if ( is_array( $this->prot ) ) {
+			$form->setSubmitTextMsg( 'protectsite-unprotect' );
+		} else {
+			$form->setSubmitTextMsg( 'protectsite-protect' );
+			$form->setSubmitDestructive();
+		}
+	}
+
+	/**
+	 * @return array
+	 */
+	protected function getFormFields() {
+		global $wgProtectSiteDefaultTimeout, $wgProtectSiteLimit;
+
+		$isProtected = is_array( $this->prot );
+
+		$reqValues = $this->getRequest()->getValues();
+
+		$createaccount = $this->getOptionsForFormField( 'createaccount', [ 0, 1, 2 ] );
+		$createpage = $this->getOptionsForFormField( 'createpage', [ 0, 1, 2 ] );
+		$edit = $this->getOptionsForFormField( 'edit', [ 0, 1, 2 ] );
+		$move = $this->getOptionsForFormField( 'move', [ 0, 1 ] );
+		$upload = $this->getOptionsForFormField( 'upload', [ 0, 1 ] );
+
+		return [
+			'createaccount' => [
+				'type' => 'radio',
+				'label-message' => 'protectsite-createaccount',
+				'tabindex' => 1,
+				'required' => true,
+				'options' => $createaccount,
+				'default' => $this->prot['createaccount'] ?? $reqValues['createaccount'] ?? 0,
+				'disabled' => $isProtected
+			],
+			'createpage' => [
+				'type' => 'radio',
+				'label-message' => 'protectsite-createpage',
+				'tabindex' => 1,
+				'required' => true,
+				'options' => $createpage,
+				'default' => $this->prot['createpage'] ?? $reqValues['createpage'] ?? 0,
+				'disabled' => $isProtected
+			],
+			'edit' => [
+				'type' => 'radio',
+				'label-message' => 'protectsite-edit',
+				'tabindex' => 1,
+				'required' => true,
+				'options' => $edit,
+				'default' => $this->prot['edit'] ?? $reqValues['edit'] ?? 0,
+				'disabled' => $isProtected
+			],
+			'move' => [
+				'type' => 'radio',
+				'label-message' => 'protectsite-move',
+				'tabindex' => 1,
+				'required' => true,
+				'options' => $move,
+				'default' => $this->prot['move'] ?? $reqValues['move'] ?? 0,
+				'disabled' => $isProtected
+			],
+			'upload' => [
+				'type' => 'radio',
+				'label-message' => 'protectsite-upload',
+				'tabindex' => 1,
+				'required' => true,
+				'options' => $upload,
+				'default' => $this->prot['upload'] ?? $reqValues['upload'] ?? 0,
+				'disabled' => $isProtected
+			],
+			'timeout' => [
+				'type' => 'text',
+				'label-message' => 'protectsite-timeout',
+				'tabindex' => 1,
+				'required' => false,
+				'default' => $this->prot['timeout'] ?? $wgProtectSiteDefaultTimeout,
+				'help' => ( isset( $wgProtectSiteLimit ) ?
+					' (' . $this->msg( 'protectsite-maxtimeout', $wgProtectSiteLimit )->parse() . ')' : ''
+				),
+				'disabled' => $isProtected
+			],
+			'comment' => [
+				'type' => 'text',
+				'label-message' => $isProtected ? 'protectsite-ucomment' : 'protectsite-comment',
+				'tabindex' => 1,
+				'required' => false,
+				'default' => $this->prot['comment'] ?? ''
+			]
+		];
 	}
 
 	/**
@@ -133,4 +265,88 @@ class ProtectSite extends SpecialPage {
 		}
 	}
 
+	/**
+	 * Handles the form submission when we are unprotecting the site
+	 * @param array $data
+	 * @return void
+	 */
+	public function handleUnprotectSubmit( array $data ) {
+		/* Remove the data from the database to disable extension. */
+		$this->persist_data->delete( 'protectsite' );
+		$this->wanCache->delete( $this->wanCache->makeKey( 'protectsite' ) );
+
+		/* Create a log entry */
+		$logEntry = new ManualLogEntry( 'protect', 'unprotect' );
+		$logEntry->setPerformer( $this->getUser() );
+		$logEntry->setTarget( SpecialPage::getTitleFor( 'Allpages' ) );
+		$logEntry->setComment( $data['comment'] );
+		$logEntry->publish( $logEntry->insert() );
+
+		/* Call the Protect Form function to display the current state. */
+		$this->getOutput()->redirect( SpecialPage::getTitleFor( 'ProtectSite' )->getFullURL() );
+	}
+
+	/**
+	 * Handles the form submission when we are protecting the site
+	 * @param array $data
+	 * @return void
+	 */
+	public function handleProtectSubmit( array $data ) {
+		global $wgProtectSiteLimit;
+
+		$curr_time = time();
+		$until = strtotime( '+' . $data['timeout'], $curr_time );
+		if ( $until === false || $until < $curr_time ) {
+			$this->getOutput()->addWikiMsg( 'protectsite-timeout-error' );
+		} else {
+			/* Set the array values */
+			$prot['createaccount'] = $data['createaccount'];
+			$prot['createpage'] = $data['createpage'];
+			$prot['edit'] = $data['edit'];
+			$prot['move'] = $data['move'];
+			$prot['upload'] = $data['upload'];
+			$prot['comment'] = isset( $data['comment'] ) ? $data['comment'] : '';
+
+			if (
+				isset( $wgProtectSiteLimit ) &&
+				( $until > strtotime( '+' . $wgProtectSiteLimit, $curr_time ) )
+			) {
+				$data['timeout'] = $wgProtectSiteLimit;
+			}
+
+			/* Set the limits */
+			$prot['until'] = strtotime( '+' . $data['timeout'], $curr_time );
+			$prot['timeout'] = $data['timeout'];
+
+			/* Write the array out to the database */
+			$this->persist_data->set( 'protectsite', $prot, $prot['until'] );
+			$this->wanCache->set(
+				$this->wanCache->makeKey( 'protectsite' ), $prot, $prot['until'] );
+
+			/* Create a log entry */
+			$logEntry = new ManualLogEntry( 'protect', 'protect' );
+			$logEntry->setPerformer( $this->getUser() );
+			$logEntry->setTarget( SpecialPage::getTitleFor( 'Allpages' ) );
+			$logEntry->setComment(
+				$prot['timeout'] . ( strlen( $prot['comment'] ) > 0 ? '; ' . $prot['comment'] : '' )
+			);
+			$logEntry->setParameters( [ '4::description' => '' ] );
+			$logEntry->publish( $logEntry->insert() );
+
+			$this->getOutput()->redirect( SpecialPage::getTitleFor( 'ProtectSite' )->getFullURL() );
+		}
+	}
+
+	/**
+	 * Form submission handler method.
+	 *
+	 * @param array $data
+	 */
+	public function onSubmit( array $data ) {
+		if ( is_array( $this->prot ) ) {
+			$this->handleUnprotectSubmit( $data );
+		} else {
+			$this->handleProtectSubmit( $data );
+		}
+	}
 }
