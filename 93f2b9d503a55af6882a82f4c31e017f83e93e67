@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22239a70_6c3f7cc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 243
+      },
+      "writtenOn": "2023-06-26T15:06:20Z",
+      "side": 1,
+      "message": "Apologies for the mess and noise; I thought your patch only needed a few style tweaks but jerkins had a different idea and it wanted me to add nonsensical and useless documentation and fix things which weren\u0027t really even touched by your patchset...I ended up adding an exclude rule to .phpcs.xml for one thing to keep the noise down - awfully silly that things marked as \"WARNING\" (instead of \"ERROR\") make the CI build fail :-/",
+      "revId": "93f2b9d503a55af6882a82f4c31e017f83e93e67",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
