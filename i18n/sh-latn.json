@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"protectsite": "Zaštiti mrež. mjesto",
+	"protectsite-desc": "Omogućuje administratoruprivremeno spriječiti različite izmjene u mrež-m mjestu",
+	"protectsite-text-protect": "<!-- Instrukcije/Komentari/Pravila uporabe -->",
+	"protectsite-text-unprotect": "<!-- Instrukcije/Komentari kada je zaštićeno -->",
+	"protectsite-title": "Podešavanja zaštite mrež. mjesta",
+	"protectsite-allowall": "Svi korisnici",
+	"protectsite-allowusersysop": "Upisani korisnici i sistem-operatori",
+	"protectsite-allowsysop": "Samo sistem-operatori",
+	"protectsite-createaccount": "Dozvoli stvaranje novih računa od",
+	"protectsite-createpage": "Dozvoli stvaranje stranica od",
+	"protectsite-edit": "Dozvoli uređivanje strana od",
+	"protectsite-move": "Dozvoli premještanje strana od",
+	"protectsite-upload": "Dozvoli postavljanje datoteka od",
+	"protectsite-timeout": "Ističe:",
+	"protectsite-timeout-error": "'''Nevaljan istjek.'''",
+	"protectsite-maxtimeout": "Maksimum: $1",
+	"protectsite-comment": "Komentar:",
+	"protectsite-ucomment": "Skini zaštitu sa komentara:",
+	"protectsite-until": "Zaštićeno do:",
+	"protectsite-protect": "Zaštiti / Заштити",
+	"protectsite-unprotect": "Skini zaštitu / Скини заштиту",
+	"protectsite-createaccount-0": "Svi korisnici",
+	"protectsite-createaccount-1": "Upisani korisnici i sistem-operatori",
+	"protectsite-createaccount-2": "Samo sistem-operatori",
+	"protectsite-createpage-0": "Svi korisnici",
+	"protectsite-createpage-1": "Upisani korisnici i sistem-operatori",
+	"protectsite-createpage-2": "Samo sistem-operatori",
+	"protectsite-edit-0": "Svi korisnici",
+	"protectsite-edit-1": "Upisani korisnici i sistem-operatori",
+	"protectsite-edit-2": "Samo sistem-operatori",
+	"protectsite-move-0": "Upisani korisnici i sistem-operatori",
+	"protectsite-move-1": "Samo sistem-operatori",
+	"protectsite-upload-0": "Upisani korisnici i sistem-operatori",
+	"protectsite-upload-1": "Samo sistem-operatori",
+	"action-protectsite": "privremeno ograničite radnje što mogu izvoditi izvjesne grupe korisnika",
+	"right-protectsite": "Privremeno ograničite radnje što mogu izvoditi izvjesne grupe korisnika"
+}
