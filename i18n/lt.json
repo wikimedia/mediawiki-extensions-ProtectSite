@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"protectsite": "Apsaugoti svetainę",
+	"protectsite-desc": "Leidžia svetainės administratoriui laikinai blokuoti įvairius svetainės pakeitimus",
+	"protectsite-title": "Svetainės apsaugos nustatymai",
+	"protectsite-allowall": "Visi naudotojai",
+	"protectsite-allowusersysop": "Registruoti naudotojai ir administratoriai",
+	"protectsite-allowsysop": "Tik administratoriai",
+	"protectsite-createaccount": "Leisti kurti naujas paskyras",
+	"protectsite-createpage": "Leisti kurti naujus puslapius",
+	"protectsite-edit": "Leisti redaguoti puslapius",
+	"protectsite-move": "Leisti perkelti puslapius",
+	"protectsite-upload": "Leisti įkelti failus",
+	"protectsite-maxtimeout": "Maksimalus: $1",
+	"protectsite-comment": "Komentaras:",
+	"protectsite-ucomment": "Nebesaugojimo komentaras:",
+	"protectsite-until": "Apsaugota iki:",
+	"protectsite-protect": "Apsaugoti",
+	"protectsite-unprotect": "Nebesaugoti",
+	"protectsite-createaccount-0": "Visi naudotojai",
+	"protectsite-createaccount-1": "Registruoti naudotojai ir administratoriai",
+	"protectsite-createaccount-2": "Tik administratoriai",
+	"protectsite-createpage-0": "Visi naudotojai",
+	"protectsite-createpage-1": "Registruoti naudotojai ir administratoriai",
+	"protectsite-createpage-2": "Tik administratoriai",
+	"protectsite-edit-0": "Visi naudotojai",
+	"protectsite-edit-1": "Registruoti naudotojai ir administratoriai",
+	"protectsite-edit-2": "Tik administratoriai",
+	"protectsite-move-0": "Registruoti naudotojai ir administratoriai",
+	"protectsite-move-1": "Tik administratoriai",
+	"protectsite-upload-0": "Registruoti naudotojai ir administratoriai",
+	"protectsite-upload-1": "Tik administratoriai",
+	"action-protectsite": "ribotą laiką apriboti veiksmus, kurie gali būti atliekami kai kurių grupių",
+	"right-protectsite": "Ribotą laiką apriboti veiksmus, kurie gali būti atliekami kai kurių grupių"
+}
