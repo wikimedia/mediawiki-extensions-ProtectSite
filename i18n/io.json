@@ -4,6 +4,7 @@
 			"Joao Xavier"
 		]
 	},
+	"protectsite-maxtimeout": "Maximo: $1",
 	"protectsite-comment": "Komento:",
 	"protectsite-protect": "Protektar",
 	"protectsite-unprotect": "Desprotektar"
