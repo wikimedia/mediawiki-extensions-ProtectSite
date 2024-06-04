@@ -7,7 +7,8 @@
 			"Xiaomingyan",
 			"Yfdyh000",
 			"乌拉跨氪",
-			"铁桶"
+			"铁桶",
+			"LittlePaw365"
 		]
 	},
 	"protectsite": "保护全站",
@@ -19,7 +20,7 @@
 	"protectsite-allowusersysop": "注册用户和管理员",
 	"protectsite-allowsysop": "仅限管理员",
 	"protectsite-createaccount": "允许新账号的创建由",
-	"protectsite-createpage": "允许页面创建由",
+	"protectsite-createpage": "允许的页面创建者",
 	"protectsite-edit": "允许页面编辑由",
 	"protectsite-move": "允许页面移动由",
 	"protectsite-upload": "允许上传文件自",
