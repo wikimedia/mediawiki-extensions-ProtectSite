@@ -4,7 +4,8 @@
 			"Mainframe98",
 			"Mark van Alphen",
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"protectsite": "Site beveiligen",
@@ -41,6 +42,6 @@
 	"protectsite-move-1": "Alleen beheerders",
 	"protectsite-upload-0": "Geregistreerde gebruikers en beheerders",
 	"protectsite-upload-1": "Alleen beheerders",
-	"action-protectsite": "handelingen te beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd",
-	"right-protectsite": "Handelingen beperken die kunnen worden uitgevoerd voor sommige groepen voor een beperkte tijd"
+	"action-protectsite": "handelingen te beperken die voor bepaalde groepen voor een beperkte tijd kunnen worden verricht",
+	"right-protectsite": "Handelingen beperken die voor bepaalde groepen voor een beperkte tijd kunnen worden verricht"
 }
