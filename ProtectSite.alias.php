@@ -118,12 +118,17 @@ $specialPageAliases['tr'] = [
 	'ProtectSite' => [ 'SiteyiKoru' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'ProtectSite' => [ 'ProtectSite' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'ProtectSite' => [ '保护站点' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'ProtectSite' => [ '保護網站' ],
 ];
