@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"protectsite": "Skydda sida",
@@ -38,5 +39,6 @@
 	"protectsite-move-1": "Endast administratörer",
 	"protectsite-upload-0": "Registrerade användare och administratörer",
 	"protectsite-upload-1": "Endast administratörer",
+	"action-protectsite": "begränsa åtgärder som kan utföras för vissa grupper under en begränsad tid",
 	"right-protectsite": "Begränsa åtgärder som kan utföras för vissa grupper under en begränsad tid"
 }
