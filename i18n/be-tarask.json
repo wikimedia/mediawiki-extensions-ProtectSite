@@ -3,12 +3,13 @@
 		"authors": [
 			"EugeneZelenko",
 			"Red Winged Duck",
-			"Wizardist"
+			"Wizardist",
+			"Ucukor"
 		]
 	},
 	"protectsite": "Абарона сайту",
 	"protectsite-desc": "Дазваляе адміністратару сайта часова блякаваць розныя зьмены сайту",
-	"protectsite-text-protect": "<!-- Інструкцыі/Камэнтары/Правілы выкарыстаньня -->",
+	"protectsite-text-protect": "<!-- Інструкцыі/Камэнтары/Палітыка ўжытку -->",
 	"protectsite-text-unprotect": "<!-- Інструкцыі/Камэнтары, калі працуе абарона -->",
 	"protectsite-title": "Устаноўкі абароны сайту",
 	"protectsite-allowall": "Усім удзельнікам",
