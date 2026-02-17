@@ -206,13 +206,13 @@ class ProtectSite extends FormSpecialPage {
 			return;
 		}
 
-		$persist_data = ObjectCache::getInstance( CACHE_DB );
-
+		$persist_data = null;
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
 		/* Get data into the prot hash */
 		$prot = $cache->get( $cache->makeKey( 'protectsite' ) );
 		if ( !$prot ) {
+			$persist_data = ObjectCache::getInstance( CACHE_DB );
 			$prot = $persist_data->get( 'protectsite' );
 			if ( !$prot ) {
 				$cache->set( $cache->makeKey( 'protectsite' ), 'disabled' );
@@ -223,6 +223,7 @@ class ProtectSite extends FormSpecialPage {
 		if ( is_array( $prot ) ) {
 			/* MW doesn't timeout correctly, this handles it */
 			if ( time() >= $prot['until'] ) {
+				$persist_data ??= ObjectCache::getInstance( CACHE_DB );
 				$persist_data->delete( 'protectsite' );
 			}
 
