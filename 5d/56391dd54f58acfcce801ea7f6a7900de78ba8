@@ -1,0 +1,7 @@
+Verified+2: jenkins-bot
+Code-Review+2: Libraryupgrader <tools.libraryupgrader@tools.wmflabs.org>
+Submitted-by: jenkins-bot
+Submitted-at: Sun, 01 Mar 2026 06:47:48 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ProtectSite/+/1246557
+Project: mediawiki/extensions/ProtectSite
+Branch: refs/heads/master
