@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"protectsite": "Site schützen",
@@ -24,7 +25,7 @@
 	"protectsite-comment": "Bemierkung:",
 	"protectsite-ucomment": "Grond fir d'Ophiewe vun der Spär:",
 	"protectsite-until": "Gespaart bis:",
-	"protectsite-protect": "Spären",
+	"protectsite-protect": "Protegéieren",
 	"protectsite-unprotect": "Spär ophiewen",
 	"protectsite-createaccount-0": "All Benotzer",
 	"protectsite-createaccount-1": "Registréiert Benotzer an Administrateuren",
