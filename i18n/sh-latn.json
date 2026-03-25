@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"protectsite": "Zaštiti mrež. mjesto",
@@ -14,11 +15,11 @@
 	"protectsite-allowsysop": "Samo sistem-operatori",
 	"protectsite-createaccount": "Dozvoli stvaranje novih računa od",
 	"protectsite-createpage": "Dozvoli stvaranje stranica od",
-	"protectsite-edit": "Dozvoli uređivanje strana od",
-	"protectsite-move": "Dozvoli premještanje strana od",
+	"protectsite-edit": "Dozvoli uređivanje stranica od",
+	"protectsite-move": "Dozvoli premještanje stranica od",
 	"protectsite-upload": "Dozvoli postavljanje datoteka od",
 	"protectsite-timeout": "Ističe:",
-	"protectsite-timeout-error": "'''Nevaljan istjek.'''",
+	"protectsite-timeout-error": "'''Neispravan istek.'''",
 	"protectsite-maxtimeout": "Maksimum: $1",
 	"protectsite-comment": "Komentar:",
 	"protectsite-ucomment": "Skini zaštitu sa komentara:",
