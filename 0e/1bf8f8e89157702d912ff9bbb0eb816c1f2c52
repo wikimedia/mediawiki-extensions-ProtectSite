@@ -1,0 +1,8 @@
+Verified+2: jenkins-bot
+Code-Review+1: Thiemo Kreuz (WMDE) <thiemo.kreuz@wikimedia.de>
+Code-Review+2: Zabe <zabe@avorwerk.net>
+Submitted-by: jenkins-bot
+Submitted-at: Tue, 28 Apr 2026 22:20:56 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ProtectSite/+/1240642
+Project: mediawiki/extensions/ProtectSite
+Branch: refs/heads/REL1_45
