@@ -12,7 +12,7 @@
 	"descriptionmsg": "protectsite-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.31.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"config": {
 		"ProtectSiteExempt": [],
