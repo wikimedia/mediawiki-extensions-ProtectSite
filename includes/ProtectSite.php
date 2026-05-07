@@ -28,11 +28,17 @@ class ProtectSite extends FormSpecialPage {
 	/** @var array */
 	public $prot;
 
-	/**
-	 * Constructor
-	 */
 	public function __construct() {
-		parent::__construct( 'ProtectSite'/*class*/, 'protectsite'/*restriction*/ );
+		if ( version_compare( MW_VERSION, '1.46', '>=' ) ) {
+			parent::__construct( 'ProtectSite' );
+		} else {
+			parent::__construct( 'ProtectSite', 'protectsite' );
+		}
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'protectsite';
 	}
 
 	/** @inheritDoc */
