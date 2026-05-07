@@ -32,7 +32,12 @@ class ProtectSite extends FormSpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'ProtectSite'/*class*/, 'protectsite'/*restriction*/ );
+		parent::__construct( 'ProtectSite' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'protectsite';
 	}
 
 	/** @inheritDoc */
