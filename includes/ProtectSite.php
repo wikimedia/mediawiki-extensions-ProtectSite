@@ -199,10 +199,10 @@ class ProtectSite extends FormSpecialPage {
 	 */
 	public static function setup() {
 		/* Globals */
-		global $wgGroupPermissions, $wgProtectSiteExempt, $wgCommandLineMode;
+		global $wgGroupPermissions, $wgProtectSiteExempt;
 
 		// macbre: don't run code below when running in command line mode (memcache starts to act strange)
-		if ( !empty( $wgCommandLineMode ) ) {
+		if ( MW_ENTRY_POINT === 'cli' ) {
 			return;
 		}
 
