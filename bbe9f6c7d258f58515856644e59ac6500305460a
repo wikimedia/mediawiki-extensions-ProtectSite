@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a670fb04_56bfd84f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 366
+      },
+      "writtenOn": "2026-05-12T11:45:33Z",
+      "side": 1,
+      "message": "Needs to be force-merged, as the next patch fixes a different hard deprecation.",
+      "revId": "bbe9f6c7d258f58515856644e59ac6500305460a",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
