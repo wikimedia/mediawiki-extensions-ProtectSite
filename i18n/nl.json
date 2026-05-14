@@ -22,7 +22,7 @@
 	"protectsite-move": "Hernoemen van pagina's toestaan voor",
 	"protectsite-upload": "Bestanduploads toestaan voor",
 	"protectsite-timeout": "Verloop:",
-	"protectsite-timeout-error": "'''Ongeldig verloop.'''",
+	"protectsite-timeout-error": "'''Onjuist verloop.'''",
 	"protectsite-maxtimeout": "Maximum: $1",
 	"protectsite-comment": "Reactie:",
 	"protectsite-ucomment": "Opmerkingen bij opheffen beveiliging:",
