@@ -19,19 +19,17 @@
  */
 
 use MediaWiki\MediaWikiServices;
+use Wikimedia\ObjectCache\WANObjectCache;
 
 class ProtectSite extends FormSpecialPage {
 	/** @var SqlBagOStuff */
 	public $persist_data;
-	/** @var WANObjectCache */
-	public $wanCache;
 	/** @var array */
 	public $prot;
 
-	/**
-	 * Constructor
-	 */
-	public function __construct() {
+	public function __construct(
+		private readonly WANObjectCache $wanCache,
+	) {
 		parent::__construct( 'ProtectSite' );
 	}
 
@@ -62,7 +60,6 @@ class ProtectSite extends FormSpecialPage {
 		}
 
 		$this->persist_data = ObjectCache::getInstance( CACHE_DB );
-		$this->wanCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
 		/* Get data into the value variable/array */
 		$this->prot = $this->wanCache->get( $this->wanCache->makeKey( 'protectsite' ) );

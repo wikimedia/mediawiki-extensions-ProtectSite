@@ -20,7 +20,12 @@
 		"ProtectSiteLimit": "1 week"
 	},
 	"SpecialPages": {
-		"ProtectSite": "ProtectSite"
+		"ProtectSite": {
+			"class": "ProtectSite",
+			"services": [
+				"MainWANObjectCache"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"ProtectSite": [
