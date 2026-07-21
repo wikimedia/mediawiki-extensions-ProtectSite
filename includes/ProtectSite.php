@@ -58,8 +58,9 @@ class ProtectSite extends FormSpecialPage {
 		$this->checkReadOnly();
 
 		// If user is blocked, they don't need to access this page
-		if ( $user->getBlock() ) {
-			throw new UserBlockedError( $user->getBlock() );
+		$block = $user->getBlock();
+		if ( $block ) {
+			throw new UserBlockedError( $block );
 		}
 
 		$this->persist_data = ObjectCache::getInstance( CACHE_DB );
@@ -312,7 +313,7 @@ class ProtectSite extends FormSpecialPage {
 			$prot['edit'] = $data['edit'];
 			$prot['move'] = $data['move'];
 			$prot['upload'] = $data['upload'];
-			$prot['comment'] = isset( $data['comment'] ) ? $data['comment'] : '';
+			$prot['comment'] = $data['comment'] ?? '';
 
 			if (
 				isset( $wgProtectSiteLimit ) &&
