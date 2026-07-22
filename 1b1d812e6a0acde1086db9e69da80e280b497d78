@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc01c17d_f5d1abbe",
+        "filename": "extension.json",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1453
+      },
+      "writtenOn": "2026-07-22T07:22:24Z",
+      "side": 1,
+      "message": "Unfortunately it\u0027s unclear if https://www.mediawiki.org/wiki/Extension:ProtectSite is correct. However, it currently says that this extension should stay compatible with MediaWiki\u0027s LTS version. That\u0027s currently 1.43.",
+      "revId": "1b1d812e6a0acde1086db9e69da80e280b497d78",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
