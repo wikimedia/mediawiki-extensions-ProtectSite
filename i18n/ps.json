@@ -1,19 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"protectsite": "وېبځی ژغورل",
+	"protectsite-title": " وېبځي ژغورلو اوڼنې",
 	"protectsite-allowall": "ټول کارنان",
-	"protectsite-comment": "تبصره:",
+	"protectsite-allowsysop": "يوازې پازوالان",
+	"protectsite-createaccount": "د نويو گڼونو جوړولو ته د...له مخې اجازه ورکوي",
+	"protectsite-comment": "څرگندونه:",
 	"protectsite-protect": "ژغورل",
 	"protectsite-unprotect": "ناژغورل",
 	"protectsite-createaccount-0": "ټول کارنان",
-	"protectsite-createaccount-2": "يواځې پازوالان",
+	"protectsite-createaccount-2": "يوازې پازوالان",
 	"protectsite-createpage-0": "ټول کارنان",
-	"protectsite-createpage-2": "يواځې پازوالان",
+	"protectsite-createpage-2": "يوازې پازوالان",
 	"protectsite-edit-0": "ټول کارنان",
-	"protectsite-edit-2": "يواځې پازوالان",
-	"protectsite-move-1": "يواځې پازوالان",
-	"protectsite-upload-1": "يواځې پازوالان"
+	"protectsite-edit-2": "يوازې پازوالان",
+	"protectsite-move-1": "يوازې پازوالان",
+	"protectsite-upload-1": "يوازې پازوالان"
 }
