@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b93a6c3b_438fc9ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11926
+      },
+      "writtenOn": "2026-08-29T14:39:06Z",
+      "side": 1,
+      "message": "Actually, we need to raise the MW requirement to 1.35 due to the use of MW_VERSION",
+      "revId": "0a2ac3bad8d292d3b2337235d646a424beaf78e0",
+      "serverId": "e9e9afe9-4712-486d-8885-f54b72dd1951"
+    }
+  ]
+}
