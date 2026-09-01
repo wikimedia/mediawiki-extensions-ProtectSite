@@ -1,0 +1,9 @@
+Code-Review+1: Thiemo Kreuz (WMDE) <thiemo.kreuz@wikimedia.de>
+Verified+2: jenkins-bot
+Code-Review+2: SomeRandomDeveloper <git@srd.dev>
+Submitted-by: jenkins-bot
+Submitted-at: Tue, 01 Sep 2026 20:05:41 +0000
+Reviewed-on: https://gerrit.wikimedia.org/r/c/mediawiki/extensions/ProtectSite/+/1284603
+Comments-Total: 3
+Project: mediawiki/extensions/ProtectSite
+Branch: refs/heads/master
